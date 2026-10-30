@@ -1,0 +1,124 @@
+# Tarea 2 - Llamadas de pedido (polleria "El Sabor Norteno", inventada). A = operador, B = cliente.
+# Todo es inventado. "trampas" marca que defecto lleva cada llamada (para puntuar el validador).
+# total_dicho = lo que el operador DIJO (aunque este mal). total_correcto = lo que da la cuenta.
+- id: V01
+  trampas: {correccion: true, total_erroneo: true, digitos: false}
+  guion: |
+    A: Pollería El Sabor Norteño, buenas noches. ¿En qué puedo ayudarle?
+    B: Buenas noches. Quisiera hacer un pedido para delivery.
+    A: Claro que sí. Dígame qué desea ordenar.
+    B: Quiero dos pollos a la brasa enteros, una porción de papas fritas familiar y una chicha morada jarra.
+    A: Perfecto, lo anoto. ¿Algo más?
+    B: Ah, espera. Mejor no quiero la chicha. Cámbiala por dos gaseosas de litro.
+    A: Sin problema, quito la chicha y agrego dos gaseosas de litro. ¿Algo más?
+    B: No, con eso está bien. ¿Tienen alguna promoción?
+    A: Sí, por ser su primera compra tiene diez soles de descuento.
+    B: Qué bien, la aprovecho.
+    A: Muy bien. ¿Cuál es la dirección de entrega?
+    B: La dirección es Jirón Los Pinos, frente al parque Kennedy.
+    A: Anotado. ¿Cómo va a pagar?
+    B: Voy a pagar en efectivo. ¿Tendrán sencillo para un billete grande?
+    A: Sí, llevaremos sencillo. Le hago el resumen final: dos pollos a la brasa tamaño entero a cuarenta y cinco soles cada uno, una porción de papas fritas tamaño familiar a dieciocho soles, y dos gaseosas tamaño litro a ocho soles cada una. Con el descuento de diez soles, el total a pagar es de ciento veinte soles.
+    B: Está bien, gracias.
+    A: El pedido llegará en unos cuarenta minutos. Gracias por llamar a El Sabor Norteño.
+    B: Gracias a ustedes, buenas noches.
+  campos:
+    items:
+      - {producto: pollo a la brasa, tamano: entero, cantidad: 2, precio_unitario: 45}
+      - {producto: porcion de papas fritas, tamano: familiar, cantidad: 1, precio_unitario: 18}
+      - {producto: gaseosa, tamano: litro, cantidad: 2, precio_unitario: 8}
+    promocion: {tipo: monto, valor: 10}
+    direccion_entrega: Jirón Los Pinos, frente al parque Kennedy
+    metodo_pago: efectivo
+    total_dicho: 120
+  total_correcto: 114
+
+- id: V02
+  trampas: {correccion: true, total_erroneo: true, digitos: true}
+  guion: |
+    A: Pollería El Sabor Norteño, buenas tardes, ¿en qué le puedo ayudar?
+    B: Hola, buenas tardes. Quiero pedir para llevar a mi casa.
+    A: Con gusto. ¿Qué le anoto?
+    B: Dos pollos a la brasa medios, dos porciones de papas fritas personales y una chicha morada jarra.
+    A: Muy bien. ¿Algo más?
+    B: Mmm, en realidad somos tres en casa. Mejor que sean tres pollos medios.
+    A: Perfecto, entonces son tres pollos medios, dos papas personales y una chicha jarra. Hoy tenemos una promoción de diez por ciento de descuento en pedidos con tarjeta. ¿Pagará con tarjeta?
+    B: Sí, pagaré con tarjeta, así aprovecho el descuento.
+    A: Excelente. ¿Cuál es la dirección de entrega?
+    B: La dirección es Avenida Larco, número trescientos cuarenta y dos, departamento seiscientos uno, Miraflores.
+    A: Repito para confirmar: Avenida Larco trescientos cuarenta y dos, departamento seiscientos uno. ¿Es correcto?
+    B: Sí, así es. El timbre no funciona, así que por favor llamen por teléfono al llegar.
+    A: Claro. Le hago el resumen final: tres pollos a la brasa tamaño medio a veinticinco soles cada uno, dos porciones de papas fritas tamaño personal a diez soles cada una, y una chicha morada tamaño jarra a quince soles. Con el diez por ciento de descuento, el total a pagar es de ciento cinco soles.
+    B: Gracias. ¿Cuánto demora?
+    A: Aproximadamente cuarenta y cinco minutos. Gracias por llamar a El Sabor Norteño.
+    B: Gracias, hasta luego.
+  campos:
+    items:
+      - {producto: pollo a la brasa, tamano: medio, cantidad: 3, precio_unitario: 25}
+      - {producto: porcion de papas fritas, tamano: personal, cantidad: 2, precio_unitario: 10}
+      - {producto: chicha morada, tamano: jarra, cantidad: 1, precio_unitario: 15}
+    promocion: {tipo: porcentaje, valor: 10}
+    direccion_entrega: Avenida Larco, número trescientos cuarenta y dos, departamento seiscientos uno, Miraflores
+    metodo_pago: tarjeta
+    total_dicho: 105
+  total_correcto: 99
+
+- id: V03
+  trampas: {correccion: true, total_erroneo: true, digitos: false}
+  guion: |
+    A: Buenas noches, pollería El Sabor Norteño. ¿Qué desea ordenar?
+    B: Buenas noches. Quiero un pollo a la brasa entero y dos porciones de papas fritas familiares.
+    A: Muy bien. ¿Desea bebidas?
+    B: Sí, dos gaseosas personales.
+    A: Anotado. ¿Algo más?
+    B: Pensándolo mejor, que sean cuatro gaseosas personales, porque vienen mis primos.
+    A: Sin problema. Entonces son un pollo entero, dos papas familiares y cuatro gaseosas personales. Si paga con Yape, tiene cinco soles de descuento.
+    B: Perfecto, pagaré con Yape entonces.
+    A: ¿Cuál es la dirección de entrega?
+    B: La dirección es Calle Los Olivos, al costado de la farmacia.
+    A: ¿Alguna referencia adicional?
+    B: Es una casa de color verde con un portón negro.
+    A: Gracias. Le hago el resumen final: un pollo a la brasa tamaño entero a cuarenta y cinco soles, dos porciones de papas fritas tamaño familiar a dieciocho soles cada una, y cuatro gaseosas tamaño personal a cuatro soles cada una. Con el descuento de cinco soles, el total a pagar es de ochenta y dos soles.
+    B: Está bien. ¿Me enviarán el comprobante por mensaje?
+    A: Sí, se lo enviaremos al número que usó para llamar. Gracias por su preferencia.
+    B: Gracias, buenas noches.
+  campos:
+    items:
+      - {producto: pollo a la brasa, tamano: entero, cantidad: 1, precio_unitario: 45}
+      - {producto: porcion de papas fritas, tamano: familiar, cantidad: 2, precio_unitario: 18}
+      - {producto: gaseosa, tamano: personal, cantidad: 4, precio_unitario: 4}
+    promocion: {tipo: monto, valor: 5}
+    direccion_entrega: Calle Los Olivos, al costado de la farmacia
+    metodo_pago: yape
+    total_dicho: 82
+  total_correcto: 92
+
+- id: V04
+  trampas: {correccion: false, total_erroneo: false, digitos: true}
+  guion: |
+    A: El Sabor Norteño, buenas tardes. ¿Cómo le puedo ayudar?
+    B: Buenas tardes. Quisiera pedir dos medios pollos, para una reunión pequeña.
+    A: Claro. ¿Qué acompañamientos desea?
+    B: Dos porciones de papas fritas personales y dos vasos de chicha morada.
+    A: Perfecto. ¿Desea agregar algo más?
+    B: No, eso sería todo. ¿Hay alguna promoción hoy?
+    A: Lo siento, hoy no tenemos promociones vigentes.
+    B: Está bien, no hay problema.
+    A: ¿Cuál es la dirección de entrega?
+    B: La dirección es Pasaje Las Flores, manzana ocho, lote quince, en la urbanización Santa Rosa.
+    A: Repito: Pasaje Las Flores, manzana ocho, lote quince. ¿Correcto?
+    B: Correcto. Pagaré con tarjeta de crédito cuando llegue el repartidor.
+    A: Muy bien, llevaremos el POS. Le hago el resumen final: dos pollos a la brasa tamaño medio a veinticinco soles cada uno, dos porciones de papas fritas tamaño personal a diez soles cada una, y dos chichas moradas tamaño vaso a seis soles cada una. El total a pagar es de ochenta y dos soles.
+    B: Perfecto, gracias.
+    A: La entrega demora cerca de cincuenta minutos. Gracias por llamar.
+    B: Gracias a usted, buenas tardes.
+  campos:
+    items:
+      - {producto: pollo a la brasa, tamano: medio, cantidad: 2, precio_unitario: 25}
+      - {producto: porcion de papas fritas, tamano: personal, cantidad: 2, precio_unitario: 10}
+      - {producto: chicha morada, tamano: vaso, cantidad: 2, precio_unitario: 6}
+    promocion: null
+    direccion_entrega: Pasaje Las Flores, manzana ocho, lote quince, en la urbanización Santa Rosa
+    metodo_pago: tarjeta
+    total_dicho: 82
+  total_correcto: 82

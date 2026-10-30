@@ -1,0 +1,1474 @@
+{
+ "transcript": "¡Hola, Lucía, bienvenida! Cuéntame primero qué tecnologías manejas para ubicarme. ¡Hola, gracias! Trabajo principalmente con React y TypeScript para las interfaces. Uso Hit para el control de versiones y Figma cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora frontend en una agencia de publicidad. Construía páginas para campañas de marcas de ropa y de bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante, algunos documentos que usamos están en inglés. ¿Qué nivel tienes? Mi inglés es básico. Puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez. Gracias por la honestidad. Pasemos a lo económico. ¿Qué pretensión salarial tienes? Pienso que 4200 soles sería adecuado para mi experiencia. Anotado. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+ "words": [
+  {
+   "w": "¡Hola,",
+   "p": 0.522,
+   "start": 0.0,
+   "end": 0.44
+  },
+  {
+   "w": "Lucía,",
+   "p": 0.869,
+   "start": 0.82,
+   "end": 1.3
+  },
+  {
+   "w": "bienvenida!",
+   "p": 0.953,
+   "start": 1.68,
+   "end": 2.26
+  },
+  {
+   "w": "Cuéntame",
+   "p": 0.941,
+   "start": 3.3,
+   "end": 3.74
+  },
+  {
+   "w": "primero",
+   "p": 0.934,
+   "start": 3.74,
+   "end": 4.18
+  },
+  {
+   "w": "qué",
+   "p": 0.696,
+   "start": 4.18,
+   "end": 4.4
+  },
+  {
+   "w": "tecnologías",
+   "p": 0.976,
+   "start": 4.4,
+   "end": 5.12
+  },
+  {
+   "w": "manejas",
+   "p": 0.996,
+   "start": 5.12,
+   "end": 5.72
+  },
+  {
+   "w": "para",
+   "p": 0.951,
+   "start": 5.72,
+   "end": 6.28
+  },
+  {
+   "w": "ubicarme.",
+   "p": 0.984,
+   "start": 6.28,
+   "end": 6.96
+  },
+  {
+   "w": "¡Hola,",
+   "p": 0.738,
+   "start": 8.2,
+   "end": 8.66
+  },
+  {
+   "w": "gracias!",
+   "p": 0.925,
+   "start": 8.98,
+   "end": 9.24
+  },
+  {
+   "w": "Trabajo",
+   "p": 0.958,
+   "start": 10.3,
+   "end": 10.7
+  },
+  {
+   "w": "principalmente",
+   "p": 0.968,
+   "start": 10.7,
+   "end": 11.32
+  },
+  {
+   "w": "con",
+   "p": 0.995,
+   "start": 11.32,
+   "end": 11.64
+  },
+  {
+   "w": "React",
+   "p": 0.019,
+   "start": 11.64,
+   "end": 11.8
+  },
+  {
+   "w": "y",
+   "p": 0.215,
+   "start": 11.8,
+   "end": 12.08
+  },
+  {
+   "w": "TypeScript",
+   "p": 0.913,
+   "start": 12.08,
+   "end": 12.48
+  },
+  {
+   "w": "para",
+   "p": 0.981,
+   "start": 12.48,
+   "end": 12.78
+  },
+  {
+   "w": "las",
+   "p": 0.995,
+   "start": 12.78,
+   "end": 12.96
+  },
+  {
+   "w": "interfaces.",
+   "p": 0.849,
+   "start": 12.96,
+   "end": 13.42
+  },
+  {
+   "w": "Uso",
+   "p": 0.567,
+   "start": 14.36,
+   "end": 14.72
+  },
+  {
+   "w": "Hit",
+   "p": 0.666,
+   "start": 14.72,
+   "end": 14.9
+  },
+  {
+   "w": "para",
+   "p": 0.971,
+   "start": 14.9,
+   "end": 15.08
+  },
+  {
+   "w": "el",
+   "p": 0.992,
+   "start": 15.08,
+   "end": 15.18
+  },
+  {
+   "w": "control",
+   "p": 0.969,
+   "start": 15.18,
+   "end": 15.44
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 15.44,
+   "end": 15.58
+  },
+  {
+   "w": "versiones",
+   "p": 0.956,
+   "start": 15.58,
+   "end": 16.04
+  },
+  {
+   "w": "y",
+   "p": 0.985,
+   "start": 16.04,
+   "end": 16.14
+  },
+  {
+   "w": "Figma",
+   "p": 0.88,
+   "start": 16.14,
+   "end": 16.38
+  },
+  {
+   "w": "cuando",
+   "p": 0.914,
+   "start": 16.38,
+   "end": 16.6
+  },
+  {
+   "w": "tengo",
+   "p": 0.998,
+   "start": 16.6,
+   "end": 16.9
+  },
+  {
+   "w": "que",
+   "p": 0.998,
+   "start": 16.9,
+   "end": 17.06
+  },
+  {
+   "w": "revisar",
+   "p": 0.996,
+   "start": 17.06,
+   "end": 17.48
+  },
+  {
+   "w": "diseños",
+   "p": 0.997,
+   "start": 17.48,
+   "end": 17.88
+  },
+  {
+   "w": "con",
+   "p": 0.998,
+   "start": 17.88,
+   "end": 18.1
+  },
+  {
+   "w": "el",
+   "p": 0.996,
+   "start": 18.1,
+   "end": 18.24
+  },
+  {
+   "w": "equipo.",
+   "p": 0.995,
+   "start": 18.24,
+   "end": 18.52
+  },
+  {
+   "w": "¿Cómo",
+   "p": 0.954,
+   "start": 19.84,
+   "end": 20.16
+  },
+  {
+   "w": "llegaste",
+   "p": 0.994,
+   "start": 20.16,
+   "end": 20.62
+  },
+  {
+   "w": "a",
+   "p": 0.996,
+   "start": 20.62,
+   "end": 20.82
+  },
+  {
+   "w": "programar",
+   "p": 0.992,
+   "start": 20.82,
+   "end": 21.26
+  },
+  {
+   "w": "interfaces?",
+   "p": 0.973,
+   "start": 21.26,
+   "end": 21.74
+  },
+  {
+   "w": "Estudié",
+   "p": 0.838,
+   "start": 23.42,
+   "end": 23.98
+  },
+  {
+   "w": "diseño",
+   "p": 0.993,
+   "start": 23.98,
+   "end": 24.28
+  },
+  {
+   "w": "gráfico",
+   "p": 0.998,
+   "start": 24.28,
+   "end": 24.74
+  },
+  {
+   "w": "y",
+   "p": 0.992,
+   "start": 24.74,
+   "end": 24.82
+  },
+  {
+   "w": "descubrí",
+   "p": 0.996,
+   "start": 24.82,
+   "end": 25.22
+  },
+  {
+   "w": "que",
+   "p": 0.996,
+   "start": 25.22,
+   "end": 25.36
+  },
+  {
+   "w": "me",
+   "p": 0.998,
+   "start": 25.36,
+   "end": 25.48
+  },
+  {
+   "w": "gustaba",
+   "p": 0.949,
+   "start": 25.48,
+   "end": 25.86
+  },
+  {
+   "w": "más",
+   "p": 0.988,
+   "start": 25.86,
+   "end": 26.16
+  },
+  {
+   "w": "implementar",
+   "p": 0.991,
+   "start": 26.16,
+   "end": 26.74
+  },
+  {
+   "w": "los",
+   "p": 0.998,
+   "start": 26.74,
+   "end": 26.88
+  },
+  {
+   "w": "diseños",
+   "p": 1.0,
+   "start": 26.88,
+   "end": 27.28
+  },
+  {
+   "w": "que",
+   "p": 0.996,
+   "start": 27.28,
+   "end": 27.44
+  },
+  {
+   "w": "dibujarlos.",
+   "p": 0.957,
+   "start": 27.44,
+   "end": 28.04
+  },
+  {
+   "w": "Hice",
+   "p": 0.838,
+   "start": 28.84,
+   "end": 29.14
+  },
+  {
+   "w": "un",
+   "p": 0.998,
+   "start": 29.14,
+   "end": 29.28
+  },
+  {
+   "w": "curso",
+   "p": 0.998,
+   "start": 29.28,
+   "end": 29.44
+  },
+  {
+   "w": "intensivo",
+   "p": 0.948,
+   "start": 29.44,
+   "end": 29.96
+  },
+  {
+   "w": "de",
+   "p": 0.996,
+   "start": 29.96,
+   "end": 30.1
+  },
+  {
+   "w": "programación",
+   "p": 0.992,
+   "start": 30.1,
+   "end": 30.7
+  },
+  {
+   "w": "y",
+   "p": 0.95,
+   "start": 30.7,
+   "end": 30.88
+  },
+  {
+   "w": "de",
+   "p": 0.996,
+   "start": 30.88,
+   "end": 30.98
+  },
+  {
+   "w": "ahí",
+   "p": 0.987,
+   "start": 30.98,
+   "end": 31.16
+  },
+  {
+   "w": "empecé",
+   "p": 0.992,
+   "start": 31.16,
+   "end": 31.58
+  },
+  {
+   "w": "a",
+   "p": 0.998,
+   "start": 31.58,
+   "end": 31.7
+  },
+  {
+   "w": "buscar",
+   "p": 0.998,
+   "start": 31.7,
+   "end": 31.92
+  },
+  {
+   "w": "trabajo.",
+   "p": 0.997,
+   "start": 31.92,
+   "end": 32.54
+  },
+  {
+   "w": "¿Y",
+   "p": 0.709,
+   "start": 33.76,
+   "end": 34.06
+  },
+  {
+   "w": "de",
+   "p": 0.992,
+   "start": 34.06,
+   "end": 34.2
+  },
+  {
+   "w": "ese",
+   "p": 0.988,
+   "start": 34.2,
+   "end": 34.4
+  },
+  {
+   "w": "trabajo?",
+   "p": 0.999,
+   "start": 34.4,
+   "end": 34.9
+  },
+  {
+   "w": "¿Cuál",
+   "p": 0.959,
+   "start": 35.32,
+   "end": 35.5
+  },
+  {
+   "w": "fue",
+   "p": 0.997,
+   "start": 35.5,
+   "end": 35.66
+  },
+  {
+   "w": "tu",
+   "p": 0.998,
+   "start": 35.66,
+   "end": 35.82
+  },
+  {
+   "w": "último",
+   "p": 0.971,
+   "start": 35.82,
+   "end": 36.2
+  },
+  {
+   "w": "puesto?",
+   "p": 0.996,
+   "start": 36.2,
+   "end": 36.54
+  },
+  {
+   "w": "Mi",
+   "p": 0.978,
+   "start": 38.06,
+   "end": 38.34
+  },
+  {
+   "w": "último",
+   "p": 0.998,
+   "start": 38.34,
+   "end": 38.58
+  },
+  {
+   "w": "puesto",
+   "p": 0.997,
+   "start": 38.58,
+   "end": 38.9
+  },
+  {
+   "w": "fue",
+   "p": 0.995,
+   "start": 38.9,
+   "end": 39.1
+  },
+  {
+   "w": "desarrolladora",
+   "p": 0.927,
+   "start": 39.1,
+   "end": 39.7
+  },
+  {
+   "w": "frontend",
+   "p": 0.665,
+   "start": 39.7,
+   "end": 40.16
+  },
+  {
+   "w": "en",
+   "p": 0.954,
+   "start": 40.16,
+   "end": 40.32
+  },
+  {
+   "w": "una",
+   "p": 0.986,
+   "start": 40.32,
+   "end": 40.48
+  },
+  {
+   "w": "agencia",
+   "p": 0.987,
+   "start": 40.48,
+   "end": 40.86
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 40.86,
+   "end": 41.0
+  },
+  {
+   "w": "publicidad.",
+   "p": 0.993,
+   "start": 41.0,
+   "end": 41.52
+  },
+  {
+   "w": "Construía",
+   "p": 0.946,
+   "start": 42.34,
+   "end": 42.88
+  },
+  {
+   "w": "páginas",
+   "p": 0.999,
+   "start": 42.88,
+   "end": 43.32
+  },
+  {
+   "w": "para",
+   "p": 0.997,
+   "start": 43.32,
+   "end": 43.48
+  },
+  {
+   "w": "campañas",
+   "p": 0.975,
+   "start": 43.48,
+   "end": 43.98
+  },
+  {
+   "w": "de",
+   "p": 0.998,
+   "start": 43.98,
+   "end": 44.08
+  },
+  {
+   "w": "marcas",
+   "p": 0.985,
+   "start": 44.08,
+   "end": 44.36
+  },
+  {
+   "w": "de",
+   "p": 0.994,
+   "start": 44.36,
+   "end": 44.54
+  },
+  {
+   "w": "ropa",
+   "p": 0.994,
+   "start": 44.54,
+   "end": 44.82
+  },
+  {
+   "w": "y",
+   "p": 0.995,
+   "start": 44.82,
+   "end": 44.96
+  },
+  {
+   "w": "de",
+   "p": 0.569,
+   "start": 44.96,
+   "end": 45.08
+  },
+  {
+   "w": "bebidas.",
+   "p": 0.983,
+   "start": 45.08,
+   "end": 45.42
+  },
+  {
+   "w": "¿Cuánto",
+   "p": 0.983,
+   "start": 46.84,
+   "end": 47.34
+  },
+  {
+   "w": "tiempo",
+   "p": 0.998,
+   "start": 47.34,
+   "end": 47.62
+  },
+  {
+   "w": "llevas",
+   "p": 0.989,
+   "start": 47.62,
+   "end": 48.02
+  },
+  {
+   "w": "en",
+   "p": 0.998,
+   "start": 48.02,
+   "end": 48.24
+  },
+  {
+   "w": "esto?",
+   "p": 0.983,
+   "start": 48.24,
+   "end": 48.5
+  },
+  {
+   "w": "Llevo",
+   "p": 0.964,
+   "start": 50.04,
+   "end": 50.34
+  },
+  {
+   "w": "dos",
+   "p": 0.829,
+   "start": 50.34,
+   "end": 50.52
+  },
+  {
+   "w": "años",
+   "p": 0.999,
+   "start": 50.52,
+   "end": 50.78
+  },
+  {
+   "w": "trabajando",
+   "p": 0.998,
+   "start": 50.78,
+   "end": 51.22
+  },
+  {
+   "w": "como",
+   "p": 0.996,
+   "start": 51.22,
+   "end": 51.58
+  },
+  {
+   "w": "desarrolladora.",
+   "p": 0.998,
+   "start": 51.58,
+   "end": 52.32
+  },
+  {
+   "w": "Antes",
+   "p": 0.994,
+   "start": 53.18,
+   "end": 53.44
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 53.44,
+   "end": 53.58
+  },
+  {
+   "w": "eso",
+   "p": 0.994,
+   "start": 53.58,
+   "end": 53.82
+  },
+  {
+   "w": "hice",
+   "p": 0.742,
+   "start": 53.82,
+   "end": 54.04
+  },
+  {
+   "w": "un",
+   "p": 0.996,
+   "start": 54.04,
+   "end": 54.24
+  },
+  {
+   "w": "año",
+   "p": 0.997,
+   "start": 54.24,
+   "end": 54.38
+  },
+  {
+   "w": "en",
+   "p": 0.998,
+   "start": 54.38,
+   "end": 54.52
+  },
+  {
+   "w": "prácticas,",
+   "p": 0.996,
+   "start": 54.52,
+   "end": 54.9
+  },
+  {
+   "w": "pero",
+   "p": 0.996,
+   "start": 55.2,
+   "end": 55.44
+  },
+  {
+   "w": "ese",
+   "p": 0.99,
+   "start": 55.44,
+   "end": 55.6
+  },
+  {
+   "w": "tiempo",
+   "p": 0.998,
+   "start": 55.6,
+   "end": 55.88
+  },
+  {
+   "w": "no",
+   "p": 0.995,
+   "start": 55.88,
+   "end": 56.1
+  },
+  {
+   "w": "lo",
+   "p": 0.998,
+   "start": 56.1,
+   "end": 56.2
+  },
+  {
+   "w": "cuento",
+   "p": 0.989,
+   "start": 56.2,
+   "end": 56.46
+  },
+  {
+   "w": "como",
+   "p": 0.995,
+   "start": 56.46,
+   "end": 56.64
+  },
+  {
+   "w": "experiencia",
+   "p": 0.99,
+   "start": 56.64,
+   "end": 57.1
+  },
+  {
+   "w": "formal.",
+   "p": 0.988,
+   "start": 57.1,
+   "end": 57.5
+  },
+  {
+   "w": "Entiendo.",
+   "p": 0.886,
+   "start": 58.84,
+   "end": 59.56
+  },
+  {
+   "w": "¿Y",
+   "p": 0.908,
+   "start": 60.34,
+   "end": 60.8
+  },
+  {
+   "w": "qué",
+   "p": 0.904,
+   "start": 60.8,
+   "end": 60.94
+  },
+  {
+   "w": "te",
+   "p": 0.999,
+   "start": 60.94,
+   "end": 61.1
+  },
+  {
+   "w": "cuesta",
+   "p": 0.997,
+   "start": 61.1,
+   "end": 61.42
+  },
+  {
+   "w": "más",
+   "p": 0.983,
+   "start": 61.42,
+   "end": 61.62
+  },
+  {
+   "w": "hoy?",
+   "p": 0.995,
+   "start": 61.62,
+   "end": 61.94
+  },
+  {
+   "w": "Me",
+   "p": 0.986,
+   "start": 63.12,
+   "end": 63.58
+  },
+  {
+   "w": "cuesta",
+   "p": 0.915,
+   "start": 63.58,
+   "end": 63.78
+  },
+  {
+   "w": "explicar",
+   "p": 0.997,
+   "start": 63.78,
+   "end": 64.18
+  },
+  {
+   "w": "decisiones",
+   "p": 0.978,
+   "start": 64.18,
+   "end": 64.76
+  },
+  {
+   "w": "técnicas",
+   "p": 0.996,
+   "start": 64.76,
+   "end": 65.12
+  },
+  {
+   "w": "ante",
+   "p": 0.996,
+   "start": 65.12,
+   "end": 65.36
+  },
+  {
+   "w": "personas",
+   "p": 0.999,
+   "start": 65.36,
+   "end": 65.76
+  },
+  {
+   "w": "que",
+   "p": 0.998,
+   "start": 65.76,
+   "end": 65.98
+  },
+  {
+   "w": "no",
+   "p": 0.999,
+   "start": 65.98,
+   "end": 66.12
+  },
+  {
+   "w": "programan,",
+   "p": 0.994,
+   "start": 66.12,
+   "end": 66.62
+  },
+  {
+   "w": "pero",
+   "p": 0.992,
+   "start": 66.78,
+   "end": 66.88
+  },
+  {
+   "w": "estoy",
+   "p": 0.997,
+   "start": 66.88,
+   "end": 67.08
+  },
+  {
+   "w": "practicando",
+   "p": 0.997,
+   "start": 67.08,
+   "end": 67.64
+  },
+  {
+   "w": "con",
+   "p": 0.991,
+   "start": 67.64,
+   "end": 67.82
+  },
+  {
+   "w": "presentaciones",
+   "p": 0.996,
+   "start": 67.82,
+   "end": 68.4
+  },
+  {
+   "w": "cortas.",
+   "p": 0.996,
+   "start": 68.4,
+   "end": 69.02
+  },
+  {
+   "w": "Muy",
+   "p": 0.953,
+   "start": 70.26,
+   "end": 70.68
+  },
+  {
+   "w": "bien.",
+   "p": 0.994,
+   "start": 70.68,
+   "end": 70.96
+  },
+  {
+   "w": "Un",
+   "p": 0.966,
+   "start": 71.92,
+   "end": 72.2
+  },
+  {
+   "w": "detalle",
+   "p": 0.994,
+   "start": 72.2,
+   "end": 72.58
+  },
+  {
+   "w": "importante,",
+   "p": 0.998,
+   "start": 72.58,
+   "end": 73.16
+  },
+  {
+   "w": "algunos",
+   "p": 0.975,
+   "start": 73.74,
+   "end": 74.0
+  },
+  {
+   "w": "documentos",
+   "p": 0.999,
+   "start": 74.0,
+   "end": 74.78
+  },
+  {
+   "w": "que",
+   "p": 0.999,
+   "start": 74.78,
+   "end": 74.96
+  },
+  {
+   "w": "usamos",
+   "p": 0.998,
+   "start": 74.96,
+   "end": 75.34
+  },
+  {
+   "w": "están",
+   "p": 0.987,
+   "start": 75.34,
+   "end": 75.74
+  },
+  {
+   "w": "en",
+   "p": 0.999,
+   "start": 75.74,
+   "end": 75.94
+  },
+  {
+   "w": "inglés.",
+   "p": 0.99,
+   "start": 75.94,
+   "end": 76.22
+  },
+  {
+   "w": "¿Qué",
+   "p": 0.986,
+   "start": 77.42,
+   "end": 77.62
+  },
+  {
+   "w": "nivel",
+   "p": 0.999,
+   "start": 77.62,
+   "end": 77.86
+  },
+  {
+   "w": "tienes?",
+   "p": 0.993,
+   "start": 77.86,
+   "end": 78.28
+  },
+  {
+   "w": "Mi",
+   "p": 0.992,
+   "start": 79.68,
+   "end": 80.24
+  },
+  {
+   "w": "inglés",
+   "p": 0.993,
+   "start": 80.24,
+   "end": 80.52
+  },
+  {
+   "w": "es",
+   "p": 0.999,
+   "start": 80.52,
+   "end": 80.8
+  },
+  {
+   "w": "básico.",
+   "p": 0.997,
+   "start": 80.8,
+   "end": 81.24
+  },
+  {
+   "w": "Puedo",
+   "p": 0.932,
+   "start": 82.06,
+   "end": 82.3
+  },
+  {
+   "w": "leer",
+   "p": 0.989,
+   "start": 82.3,
+   "end": 82.52
+  },
+  {
+   "w": "mensajes",
+   "p": 0.996,
+   "start": 82.52,
+   "end": 82.98
+  },
+  {
+   "w": "de",
+   "p": 0.998,
+   "start": 82.98,
+   "end": 83.18
+  },
+  {
+   "w": "error",
+   "p": 0.909,
+   "start": 83.18,
+   "end": 83.4
+  },
+  {
+   "w": "y",
+   "p": 0.995,
+   "start": 83.4,
+   "end": 83.5
+  },
+  {
+   "w": "documentación",
+   "p": 0.997,
+   "start": 83.5,
+   "end": 84.12
+  },
+  {
+   "w": "sencilla,",
+   "p": 0.996,
+   "start": 84.12,
+   "end": 84.64
+  },
+  {
+   "w": "pero",
+   "p": 0.996,
+   "start": 84.84,
+   "end": 85.1
+  },
+  {
+   "w": "todavía",
+   "p": 0.993,
+   "start": 85.1,
+   "end": 85.54
+  },
+  {
+   "w": "no",
+   "p": 0.999,
+   "start": 85.54,
+   "end": 85.74
+  },
+  {
+   "w": "converso",
+   "p": 0.771,
+   "start": 85.74,
+   "end": 86.18
+  },
+  {
+   "w": "con",
+   "p": 0.995,
+   "start": 86.18,
+   "end": 86.36
+  },
+  {
+   "w": "fluidez.",
+   "p": 0.988,
+   "start": 86.36,
+   "end": 86.7
+  },
+  {
+   "w": "Gracias",
+   "p": 0.764,
+   "start": 88.04,
+   "end": 88.6
+  },
+  {
+   "w": "por",
+   "p": 0.988,
+   "start": 88.6,
+   "end": 88.94
+  },
+  {
+   "w": "la",
+   "p": 0.994,
+   "start": 88.94,
+   "end": 89.1
+  },
+  {
+   "w": "honestidad.",
+   "p": 0.953,
+   "start": 89.1,
+   "end": 89.7
+  },
+  {
+   "w": "Pasemos",
+   "p": 0.809,
+   "start": 90.6,
+   "end": 91.2
+  },
+  {
+   "w": "a",
+   "p": 0.779,
+   "start": 91.2,
+   "end": 91.42
+  },
+  {
+   "w": "lo",
+   "p": 0.99,
+   "start": 91.42,
+   "end": 91.5
+  },
+  {
+   "w": "económico.",
+   "p": 0.987,
+   "start": 91.5,
+   "end": 92.14
+  },
+  {
+   "w": "¿Qué",
+   "p": 0.939,
+   "start": 92.98,
+   "end": 93.28
+  },
+  {
+   "w": "pretensión",
+   "p": 0.979,
+   "start": 93.28,
+   "end": 93.84
+  },
+  {
+   "w": "salarial",
+   "p": 0.616,
+   "start": 93.84,
+   "end": 94.32
+  },
+  {
+   "w": "tienes?",
+   "p": 0.993,
+   "start": 94.32,
+   "end": 94.72
+  },
+  {
+   "w": "Pienso",
+   "p": 0.798,
+   "start": 96.24,
+   "end": 96.78
+  },
+  {
+   "w": "que",
+   "p": 0.989,
+   "start": 96.78,
+   "end": 96.9
+  },
+  {
+   "w": "4200",
+   "p": 0.613,
+   "start": 96.9,
+   "end": 97.54
+  },
+  {
+   "w": "soles",
+   "p": 0.872,
+   "start": 97.54,
+   "end": 98.14
+  },
+  {
+   "w": "sería",
+   "p": 0.979,
+   "start": 98.14,
+   "end": 98.38
+  },
+  {
+   "w": "adecuado",
+   "p": 0.998,
+   "start": 98.38,
+   "end": 98.86
+  },
+  {
+   "w": "para",
+   "p": 0.998,
+   "start": 98.86,
+   "end": 99.06
+  },
+  {
+   "w": "mi",
+   "p": 0.996,
+   "start": 99.06,
+   "end": 99.22
+  },
+  {
+   "w": "experiencia.",
+   "p": 0.998,
+   "start": 99.22,
+   "end": 99.78
+  },
+  {
+   "w": "Anotado.",
+   "p": 0.839,
+   "start": 101.14,
+   "end": 101.82
+  },
+  {
+   "w": "¿Y",
+   "p": 0.721,
+   "start": 102.76,
+   "end": 103.02
+  },
+  {
+   "w": "desde",
+   "p": 0.996,
+   "start": 103.02,
+   "end": 103.22
+  },
+  {
+   "w": "cuándo",
+   "p": 0.924,
+   "start": 103.22,
+   "end": 103.62
+  },
+  {
+   "w": "podrías",
+   "p": 0.986,
+   "start": 103.62,
+   "end": 104.1
+  },
+  {
+   "w": "empezar?",
+   "p": 0.997,
+   "start": 104.1,
+   "end": 104.52
+  },
+  {
+   "w": "Quiero",
+   "p": 0.992,
+   "start": 106.04,
+   "end": 106.4
+  },
+  {
+   "w": "cumplir",
+   "p": 1.0,
+   "start": 106.4,
+   "end": 106.74
+  },
+  {
+   "w": "un",
+   "p": 0.996,
+   "start": 106.74,
+   "end": 106.86
+  },
+  {
+   "w": "mes",
+   "p": 0.996,
+   "start": 106.86,
+   "end": 107.02
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 107.02,
+   "end": 107.14
+  },
+  {
+   "w": "aviso",
+   "p": 0.971,
+   "start": 107.14,
+   "end": 107.36
+  },
+  {
+   "w": "con",
+   "p": 0.999,
+   "start": 107.36,
+   "end": 107.56
+  },
+  {
+   "w": "la",
+   "p": 0.994,
+   "start": 107.56,
+   "end": 107.66
+  },
+  {
+   "w": "agencia,",
+   "p": 0.982,
+   "start": 107.66,
+   "end": 108.02
+  },
+  {
+   "w": "así",
+   "p": 0.982,
+   "start": 108.28,
+   "end": 108.5
+  },
+  {
+   "w": "que",
+   "p": 0.998,
+   "start": 108.5,
+   "end": 108.66
+  },
+  {
+   "w": "podría",
+   "p": 0.99,
+   "start": 108.66,
+   "end": 108.94
+  },
+  {
+   "w": "empezar",
+   "p": 0.996,
+   "start": 108.94,
+   "end": 109.34
+  },
+  {
+   "w": "a",
+   "p": 0.998,
+   "start": 109.34,
+   "end": 109.46
+  },
+  {
+   "w": "partir",
+   "p": 1.0,
+   "start": 109.46,
+   "end": 109.7
+  },
+  {
+   "w": "del",
+   "p": 0.993,
+   "start": 109.7,
+   "end": 109.96
+  },
+  {
+   "w": "15",
+   "p": 0.993,
+   "start": 109.96,
+   "end": 110.24
+  },
+  {
+   "w": "de",
+   "p": 0.997,
+   "start": 110.24,
+   "end": 110.48
+  },
+  {
+   "w": "noviembre.",
+   "p": 0.973,
+   "start": 110.48,
+   "end": 110.88
+  },
+  {
+   "w": "Perfecto,",
+   "p": 0.938,
+   "start": 112.18,
+   "end": 112.9
+  },
+  {
+   "w": "Lucía.",
+   "p": 0.882,
+   "start": 113.2,
+   "end": 113.6
+  },
+  {
+   "w": "Gracias",
+   "p": 0.934,
+   "start": 114.56,
+   "end": 115.04
+  },
+  {
+   "w": "por",
+   "p": 0.998,
+   "start": 115.04,
+   "end": 115.36
+  },
+  {
+   "w": "tu",
+   "p": 0.996,
+   "start": 115.36,
+   "end": 115.52
+  },
+  {
+   "w": "tiempo.",
+   "p": 0.999,
+   "start": 115.52,
+   "end": 115.88
+  },
+  {
+   "w": "Te",
+   "p": 0.39,
+   "start": 116.36,
+   "end": 117.06
+  },
+  {
+   "w": "contactaremos",
+   "p": 0.986,
+   "start": 117.06,
+   "end": 117.8
+  },
+  {
+   "w": "pronto.",
+   "p": 0.996,
+   "start": 117.8,
+   "end": 118.32
+  },
+  {
+   "w": "Gracias",
+   "p": 0.915,
+   "start": 119.42,
+   "end": 120.18
+  },
+  {
+   "w": "a",
+   "p": 0.996,
+   "start": 120.18,
+   "end": 120.44
+  },
+  {
+   "w": "ustedes.",
+   "p": 0.949,
+   "start": 120.44,
+   "end": 120.72
+  }
+ ],
+ "model": "small",
+ "device_requested": "cpu",
+ "device": "cpu",
+ "compute_type": "int8_float32",
+ "glossary_mode": "hotwords",
+ "elapsed_s": 42.183,
+ "load_s": 3.121,
+ "audio_s": 122.23,
+ "sec_per_min": 20.71,
+ "vram_peak_mb": null,
+ "cuda_device_count": 0
+}

@@ -1,0 +1,532 @@
+{
+ "runs": [
+  {
+   "task": "interviews",
+   "group": "synthetic/default",
+   "level": "L0",
+   "run": "small__cpu__int8__hotwords",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "hotwords",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.004280238972143784,
+    "lo": 0.00102880658436214,
+    "hi": 0.007838588351084396
+   },
+   "cer": {
+    "est": 0.0017390156471502917,
+    "lo": 0.00033266799733865603,
+    "hi": 0.0031453632969619272
+   },
+   "wer_pooled": 0.004699248120300752,
+   "sec_per_min": 21.19,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.25,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.25,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.009174311926605505,
+     "cer": 0.0031039834454216243,
+     "words": 327,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 23.31,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Camila. Gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días. Soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien. ¿Cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de una región a otra. Interesante. ¿Y qué herramientas usas en tu día a día? Trabajo sobre todo con Paísan y SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto. Esa combinación nos sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro. Automatice el reporte de devoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día. Ahora se genera solo, llega el correo temprano y los errores bajaron bastante. Qué buen resultado. Esta empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio. Puedo leer documentación sin problema y mantener una reunión, pero todavía me cuesta improvisar una presentación completa. Está bien. Tenemos un curso interno para eso. Hablemos ahora de lo económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6500 soles mensuales, de acuerdo con lo que he investigado para este tipo de puesto. Entiendo. Y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el previso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto. ¿Tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y que tan seguido se presentan resultados a la gerencia. Son 7 personas y se presenta cada mes, con apoyo del jefe de área. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta. Muchas gracias a ustedes. Fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": "analista de inteligencia comercial",
+      "tecnologias": [
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.0038314176245210726,
+     "cer": 0.0031867431485022306,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 19.71,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Diego. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme de inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. Y en cuanto a lo económico, ¿qué pretensión salarial tienes? Busco $2,500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo 7 años y medio de experiencia en desarrollo de software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de pagos en línea. ¿Cuál fue tu último puesto allí? Fui desarrollador backend senior. Me encargaba de diseñar servicios para procesar pagos y de revisar el código de los compañeros más nuevos. ¿Con qué tecnologías trabajabas? Programaba con Django y todo lo empaquetábamos con DAQ. La infraestructura estaba en AWS y para el control de versiones usábamos Git todos los días. Suena muy completo. ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces hicimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa, nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado. He dado presentaciones técnicas a clientes de otros países y no he tenido problemas. Muy bien, Diego. Gracias por venir. Nos comunicaremos pronto. Gracias a ustedes. Quedo atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": "desarrollador backend senior",
+      "tecnologias": [
+       "Django",
+       "AWS",
+       "Git"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.00411522633744856,
+     "cer": 0.0006653359946773121,
+     "words": 243,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 20.71,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "¡Hola, Lucía, bienvenida! Cuéntame primero qué tecnologías manejas para ubicarme. ¡Hola, gracias! Trabajo principalmente con React y TypeScript para las interfaces. Uso Hit para el control de versiones y Figma cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora frontend en una agencia de publicidad. Construía páginas para campañas de marcas de ropa y de bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante, algunos documentos que usamos están en inglés. ¿Qué nivel tienes? Mi inglés es básico. Puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez. Gracias por la honestidad. Pasemos a lo económico. ¿Qué pretensión salarial tienes? Pienso que 4200 soles sería adecuado para mi experiencia. Anotado. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontend",
+      "tecnologias": [
+       "React",
+       "TypeScript",
+       "Figma"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.0,
+     "cer": 0.0,
+     "words": 233,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 21.03,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas y construimos las rutas por donde llegan los datos de millones de llamadas. Suena a un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el procesamiento masivo uso Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las escribimos en SQL. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo dos años en la empresa actual y antes pasé por un banco y una empresa de logística. ¿Qué problema técnico recuerdas con más orgullo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es de 11.300 soles al mes. De acuerdo. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma, así que estaría disponible dentro de un mes. Perfecto. Gracias, Marco. Te escribiremos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "SQL",
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.875
+  },
+  {
+   "task": "interviews",
+   "group": "synthetic/default",
+   "level": "L0",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.007295706546998332,
+    "lo": 0.0022935779816513763,
+    "hi": 0.011174968071519796
+   },
+   "cer": {
+    "est": 0.00304170027152805,
+    "lo": 0.00083166999334664,
+    "hi": 0.0050780991118334175
+   },
+   "wer_pooled": 0.007518796992481203,
+   "sec_per_min": 20.072499999999998,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.25,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.25,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.009174311926605505,
+     "cer": 0.0031039834454216243,
+     "words": 327,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 20.23,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Camila. Gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días. Soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien. ¿Cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de una región a otra. Interesante. ¿Y qué herramientas usas en tu día a día? Trabajo sobre todo con paisan y SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto. Esa combinación nos sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro. Automatice el reporte de devoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día. Ahora se genera solo, llega al correo temprano y los errores bajaron bastante. Qué buen resultado. Esta empresa trabaja con proveedores de varios países, ¿cómo está tu inglés? Mi nivel de inglés es intermedio. Puedo leer documentación sin problema y mantener una reunión, pero todavía me cuesta improvisar una presentación completa. Está bien. Tenemos un curso interno para eso. Hablemos ahora de lo económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6500 soles mensuales, de acuerdo con lo que he investigado para este tipo de puesto. Entiendo. Y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el previso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto. ¿Tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y que tan seguido se presentan resultados a la agerencia. Son 7 personas y se presenta cada mes, con apoyo del jefe de área. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta. Muchas gracias a ustedes. Fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": "analista de inteligencia comercial",
+      "tecnologias": [
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.007662835249042145,
+     "cer": 0.0057361376673040155,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 18.31,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Diego. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme de inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. Y en cuanto a lo económico, ¿qué pretensión salarial tienes? Busco $2,500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo 7 años y medio de experiencia en desarrollo de software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de pagos en línea. ¿Cuál fue tu último puesto allí? Fui desarrollador backend senior. Me encargaba de diseñar servicios para procesar pagos y de revisar el código de los compañeros más nuevos. ¿Con qué tecnologías trabajabas? Programaba con Django y todo lo empaquetábamos con DAQ. La infraestructura estaba en AWS y para el control de versiones usábamos HEAP todos los días. Suena muy completo. ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces hicimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa, nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado. He dado presentaciones técnicas a clientes de otros países y no he tenido problemas. Muy bien, Diego. Gracias por venir. Nos comunicaremos pronto. Gracias a ustedes. Quedo atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": "desarrollador backend senior",
+      "tecnologias": [
+       "Django",
+       "AWS"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.012345679012345678,
+     "cer": 0.00332667997338656,
+     "words": 243,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 19.72,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola, Lucía, bienvenida. Cuéntame primero qué tecnologías manejas para ubicarme. Hola, gracias. Trabajo principalmente con Viacly TypeScript para las interfaces. Uso Hit para el control de versiones y Figma cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora frontend en una agencia de publicidad. Construía páginas para campañas de marcas de ropa y de bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante, algunos documentos que usamos están en inglés. ¿Qué nivel tienes? Mi inglés es básico. Puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez. Gracias por la honestidad. Pasemos a lo económico. ¿Qué pretensión salarial tienes? Pienso que 4200 soles sería adecuado para mi experiencia. Anotado. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontend",
+      "tecnologias": [
+       "TypeScript",
+       "Figma"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.0,
+     "cer": 0.0,
+     "words": 233,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 22.03,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas y construimos las rutas por donde llegan los datos de millones de llamadas. Suena a un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el procesamiento masivo uso Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las escribimos en SQL. ¿Cuántos años de experiencia tienes en total? Tengo diez años de experiencia en total. Llevo dos años en la empresa actual y antes pasé por un banco y una empresa de logística. ¿Qué problema técnico recuerdas con más orgullo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y Europa como manejas el inglés. Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es de 11.300 soles al mes. De acuerdo. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma, así que estaría disponible dentro de un mes. Perfecto. Gracias, Marco. Te escribiremos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "SQL",
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.875
+  }
+ ],
+ "comparaciones_texto": [],
+ "efecto_glosario": [
+  {
+   "task": "interviews",
+   "group": "synthetic/default",
+   "level": "L0",
+   "model": "small",
+   "modo": "hotwords",
+   "dif_wer_sin_menos_con": {
+    "est": 0.0030154675748545476,
+    "lo": 0.0,
+    "hi": 0.006172839506172839
+   },
+   "n": 4
+  }
+ ],
+ "wer_vs_registro": [],
+ "distribucion_verdad_terreno": {
+  "interviews.anios_experiencia": {
+   "min": 2,
+   "mediana": 5.75,
+   "max": 10
+  },
+  "interviews.ultimo_puesto": {
+   "analista de inteligencia comercial": 1,
+   "desarrollador backend senior": 1,
+   "desarrolladora frontend": 1,
+   "ingeniero de datos": 1
+  },
+  "interviews.tecnologias": {
+   "Python": 1,
+   "SQL": 2,
+   "Power BI": 1,
+   "Airflow": 1,
+   "Django": 1,
+   "Docker": 1,
+   "AWS": 2,
+   "Git": 2,
+   "React": 1,
+   "TypeScript": 1,
+   "Figma": 1,
+   "Spark": 1,
+   "Kubernetes": 1
+  },
+  "interviews.disponibilidad": {
+   "2026-11-09": 1,
+   "2026-10-26": 1,
+   "2026-11-15": 1,
+   "2026-11-26": 1
+  },
+  "interviews.nivel_ingles": {
+   "intermedio": 1,
+   "avanzado": 2,
+   "basico": 1
+  },
+  "calls.direccion_entrega": {
+   "Jirón Los Pinos, frente al parque Kennedy": 1,
+   "Avenida Larco, número trescientos cuarenta y dos, departamento seiscientos uno, Miraflores": 1,
+   "Calle Los Olivos, al costado de la farmacia": 1,
+   "Pasaje Las Flores, manzana ocho, lote quince, en la urbanización Santa Rosa": 1
+  },
+  "calls.metodo_pago": {
+   "efectivo": 1,
+   "tarjeta": 2,
+   "yape": 1
+  },
+  "calls.total_dicho": {
+   "min": 82,
+   "mediana": 93.5,
+   "max": 120
+  }
+ },
+ "trampas": {
+  "V01": {
+   "correccion": true,
+   "total_erroneo": true,
+   "digitos": false
+  },
+  "V02": {
+   "correccion": true,
+   "total_erroneo": true,
+   "digitos": true
+  },
+  "V03": {
+   "correccion": true,
+   "total_erroneo": true,
+   "digitos": false
+  },
+  "V04": {
+   "correccion": false,
+   "total_erroneo": false,
+   "digitos": true
+  }
+ }
+}

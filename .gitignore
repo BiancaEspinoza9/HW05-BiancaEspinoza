@@ -1,0 +1,16 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+# audio y pesos NO se versionan (ver README)
+data/audio/
+data/audio_ladder/
+data/synthetic/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.opus
+*.bin
+*.onnx

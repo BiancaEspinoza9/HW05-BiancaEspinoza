@@ -1,0 +1,15 @@
+faster-whisper==1.2.1
+ctranslate2==4.8.4
+av==16.0.1
+numpy==2.5.4
+pandas==3.1.0
+PyYAML==6.0.3
+python-dateutil==3.0.0
+python-dotenv==1.2.4
+soundfile==0.14.0
+imageio-ffmpeg==0.7.0
+nvidia-ml-py==13.615.71
+streamlit==1.66.1
+anthropic==2.3.0
+edge-tts==7.3.1
+pytest==9.2.0

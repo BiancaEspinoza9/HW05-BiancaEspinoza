@@ -1,0 +1,6 @@
+# Para GitHub Actions: sin ASR ni GPU (solo evalua transcripciones cacheadas)
+numpy==2.5.4
+PyYAML==6.0.3
+python-dateutil==3.0.0
+python-dotenv==1.2.4
+pytest==9.2.0

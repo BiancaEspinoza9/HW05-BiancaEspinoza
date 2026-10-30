@@ -1,0 +1,122 @@
+# Tarea 1 - Entrevistas. TODO es inventado (nombres, empresas, cifras). A = entrevistador, B = candidato/a.
+# El guion se escribe ANTES de grabar; la transcripcion de referencia sale de aqui (sin etiquetas A:/B:).
+# Lectura natural, con pausas. No improvisar: cualquier cambio al leer debe reflejarse en el guion.
+- id: E01
+  candidato: Camila (inventada)
+  fecha_referencia: "2026-10-26"
+  orden_campos: [anios_experiencia, ultimo_puesto, tecnologias, nivel_ingles, pretension_salarial, disponibilidad]
+  guion: |
+    A: Buenos días, Camila. Gracias por venir. Antes de empezar, cuéntame brevemente quién eres.
+    B: Buenos días. Soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística.
+    A: Muy bien. ¿Cuál fue tu último puesto?
+    B: Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de una región a otra.
+    A: Interesante. ¿Y qué herramientas usas en tu día a día?
+    B: Trabajo sobre todo con Python y SQL para limpiar y consultar los datos. Para los tableros uso Power BI, y también he usado Airflow para programar los procesos que se repiten cada noche.
+    A: Perfecto. Esa combinación nos sirve mucho. Cuéntame de un proyecto del que estés orgullosa.
+    B: Claro. Automaticé el reporte de devoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día. Ahora se genera solo, llega al correo temprano y los errores bajaron bastante.
+    A: Qué buen resultado. Esta empresa trabaja con proveedores de varios países, ¿cómo está tu inglés?
+    B: Mi nivel de inglés es intermedio. Puedo leer documentación sin problema y mantener una reunión, pero todavía me cuesta improvisar una presentación completa.
+    A: Está bien, tenemos un curso interno para eso. Hablemos ahora de lo económico. ¿Cuál es tu pretensión salarial?
+    B: Estoy buscando seis mil quinientos soles mensuales, de acuerdo con lo que he investigado para este tipo de puesto.
+    A: Entiendo. Y para incorporarte, ¿cuándo estarías disponible?
+    B: Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas.
+    A: Perfecto. ¿Tienes alguna pregunta para nosotros?
+    B: Sí, me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia.
+    A: Son siete personas y se presenta cada mes, con apoyo del jefe de área. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta.
+    B: Muchas gracias a ustedes. Fue un gusto conversar.
+  campos:
+    anios_experiencia: 4
+    ultimo_puesto: analista de inteligencia comercial
+    tecnologias: [Python, SQL, Power BI, Airflow]
+    pretension_salarial: {monto: 6500, moneda: PEN}
+    disponibilidad: "2026-11-09"
+    nivel_ingles: intermedio
+
+- id: E02
+  candidato: Diego (inventado)
+  fecha_referencia: "2026-10-26"
+  orden_campos: [disponibilidad, pretension_salarial, anios_experiencia, ultimo_puesto, tecnologias, nivel_ingles]
+  guion: |
+    A: Buenas tardes, Diego. Empecemos por lo práctico, porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte, si todo sale bien?
+    B: Buenas tardes. Puedo incorporarme de inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre.
+    A: Excelente. Y en cuanto a lo económico, ¿qué pretensión salarial tienes?
+    B: Busco dos mil quinientos dólares al mes, ya que es un puesto con bastante responsabilidad.
+    A: Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes?
+    B: Tengo siete años y medio de experiencia en desarrollo de software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de pagos en línea.
+    A: ¿Cuál fue tu último puesto allí?
+    B: Fui desarrollador backend senior. Me encargaba de diseñar servicios para procesar pagos y de revisar el código de los compañeros más nuevos.
+    A: ¿Con qué tecnologías trabajabas?
+    B: Programaba con Django, y todo lo empaquetábamos con Docker. La infraestructura estaba en AWS, y para el control de versiones usábamos Git todos los días.
+    A: Suena muy completo. ¿Qué fue lo más difícil de ese trabajo?
+    B: Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces hicimos pruebas de carga antes de cada campaña.
+    A: Eso es justo lo que necesitamos aquí. Una última cosa: nuestros clientes están en varios países. ¿Cómo está tu inglés?
+    B: Tengo un inglés avanzado. He dado presentaciones técnicas a clientes de otros países y no he tenido problemas.
+    A: Muy bien, Diego. Gracias por venir. Nos comunicaremos pronto.
+    B: Gracias a ustedes. Quedo atento.
+  campos:
+    anios_experiencia: 7.5
+    ultimo_puesto: desarrollador backend senior
+    tecnologias: [Django, Docker, AWS, Git]
+    pretension_salarial: {monto: 2500, moneda: USD}
+    disponibilidad: "2026-10-26"
+    nivel_ingles: avanzado
+
+- id: E03
+  candidato: Lucía (inventada)
+  fecha_referencia: "2026-10-26"
+  orden_campos: [tecnologias, ultimo_puesto, anios_experiencia, nivel_ingles, pretension_salarial, disponibilidad]
+  guion: |
+    A: Hola, Lucía, bienvenida. Cuéntame primero qué tecnologías manejas, para ubicarme.
+    B: Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso Git para el control de versiones y Figma cuando tengo que revisar diseños con el equipo.
+    A: ¿Cómo llegaste a programar interfaces?
+    B: Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo.
+    A: Y de ese trabajo, ¿cuál fue tu último puesto?
+    B: Mi último puesto fue desarrolladora frontend en una agencia de publicidad. Construía páginas para campañas de marcas de ropa y de bebidas.
+    A: ¿Cuánto tiempo llevas en esto?
+    B: Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal.
+    A: Entiendo. ¿Y qué te cuesta más hoy?
+    B: Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas.
+    A: Muy bien. Un detalle importante: algunos documentos que usamos están en inglés. ¿Qué nivel tienes?
+    B: Mi inglés es básico. Puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez.
+    A: Gracias por la honestidad. Pasemos a lo económico. ¿Qué pretensión salarial tienes?
+    B: Pienso que cuatro mil doscientos soles sería adecuado para mi experiencia.
+    A: Anotado. ¿Y desde cuándo podrías empezar?
+    B: Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del quince de noviembre.
+    A: Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto.
+    B: Gracias a ustedes.
+  campos:
+    anios_experiencia: 2
+    ultimo_puesto: desarrolladora frontend
+    tecnologias: [React, TypeScript, Git, Figma]
+    pretension_salarial: {monto: 4200, moneda: PEN}
+    disponibilidad: "2026-11-15"
+    nivel_ingles: basico
+
+- id: E04
+  candidato: Marco (inventado)
+  fecha_referencia: "2026-10-26"
+  orden_campos: [ultimo_puesto, tecnologias, anios_experiencia, nivel_ingles, pretension_salarial, disponibilidad]
+  guion: |
+    A: Buenos días, Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente?
+    B: Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas y construimos las rutas por donde llegan los datos de millones de llamadas.
+    A: Suena a un trabajo con mucho volumen. ¿Qué herramientas usas para eso?
+    B: Para el procesamiento masivo uso Spark, y los servicios corren sobre Kubernetes. Todo está en AWS, y las consultas de análisis las escribimos en SQL.
+    A: ¿Cuántos años de experiencia tienes en total?
+    B: Tengo diez años de experiencia en total. Llevo dos años en la empresa actual, y antes pasé por un banco y una empresa de logística.
+    A: ¿Qué problema técnico recuerdas con más orgullo?
+    B: Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado.
+    A: Excelente. La empresa tiene socios en Estados Unidos y Europa, ¿cómo manejas el inglés?
+    B: Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés.
+    A: Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial?
+    B: Mi pretensión es de once mil trescientos soles al mes.
+    A: De acuerdo. ¿Y cuándo podrías empezar?
+    B: Debo entregar mi cargo con calma, así que estaría disponible dentro de un mes.
+    A: Perfecto. Gracias, Marco. Te escribiremos pronto.
+    B: Gracias a ustedes. Hasta luego.
+  campos:
+    anios_experiencia: 10
+    ultimo_puesto: ingeniero de datos
+    tecnologias: [Spark, Kubernetes, AWS, SQL]
+    pretension_salarial: {monto: 11300, moneda: PEN}
+    disponibilidad: "2026-11-26"
+    nivel_ingles: avanzado

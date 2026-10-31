@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import re
 from datetime import date
+from difflib import SequenceMatcher
 
 from dateutil.relativedelta import relativedelta
 
@@ -172,24 +173,29 @@ def _phrase_re(phrase: str) -> str:
     return r"\s+".join(_plural(w) for w in phrase.split())
 
 
-def _items(t: str, menu: dict):
-    prod_alt = "|".join(f"(?P<p{i}>{_phrase_re(p)})" for i, p in enumerate(menu))
-    size_alt = "|".join(sorted({_phrase_re(s) for v in menu.values() for s in v["sizes"]}, key=len, reverse=True))
-    pat = re.compile(rf"\b{_NUM1}\s+(?:{prod_alt})(?:\s+tamano\s+({size_alt}))?\s+a\s+{_NUM}\s+soles?\b")
+def _closest(phrase: str, options: list[str], threshold: float) -> str | None:
+    """Opcion mas parecida a lo que oyo el ASR ("pollas al abrazo" -> "pollo a la brasa").
+    Exige un minimo de parecido y que la segunda opcion quede claramente por debajo."""
+    scored = sorted(((SequenceMatcher(None, phrase, o).ratio(), o) for o in options), reverse=True)
+    if scored[0][0] < threshold or (len(scored) > 1 and scored[0][0] - scored[1][0] < 0.1):
+        return None
+    return scored[0][1]
+
+
+def _items(t: str, menu: dict, fuzzy_threshold: float = 0.5):
+    # "cada 1" es "cada uno": no es una cantidad. Los cortes de frase (|) no separan un item.
+    pat = re.compile(rf"(?<!cada )\b{_NUM1}\s+((?:[a-z]+\s+){{1,5}}?)(?:tamano\s+([a-z]+)\s+)?a\s+{_NUM}\s+soles?\b")
     prods = list(menu)
 
     def run(seg: str):
         out = []
-        for m in pat.finditer(seg):
-            idx = next(i for i in range(len(prods)) if m.group(f"p{i}"))
-            raw_size = m.group(len(prods) + 2)
-            size = None
-            if raw_size:
-                for s in menu[prods[idx]]["sizes"]:
-                    if re.fullmatch(_plural(s), raw_size):
-                        size = s
-            out.append({"producto": prods[idx], "tamano": size, "cantidad": int(_n(m.group(1))),
-                        "precio_unitario": float(m.group(len(prods) + 3)), "evidencia": m.group(0)})
+        for m in pat.finditer(seg.replace("|", " ")):
+            prod = _closest(m.group(2).strip(), prods, fuzzy_threshold)
+            if prod is None:
+                continue
+            size = _closest(m.group(3), menu[prod]["sizes"], fuzzy_threshold) if m.group(3) else None
+            out.append({"producto": prod, "tamano": size, "cantidad": int(_n(m.group(1))),
+                        "precio_unitario": float(m.group(4)), "evidencia": re.sub(r"\s+", " ", m.group(0))})
         return out
 
     cut = t.rfind("resumen")
@@ -251,7 +257,7 @@ def _total(t: str):
 def extract_order(transcript: str, cfg: dict, ref: date) -> dict:
     sc = cfg["schemas"]["order"]
     t = norm_text(transcript, cfg["normalization"], keep_breaks=True)
-    items = _items(t, sc["menu"])
+    items = _items(t, sc["menu"], sc.get("fuzzy_match_threshold", 0.5))
     return {
         "items": {"valor": items, "evidencia": [i["evidencia"] for i in items]} if items else None,
         "promocion": _promo(t),

@@ -1,0 +1,1156 @@
+{
+ "transcript": "Buenas noches, voy a ir al saber norteño. ¿Qué desea ordenar? Buenas noches, quiero un buen alabraza entero y dos porciones de papas fritas familiares. Muy bien, desea de vidas? Sí, dos vacíos las personales. ¿Ha notado algo más? Pensando a lo mejor que sean cuatro vacíos las personales porque vienen mis primos. Sin problema, entonces son un pollo entero, dos papas familiares y cuatro vacíos las personales. Silvada con yapé tiene cinco soles de descuento. Perfecto, pare con yapé entonces. ¿Cuál es la dirección de entrega? La dirección es que hay en los olivos al cruzado de la farmacia. ¿Alguna referencia adicional? Es una casa de color verde y con un portón negro. Gracias, le hago el ración al final. Un pollo alabraza tamaño entero a 45 soles, dos porciones de papas fritas, tamaño familiar a 18 soles cada una. El cuatro vacíos a tamaño personal a 4 soles cada una. Con el descuento de 5 soles el total a pagar es de 82 soles. ¿Está bien? ¿Me enviaron el comprobante por mensaje? Sí, se le enviaremos al número que usó para llamar. Gracias por tu presencia. Buenas noches.",
+ "words": [
+  {
+   "w": "Buenas",
+   "p": 0.692,
+   "start": 0.53,
+   "end": 1.21
+  },
+  {
+   "w": "noches,",
+   "p": 0.982,
+   "start": 1.21,
+   "end": 1.59
+  },
+  {
+   "w": "voy",
+   "p": 0.534,
+   "start": 1.75,
+   "end": 1.85
+  },
+  {
+   "w": "a",
+   "p": 0.956,
+   "start": 1.85,
+   "end": 1.99
+  },
+  {
+   "w": "ir",
+   "p": 0.978,
+   "start": 1.99,
+   "end": 2.03
+  },
+  {
+   "w": "al",
+   "p": 0.494,
+   "start": 2.03,
+   "end": 2.17
+  },
+  {
+   "w": "saber",
+   "p": 0.446,
+   "start": 2.17,
+   "end": 2.35
+  },
+  {
+   "w": "norteño.",
+   "p": 0.9,
+   "start": 2.35,
+   "end": 2.97
+  },
+  {
+   "w": "¿Qué",
+   "p": 0.714,
+   "start": 3.17,
+   "end": 3.29
+  },
+  {
+   "w": "desea",
+   "p": 0.573,
+   "start": 3.29,
+   "end": 3.61
+  },
+  {
+   "w": "ordenar?",
+   "p": 0.973,
+   "start": 3.61,
+   "end": 3.99
+  },
+  {
+   "w": "Buenas",
+   "p": 0.9,
+   "start": 4.53,
+   "end": 4.81
+  },
+  {
+   "w": "noches,",
+   "p": 0.997,
+   "start": 4.81,
+   "end": 5.15
+  },
+  {
+   "w": "quiero",
+   "p": 0.99,
+   "start": 5.31,
+   "end": 5.39
+  },
+  {
+   "w": "un",
+   "p": 0.998,
+   "start": 5.39,
+   "end": 5.57
+  },
+  {
+   "w": "buen",
+   "p": 0.212,
+   "start": 5.57,
+   "end": 5.67
+  },
+  {
+   "w": "alabraza",
+   "p": 0.66,
+   "start": 5.67,
+   "end": 6.15
+  },
+  {
+   "w": "entero",
+   "p": 0.963,
+   "start": 6.15,
+   "end": 6.53
+  },
+  {
+   "w": "y",
+   "p": 0.931,
+   "start": 6.53,
+   "end": 6.65
+  },
+  {
+   "w": "dos",
+   "p": 0.928,
+   "start": 6.65,
+   "end": 6.81
+  },
+  {
+   "w": "porciones",
+   "p": 0.978,
+   "start": 6.81,
+   "end": 7.11
+  },
+  {
+   "w": "de",
+   "p": 0.993,
+   "start": 7.11,
+   "end": 7.31
+  },
+  {
+   "w": "papas",
+   "p": 0.59,
+   "start": 7.31,
+   "end": 7.55
+  },
+  {
+   "w": "fritas",
+   "p": 0.994,
+   "start": 7.55,
+   "end": 7.87
+  },
+  {
+   "w": "familiares.",
+   "p": 0.963,
+   "start": 7.87,
+   "end": 8.71
+  },
+  {
+   "w": "Muy",
+   "p": 0.717,
+   "start": 9.15,
+   "end": 9.47
+  },
+  {
+   "w": "bien,",
+   "p": 0.998,
+   "start": 9.47,
+   "end": 9.75
+  },
+  {
+   "w": "desea",
+   "p": 0.912,
+   "start": 9.99,
+   "end": 10.35
+  },
+  {
+   "w": "de",
+   "p": 0.922,
+   "start": 10.35,
+   "end": 10.47
+  },
+  {
+   "w": "vidas?",
+   "p": 0.922,
+   "start": 10.47,
+   "end": 10.89
+  },
+  {
+   "w": "Sí,",
+   "p": 0.694,
+   "start": 11.19,
+   "end": 11.43
+  },
+  {
+   "w": "dos",
+   "p": 0.877,
+   "start": 11.57,
+   "end": 11.69
+  },
+  {
+   "w": "vacíos",
+   "p": 0.418,
+   "start": 11.69,
+   "end": 11.89
+  },
+  {
+   "w": "las",
+   "p": 0.458,
+   "start": 11.89,
+   "end": 12.05
+  },
+  {
+   "w": "personales.",
+   "p": 0.98,
+   "start": 12.05,
+   "end": 12.77
+  },
+  {
+   "w": "¿Ha",
+   "p": 0.584,
+   "start": 13.31,
+   "end": 13.49
+  },
+  {
+   "w": "notado",
+   "p": 0.857,
+   "start": 13.49,
+   "end": 13.93
+  },
+  {
+   "w": "algo",
+   "p": 0.529,
+   "start": 13.93,
+   "end": 14.43
+  },
+  {
+   "w": "más?",
+   "p": 0.976,
+   "start": 14.43,
+   "end": 14.63
+  },
+  {
+   "w": "Pensando",
+   "p": 0.316,
+   "start": 15.43,
+   "end": 15.75
+  },
+  {
+   "w": "a",
+   "p": 0.501,
+   "start": 15.75,
+   "end": 15.89
+  },
+  {
+   "w": "lo",
+   "p": 0.998,
+   "start": 15.89,
+   "end": 15.93
+  },
+  {
+   "w": "mejor",
+   "p": 1.0,
+   "start": 15.93,
+   "end": 16.21
+  },
+  {
+   "w": "que",
+   "p": 0.979,
+   "start": 16.21,
+   "end": 16.39
+  },
+  {
+   "w": "sean",
+   "p": 0.972,
+   "start": 16.39,
+   "end": 16.59
+  },
+  {
+   "w": "cuatro",
+   "p": 0.92,
+   "start": 16.59,
+   "end": 16.81
+  },
+  {
+   "w": "vacíos",
+   "p": 0.989,
+   "start": 16.81,
+   "end": 17.09
+  },
+  {
+   "w": "las",
+   "p": 0.822,
+   "start": 17.09,
+   "end": 17.27
+  },
+  {
+   "w": "personales",
+   "p": 0.974,
+   "start": 17.27,
+   "end": 18.09
+  },
+  {
+   "w": "porque",
+   "p": 0.572,
+   "start": 18.09,
+   "end": 18.35
+  },
+  {
+   "w": "vienen",
+   "p": 0.971,
+   "start": 18.35,
+   "end": 18.67
+  },
+  {
+   "w": "mis",
+   "p": 0.652,
+   "start": 18.67,
+   "end": 18.95
+  },
+  {
+   "w": "primos.",
+   "p": 0.947,
+   "start": 18.95,
+   "end": 19.31
+  },
+  {
+   "w": "Sin",
+   "p": 0.667,
+   "start": 20.35,
+   "end": 20.59
+  },
+  {
+   "w": "problema,",
+   "p": 0.991,
+   "start": 20.59,
+   "end": 20.95
+  },
+  {
+   "w": "entonces",
+   "p": 0.982,
+   "start": 21.35,
+   "end": 21.69
+  },
+  {
+   "w": "son",
+   "p": 0.628,
+   "start": 21.69,
+   "end": 22.13
+  },
+  {
+   "w": "un",
+   "p": 0.985,
+   "start": 22.13,
+   "end": 22.29
+  },
+  {
+   "w": "pollo",
+   "p": 0.929,
+   "start": 22.29,
+   "end": 22.43
+  },
+  {
+   "w": "entero,",
+   "p": 0.995,
+   "start": 22.43,
+   "end": 22.85
+  },
+  {
+   "w": "dos",
+   "p": 0.972,
+   "start": 23.11,
+   "end": 23.21
+  },
+  {
+   "w": "papas",
+   "p": 0.992,
+   "start": 23.21,
+   "end": 23.51
+  },
+  {
+   "w": "familiares",
+   "p": 0.998,
+   "start": 23.51,
+   "end": 24.25
+  },
+  {
+   "w": "y",
+   "p": 0.909,
+   "start": 24.25,
+   "end": 24.43
+  },
+  {
+   "w": "cuatro",
+   "p": 0.986,
+   "start": 24.43,
+   "end": 24.61
+  },
+  {
+   "w": "vacíos",
+   "p": 0.993,
+   "start": 24.61,
+   "end": 24.97
+  },
+  {
+   "w": "las",
+   "p": 0.966,
+   "start": 24.97,
+   "end": 25.09
+  },
+  {
+   "w": "personales.",
+   "p": 0.996,
+   "start": 25.09,
+   "end": 25.83
+  },
+  {
+   "w": "Silvada",
+   "p": 0.647,
+   "start": 26.19,
+   "end": 26.57
+  },
+  {
+   "w": "con",
+   "p": 0.917,
+   "start": 26.57,
+   "end": 26.81
+  },
+  {
+   "w": "yapé",
+   "p": 0.547,
+   "start": 26.81,
+   "end": 27.21
+  },
+  {
+   "w": "tiene",
+   "p": 0.752,
+   "start": 27.21,
+   "end": 27.45
+  },
+  {
+   "w": "cinco",
+   "p": 0.73,
+   "start": 27.45,
+   "end": 27.75
+  },
+  {
+   "w": "soles",
+   "p": 0.957,
+   "start": 27.75,
+   "end": 28.03
+  },
+  {
+   "w": "de",
+   "p": 0.991,
+   "start": 28.03,
+   "end": 28.17
+  },
+  {
+   "w": "descuento.",
+   "p": 0.968,
+   "start": 28.17,
+   "end": 28.61
+  },
+  {
+   "w": "Perfecto,",
+   "p": 0.637,
+   "start": 29.31,
+   "end": 29.87
+  },
+  {
+   "w": "pare",
+   "p": 0.425,
+   "start": 29.95,
+   "end": 30.17
+  },
+  {
+   "w": "con",
+   "p": 0.919,
+   "start": 30.17,
+   "end": 30.37
+  },
+  {
+   "w": "yapé",
+   "p": 0.105,
+   "start": 30.37,
+   "end": 30.65
+  },
+  {
+   "w": "entonces.",
+   "p": 0.925,
+   "start": 30.65,
+   "end": 30.91
+  },
+  {
+   "w": "¿Cuál",
+   "p": 0.878,
+   "start": 31.31,
+   "end": 31.67
+  },
+  {
+   "w": "es",
+   "p": 0.993,
+   "start": 31.67,
+   "end": 31.81
+  },
+  {
+   "w": "la",
+   "p": 0.99,
+   "start": 31.81,
+   "end": 31.87
+  },
+  {
+   "w": "dirección",
+   "p": 0.996,
+   "start": 31.87,
+   "end": 32.25
+  },
+  {
+   "w": "de",
+   "p": 0.991,
+   "start": 32.25,
+   "end": 32.39
+  },
+  {
+   "w": "entrega?",
+   "p": 0.994,
+   "start": 32.39,
+   "end": 32.77
+  },
+  {
+   "w": "La",
+   "p": 0.893,
+   "start": 33.09,
+   "end": 33.21
+  },
+  {
+   "w": "dirección",
+   "p": 0.995,
+   "start": 33.21,
+   "end": 33.79
+  },
+  {
+   "w": "es",
+   "p": 0.216,
+   "start": 33.79,
+   "end": 34.15
+  },
+  {
+   "w": "que",
+   "p": 0.053,
+   "start": 34.15,
+   "end": 34.27
+  },
+  {
+   "w": "hay",
+   "p": 0.825,
+   "start": 34.27,
+   "end": 34.35
+  },
+  {
+   "w": "en",
+   "p": 0.516,
+   "start": 34.35,
+   "end": 34.45
+  },
+  {
+   "w": "los",
+   "p": 0.954,
+   "start": 34.45,
+   "end": 34.55
+  },
+  {
+   "w": "olivos",
+   "p": 0.76,
+   "start": 34.55,
+   "end": 34.93
+  },
+  {
+   "w": "al",
+   "p": 0.606,
+   "start": 34.93,
+   "end": 35.19
+  },
+  {
+   "w": "cruzado",
+   "p": 0.642,
+   "start": 35.19,
+   "end": 35.51
+  },
+  {
+   "w": "de",
+   "p": 0.974,
+   "start": 35.51,
+   "end": 35.61
+  },
+  {
+   "w": "la",
+   "p": 0.963,
+   "start": 35.61,
+   "end": 35.67
+  },
+  {
+   "w": "farmacia.",
+   "p": 0.959,
+   "start": 35.67,
+   "end": 36.13
+  },
+  {
+   "w": "¿Alguna",
+   "p": 0.929,
+   "start": 36.97,
+   "end": 37.25
+  },
+  {
+   "w": "referencia",
+   "p": 0.995,
+   "start": 37.25,
+   "end": 37.73
+  },
+  {
+   "w": "adicional?",
+   "p": 0.996,
+   "start": 37.73,
+   "end": 38.05
+  },
+  {
+   "w": "Es",
+   "p": 0.944,
+   "start": 38.63,
+   "end": 38.83
+  },
+  {
+   "w": "una",
+   "p": 0.984,
+   "start": 38.83,
+   "end": 38.99
+  },
+  {
+   "w": "casa",
+   "p": 0.973,
+   "start": 38.99,
+   "end": 39.15
+  },
+  {
+   "w": "de",
+   "p": 0.988,
+   "start": 39.15,
+   "end": 39.31
+  },
+  {
+   "w": "color",
+   "p": 0.996,
+   "start": 39.31,
+   "end": 39.45
+  },
+  {
+   "w": "verde",
+   "p": 0.999,
+   "start": 39.45,
+   "end": 39.81
+  },
+  {
+   "w": "y",
+   "p": 0.679,
+   "start": 39.81,
+   "end": 40.01
+  },
+  {
+   "w": "con",
+   "p": 0.962,
+   "start": 40.01,
+   "end": 40.07
+  },
+  {
+   "w": "un",
+   "p": 0.985,
+   "start": 40.07,
+   "end": 40.23
+  },
+  {
+   "w": "portón",
+   "p": 0.631,
+   "start": 40.23,
+   "end": 40.43
+  },
+  {
+   "w": "negro.",
+   "p": 0.991,
+   "start": 40.43,
+   "end": 40.71
+  },
+  {
+   "w": "Gracias,",
+   "p": 0.924,
+   "start": 41.59,
+   "end": 42.15
+  },
+  {
+   "w": "le",
+   "p": 0.518,
+   "start": 42.55,
+   "end": 42.77
+  },
+  {
+   "w": "hago",
+   "p": 0.935,
+   "start": 42.77,
+   "end": 42.85
+  },
+  {
+   "w": "el",
+   "p": 0.688,
+   "start": 42.85,
+   "end": 42.97
+  },
+  {
+   "w": "ración",
+   "p": 0.499,
+   "start": 42.97,
+   "end": 43.23
+  },
+  {
+   "w": "al",
+   "p": 0.505,
+   "start": 43.23,
+   "end": 43.33
+  },
+  {
+   "w": "final.",
+   "p": 1.0,
+   "start": 43.33,
+   "end": 43.53
+  },
+  {
+   "w": "Un",
+   "p": 0.938,
+   "start": 44.43,
+   "end": 44.99
+  },
+  {
+   "w": "pollo",
+   "p": 0.947,
+   "start": 44.99,
+   "end": 45.15
+  },
+  {
+   "w": "alabraza",
+   "p": 0.26,
+   "start": 45.15,
+   "end": 45.55
+  },
+  {
+   "w": "tamaño",
+   "p": 0.887,
+   "start": 45.55,
+   "end": 45.91
+  },
+  {
+   "w": "entero",
+   "p": 0.977,
+   "start": 45.91,
+   "end": 46.29
+  },
+  {
+   "w": "a",
+   "p": 0.684,
+   "start": 46.29,
+   "end": 46.57
+  },
+  {
+   "w": "45",
+   "p": 0.991,
+   "start": 46.57,
+   "end": 47.05
+  },
+  {
+   "w": "soles,",
+   "p": 0.919,
+   "start": 47.05,
+   "end": 47.65
+  },
+  {
+   "w": "dos",
+   "p": 0.402,
+   "start": 47.83,
+   "end": 47.95
+  },
+  {
+   "w": "porciones",
+   "p": 0.971,
+   "start": 47.95,
+   "end": 48.29
+  },
+  {
+   "w": "de",
+   "p": 0.995,
+   "start": 48.29,
+   "end": 48.47
+  },
+  {
+   "w": "papas",
+   "p": 0.539,
+   "start": 48.47,
+   "end": 48.69
+  },
+  {
+   "w": "fritas,",
+   "p": 0.994,
+   "start": 48.69,
+   "end": 49.05
+  },
+  {
+   "w": "tamaño",
+   "p": 0.993,
+   "start": 49.21,
+   "end": 49.49
+  },
+  {
+   "w": "familiar",
+   "p": 0.997,
+   "start": 49.49,
+   "end": 49.95
+  },
+  {
+   "w": "a",
+   "p": 0.961,
+   "start": 49.95,
+   "end": 50.19
+  },
+  {
+   "w": "18",
+   "p": 0.995,
+   "start": 50.19,
+   "end": 50.51
+  },
+  {
+   "w": "soles",
+   "p": 0.996,
+   "start": 50.51,
+   "end": 50.79
+  },
+  {
+   "w": "cada",
+   "p": 0.995,
+   "start": 50.79,
+   "end": 50.97
+  },
+  {
+   "w": "una.",
+   "p": 0.991,
+   "start": 50.97,
+   "end": 51.29
+  },
+  {
+   "w": "El",
+   "p": 0.538,
+   "start": 51.89,
+   "end": 52.45
+  },
+  {
+   "w": "cuatro",
+   "p": 0.738,
+   "start": 52.45,
+   "end": 52.59
+  },
+  {
+   "w": "vacíos",
+   "p": 0.707,
+   "start": 52.59,
+   "end": 52.99
+  },
+  {
+   "w": "a",
+   "p": 0.567,
+   "start": 52.99,
+   "end": 53.05
+  },
+  {
+   "w": "tamaño",
+   "p": 0.983,
+   "start": 53.05,
+   "end": 53.35
+  },
+  {
+   "w": "personal",
+   "p": 0.999,
+   "start": 53.35,
+   "end": 53.71
+  },
+  {
+   "w": "a",
+   "p": 0.809,
+   "start": 53.71,
+   "end": 54.35
+  },
+  {
+   "w": "4",
+   "p": 0.608,
+   "start": 54.35,
+   "end": 54.61
+  },
+  {
+   "w": "soles",
+   "p": 0.999,
+   "start": 54.61,
+   "end": 54.83
+  },
+  {
+   "w": "cada",
+   "p": 0.998,
+   "start": 54.83,
+   "end": 55.01
+  },
+  {
+   "w": "una.",
+   "p": 0.992,
+   "start": 55.01,
+   "end": 55.33
+  },
+  {
+   "w": "Con",
+   "p": 0.054,
+   "start": 55.86,
+   "end": 56.11
+  },
+  {
+   "w": "el",
+   "p": 0.968,
+   "start": 56.11,
+   "end": 56.25
+  },
+  {
+   "w": "descuento",
+   "p": 0.829,
+   "start": 56.25,
+   "end": 56.57
+  },
+  {
+   "w": "de",
+   "p": 0.898,
+   "start": 56.57,
+   "end": 56.67
+  },
+  {
+   "w": "5",
+   "p": 0.776,
+   "start": 56.67,
+   "end": 56.95
+  },
+  {
+   "w": "soles",
+   "p": 0.873,
+   "start": 56.95,
+   "end": 57.37
+  },
+  {
+   "w": "el",
+   "p": 0.517,
+   "start": 57.37,
+   "end": 57.71
+  },
+  {
+   "w": "total",
+   "p": 0.996,
+   "start": 57.71,
+   "end": 57.89
+  },
+  {
+   "w": "a",
+   "p": 0.865,
+   "start": 57.89,
+   "end": 58.05
+  },
+  {
+   "w": "pagar",
+   "p": 0.99,
+   "start": 58.05,
+   "end": 58.31
+  },
+  {
+   "w": "es",
+   "p": 0.97,
+   "start": 58.31,
+   "end": 58.67
+  },
+  {
+   "w": "de",
+   "p": 0.973,
+   "start": 58.67,
+   "end": 58.79
+  },
+  {
+   "w": "82",
+   "p": 0.95,
+   "start": 58.79,
+   "end": 59.21
+  },
+  {
+   "w": "soles.",
+   "p": 0.984,
+   "start": 59.21,
+   "end": 60.11
+  },
+  {
+   "w": "¿Está",
+   "p": 0.568,
+   "start": 60.11,
+   "end": 60.57
+  },
+  {
+   "w": "bien?",
+   "p": 0.999,
+   "start": 60.57,
+   "end": 60.75
+  },
+  {
+   "w": "¿Me",
+   "p": 0.925,
+   "start": 61.09,
+   "end": 61.11
+  },
+  {
+   "w": "enviaron",
+   "p": 0.85,
+   "start": 61.11,
+   "end": 61.43
+  },
+  {
+   "w": "el",
+   "p": 0.786,
+   "start": 61.43,
+   "end": 61.61
+  },
+  {
+   "w": "comprobante",
+   "p": 0.732,
+   "start": 61.61,
+   "end": 62.09
+  },
+  {
+   "w": "por",
+   "p": 0.978,
+   "start": 62.09,
+   "end": 62.27
+  },
+  {
+   "w": "mensaje?",
+   "p": 0.815,
+   "start": 62.27,
+   "end": 62.69
+  },
+  {
+   "w": "Sí,",
+   "p": 0.583,
+   "start": 63.59,
+   "end": 63.83
+  },
+  {
+   "w": "se",
+   "p": 0.988,
+   "start": 64.07,
+   "end": 64.23
+  },
+  {
+   "w": "le",
+   "p": 0.763,
+   "start": 64.23,
+   "end": 64.31
+  },
+  {
+   "w": "enviaremos",
+   "p": 0.987,
+   "start": 64.31,
+   "end": 64.71
+  },
+  {
+   "w": "al",
+   "p": 0.502,
+   "start": 64.71,
+   "end": 64.91
+  },
+  {
+   "w": "número",
+   "p": 0.951,
+   "start": 64.91,
+   "end": 65.07
+  },
+  {
+   "w": "que",
+   "p": 0.953,
+   "start": 65.07,
+   "end": 65.29
+  },
+  {
+   "w": "usó",
+   "p": 0.761,
+   "start": 65.29,
+   "end": 65.45
+  },
+  {
+   "w": "para",
+   "p": 0.988,
+   "start": 65.45,
+   "end": 65.59
+  },
+  {
+   "w": "llamar.",
+   "p": 0.938,
+   "start": 65.59,
+   "end": 65.93
+  },
+  {
+   "w": "Gracias",
+   "p": 0.883,
+   "start": 66.07,
+   "end": 66.35
+  },
+  {
+   "w": "por",
+   "p": 0.981,
+   "start": 66.35,
+   "end": 66.55
+  },
+  {
+   "w": "tu",
+   "p": 0.768,
+   "start": 66.55,
+   "end": 66.67
+  },
+  {
+   "w": "presencia.",
+   "p": 0.59,
+   "start": 66.67,
+   "end": 66.95
+  },
+  {
+   "w": "Buenas",
+   "p": 0.501,
+   "start": 67.71,
+   "end": 68.21
+  },
+  {
+   "w": "noches.",
+   "p": 0.985,
+   "start": 68.21,
+   "end": 68.59
+  }
+ ],
+ "model": "small",
+ "device_requested": "cpu",
+ "device": "cpu",
+ "compute_type": "int8_float32",
+ "glossary_mode": "none",
+ "elapsed_s": 28.807,
+ "load_s": 2.54,
+ "audio_s": 71.02,
+ "sec_per_min": 24.34,
+ "vram_peak_mb": null,
+ "cuda_device_count": 0
+}

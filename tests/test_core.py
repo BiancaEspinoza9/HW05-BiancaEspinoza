@@ -83,3 +83,14 @@ def test_snr_is_the_requested_one():
     x = (0.3 * np.sin(2 * np.pi * 220 * t) * (np.sin(2 * np.pi * 0.7 * t) > 0)).astype("float32")
     _, measured = add_noise(x, sr, 10, 11, 30)
     assert measured == pytest.approx(10, abs=0.3)
+
+
+def test_items_tolerate_asr_misspelled_products():
+    """Whisper escribe 'pollas al abrazo' / 'gasezas': el producto se reconoce por parecido, la evidencia sigue literal."""
+    tr = ("Le hago el resumen final. Dos pollas al abrazo, tamaño entero a 45 soles cada uno. "
+          "Y dos gasezas, tamaño litro a 8 soles cada uno. El total a pagar es de 98 soles.")
+    r = process_audio(None, "order", config=cfg, transcript_result={"transcript": tr, "words": []})
+    items = r["record"]["items"]
+    assert [(i["producto"], i["tamano"], i["cantidad"], i["precio_unitario"]) for i in items] == [
+        ("pollo a la brasa", "entero", 2, 45.0), ("gaseosa", "litro", 2, 8.0)]
+    assert r["verified"]["items"] == "verificado"

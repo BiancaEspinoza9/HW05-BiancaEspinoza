@@ -2,6 +2,3011 @@
  "runs": [
   {
    "task": "interviews",
+   "group": "real",
+   "level": "L0",
+   "run": "medium__cpu__int8__none",
+   "extractor": "rules",
+   "model": "medium",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.020806236666573746,
+    "lo": 0.014083028179181268,
+    "hi": 0.0296846989349362
+   },
+   "cer": {
+    "est": 0.006373395635439429,
+    "lo": 0.004139332991199873,
+    "hi": 0.008817399215175091
+   },
+   "wer_pooled": 0.020676691729323307,
+   "sec_per_min": 64.63,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.01529051987767584,
+     "cer": 0.0036213140196585617,
+     "words": 327,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 64.88,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Camila, gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días, soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien, ¿cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de una región a otra. Interesante, ¿y qué herramientas usas en tu día a día? Trabajo sobre todo con Python y SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto, esa combinación nos sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro, automatice el reporte de devoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el correo temprano y los errores bajaron bastante. Qué buen resultado, esta empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio, puedo leer documentación sin problema y mantener una reunión, pero todavía me cuesta improvisar una presentación compleja. Está bien, tenemos un curso interno para eso. Hablemos ahora del económico, ¿cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales, de acuerdo con lo que he investigado para este tipo de puesto. Entiendo, y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto, ¿tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son siete personas y se presenta cada mes con el apoyo del jefe de área. Gracias por tu tiempo, Camila, te escribiremos esta semana con una respuesta. Muchas gracias a ustedes, fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": "analista de inteligencia comercial",
+      "tecnologias": [
+       "Python",
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.034482758620689655,
+     "cer": 0.007010834926704908,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 64.84,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Diego. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. Y en cuanto al económico, ¿qué pretensión salarial tienes? Busco $2,500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo siete años y medio de experiencia en desarrollo de software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de pavos en línea. ¿Cuál fue tu último puesto allí? Fui desarrollador backend senior. Me encargaba de diseñar servicios para procesar pavos y de revisar el código de los compañeros más nuevos. ¿Con qué tecnología trabajabas? Programaba con De-Jango y todo lo empaquetábamos con Docker. La infraestructura estaba en AWS y para el control de versiones usábamos Git todos los días. Suena muy completo. ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces hicimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa. Nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado. He dado presentaciones técnicas a clientes de otros países y no he tenido problemas. Muy bien, Diego. Gracias por venir. Nos comunicaremos pronto. Gracias a ustedes. Queda atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": "desarrollador backend senior",
+      "tecnologias": [
+       "Docker",
+       "AWS",
+       "Git"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.0205761316872428,
+     "cer": 0.004657351962741184,
+     "words": 243,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 64.68,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola Lucía, bienvenida. Cuéntame primero qué tecnología manejas para ubicarme. Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso Git para el control de versiones y FigMap cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. Y de ese trabajo, ¿cuál fue tu último puesto? Mi último puesto fue desarrolladora Frontend en una agencia de publicidad. Construía páginas para campañas de marcas, de ropa y bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante. Algunos documentos que usamos están en inglés. ¿Qué nivel tienes? Mi inglés es básico. Puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez. Gracias por la honestidad. Pasemos al económico. ¿Qué pretensión salarial tienes? Pienso que 4200 soles sería adecuado para mi experiencia. Anotado. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontend",
+      "tecnologias": [
+       "Git",
+       "React",
+       "TypeScript"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.012875536480686695,
+     "cer": 0.01020408163265306,
+     "words": 233,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 64.12,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas y construimos las rutas por donde llegan los datos de millones de llamadas. Suena un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el procesamiento masivo uso Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las escribimos en SQL. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo dos años en la empresa actual y antes pasé por un banco y una empresa de logística. ¿Qué problema técnico recuerdas con más orgullo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había Excelente. La empresa tiene socios en Estados Unidos y en Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es de 11.300 soles al mes. De acuerdo. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma así que estaría disponible dentro de un mes. Perfecto. Gracias, Marco. Te escribiremos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "SQL",
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.9166666666666666
+  },
+  {
+   "task": "calls",
+   "group": "real",
+   "level": "L0",
+   "run": "medium__cpu__int8__none",
+   "extractor": "rules",
+   "model": "medium",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.1305436871798428,
+    "lo": 0.07788410419989367,
+    "hi": 0.1832032701597919
+   },
+   "cer": {
+    "est": 0.06438329376029617,
+    "lo": 0.03808645094111703,
+    "hi": 0.08973015512889596
+   },
+   "wer_pooled": 0.13133940182054615,
+   "sec_per_min": 65.505,
+   "vram_peak_mb": 0,
+   "fields": {
+    "items": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.75,
+     "mae": null
+    },
+    "promocion": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "direccion_entrega": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "metodo_pago": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    },
+    "total_dicho": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "V01",
+     "wer": 0.21256038647342995,
+     "cer": 0.1018018018018018,
+     "words": 207,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 58.46,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "pollería el sabor norteño buenas noches en que puedo ayudarle buenas noches quisiera hacer un pedido para delivery claro que sí un día me quedé sin ordenar quiero dos pollo salabrasa enteros una porción de papa frita familiar y una chicha morada jarda perfecto no noto algo más ah espera mejor no quiero la chicha cambiala por dos gaseosas de litro sin problema quito la chicha y algo más no con eso está bien tiene alguna promoción por ser su primera compra tiene 10 soles de cuenta que bien la aprovecho la dirección de entrega la dirección es girón los pinos frente al parque kennedy anotado cómo va a pagar voy a parar en efectivo tendrán sencillo para un billete grande llevaremos sencillo luego el resumen final dos pollo salabrasa tamaño entero a 45 soles cada uno una porción de papas fritas tamaño familiar a 18 soles y dos gaseosas tamaño litro a 8 soles cada uno con el documento de 10 con el descuento de 10 soles el total a pagar es de 120 soles está bien gracias el pedido llegará en unos 40 minutos gracias polla por llamar al sabor norteño gracias a ustedes buenas noches",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 2,
+        "precio_unitario": 45.0,
+        "evidencia": "2 pollo salabrasa tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 1,
+        "precio_unitario": 18.0,
+        "evidencia": "una porcion de papas fritas tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "litro",
+        "cantidad": 2,
+        "precio_unitario": 8.0,
+        "evidencia": "2 gaseosas tamano litro a 8 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 10.0
+      },
+      "direccion_entrega": "girón los pinos frente al parque kennedy anotado cómo va a pagar voy a parar en efectivo tendrán sencillo para un billete grande llevaremos sencillo luego el resumen final dos pollo salabrasa tamaño entero a 45 soles cada uno una porción de papas fritas tamaño familiar a 18 soles y dos gaseosas tamaño litro a 8 soles cada uno con el documento de 10 con el descuento de 10 soles el total a pagar es de 120 soles está bien gracias el pedido llegará en unos 40 minutos gracias polla por llamar al sabor norteño gracias a ustedes buenas noches",
+      "metodo_pago": "efectivo",
+      "total_dicho": 120.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 124.0,
+      "descuento": 10.0,
+      "esperado": 114.0,
+      "total_dicho": 120.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.543
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V02",
+     "wer": 0.06220095693779904,
+     "cer": 0.025064822817631807,
+     "words": 209,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 66.16,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Pueguería del sabor norteño, buenas tardes. ¿En qué le puedo ayudar? Hola, buenas tardes. Quiero pedir para llevar a mi casa. Con gusto. ¿Qué le anoto? Dos pollos a la brasa medios, dos porciones de papas fritas personales y una chicha morada a jarra. Muy bien. ¿Algo más? En realidad somos tres en casa. Mejor que sean tres pollos medios. Perfecto. Entonces, son tres pollos medios, dos papas personales y una chicha a jarra. Hoy tenemos una promoción de 10% de descuento en pedidos con tarjeta. ¿Pagará con tarjeta? Sí, pagaré con tarjeta. Así aprovecho el descuento. Excelente. ¿Cuál es la dirección de entrega? La dirección es Avenida Al Arco número 342 departamento 601 Miraflores. Repito para confirmar. Avenida Al Arco 342 departamento 601. ¿Es correcto? Sí, así es. El timbre no funciona, así que por favor llamen por teléfono al llegar. Claro, le hago el resumen final. Tres pollos a la brasa medio, a 25 soles cada uno. Dos porciones de papas fritas, tamaño personal, a 10 soles cada una. Y una chicha morada, tamaño jarra, a 15 soles. Con el 10% de descuento, el total a pagar es 105 soles. Gracias. ¿Cuánto demora? Aproximadamente 45 minutos. Gracias por llamar al sabor norteño. Gracias, hasta luego.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": null,
+        "cantidad": 3,
+        "precio_unitario": 25.0,
+        "evidencia": "3 pollos a la brasa medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "jarra",
+        "cantidad": 1,
+        "precio_unitario": 15.0,
+        "evidencia": "una chicha morada tamano jarra a 15 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "porcentaje",
+       "valor": 10.0
+      },
+      "direccion_entrega": "Avenida Al Arco número 342 departamento 601 Miraflores",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 105.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 110.0,
+      "descuento": 11.0,
+      "esperado": 99.0,
+      "total_dicho": 105.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.596
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "asr"
+    },
+    {
+     "id": "V03",
+     "wer": 0.15384615384615385,
+     "cer": 0.0771513353115727,
+     "words": 182,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 72.83,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "buenas noches voy a ir al saber norteño que desea ordenar buenas noches quiero un pollo a la grasa entero y dos porciones de papas fritas familiares muy bien desea bebidas? si dos vaciosas personales anotado algo más? pensando a lo mejor que sean cuatro vaciosas personales porque vienen mis primos sin problema entonces son un pollo entero dos papas familiares y cuatro vaciosas personales si vaga con yape tiene cinco soles de descuento perfecto cuál es la dirección de entrega? la dirección es que hay los olivos al costado de la farmacia alguna referencia adicional? es una casa de color verde con un portón negro gracias le hago la razón al final un pollo a la grasa tamaño entero a 45 soles dos porciones de papas fritas tamaño familiar a 18 soles cada una y cuatro vaciosas tamaño personal a cuatro soles cada una con el descuento de cinco soles el total a es de 82 soles está bien me enviarán el comprobante por mensaje si se le enviaremos el número que uso para llamar gracias por su presencia gracias buenas noches",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 1,
+        "precio_unitario": 45.0,
+        "evidencia": "un pollo a la grasa tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 2,
+        "precio_unitario": 18.0,
+        "evidencia": "2 porciones de papas fritas tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "personal",
+        "cantidad": 4,
+        "precio_unitario": 4.0,
+        "evidencia": "4 vaciosas tamano personal a 4 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 5.0
+      },
+      "direccion_entrega": "que hay los olivos al costado de la farmacia alguna referencia adicional",
+      "metodo_pago": "yape",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 97.0,
+      "descuento": 5.0,
+      "esperado": 92.0,
+      "total_dicho": 82.0,
+      "diferencia": -10.0,
+      "causa": "asr",
+      "reparacion": {
+       "campo": "total_dicho",
+       "dicho": 82.0,
+       "probable": 92.0
+      },
+      "regla": "D1"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V04",
+     "wer": 0.0935672514619883,
+     "cer": 0.053515215110178385,
+     "words": 171,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 64.57,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "no_encontrado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "El sabor norteño, buenas tardes, ¿cómo le puedo ayudar? Buenas tardes, quisiera pedir dos medios pollo para una reunión pequeña. Claro, ¿qué acompañamientos desea? Dos porciones de papas fristas personales y dos vasos de chicha morada. Perfecto, ¿desea agregar algo más? No, eso sería todo. ¿Hay alguna promoción hoy? Lo siento, hoy no tenemos promociones vigentes. Está bien, no hay problema. ¿Cuál es la dirección de entrega? La dirección es pasaje de las flores, manzana 8, lote 15, en la urbanización Santa Rosa. Repito, pasaje de las flores, manzana 8, lote 15, ¿correcto? Correcto, pagaré con tarjeta de crédito cuando llegue el reporteor. Muy bien, llevaremos el POS. Le hago el resumen final. Dos pollo salabrasa, tamaño medio, a 25 soles cada uno. Dos porciones de papas fritas, tamaño personal, a 10 soles cada una. Y dos chichas moradas, tamaño vaso, a 6 soles cada una. El total a pagar es de 82 soles. Perfecto, gracias. La entrega demora de 50 minutos. ¿Qué? La entrega demora cerca de 50 minutos. Gracias por llamar. Gracias a usted, buenas tardes.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 pollo salabrasa tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "vaso",
+        "cantidad": 2,
+        "precio_unitario": 6.0,
+        "evidencia": "2 chichas moradas tamano vaso a 6 soles"
+       }
+      ],
+      "promocion": null,
+      "direccion_entrega": "pasaje de las flores, manzana 8, lote 15, en la urbanización Santa Rosa",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "ok",
+      "subtotal": 82.0,
+      "descuento": 0.0,
+      "esperado": 82.0,
+      "total_dicho": 82.0,
+      "diferencia": 0.0,
+      "causa": null,
+      "reparacion": null
+     },
+     "trampa_total": false,
+     "flagged": false
+    }
+   ],
+   "field_acc_mean": 0.85,
+   "validation": {
+    "trampas": 3,
+    "atrapadas": 3,
+    "perdidas": 0,
+    "falsas_alarmas": 0,
+    "limpias": 1,
+    "diagnosticos": 3,
+    "diagnostico_correcto": 1
+   }
+  },
+  {
+   "task": "interviews",
+   "group": "real",
+   "level": "L0",
+   "run": "small__cpu__int8__hotwords",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "hotwords",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.03918262872766504,
+    "lo": 0.028097062579821197,
+    "hi": 0.05347416361512514
+   },
+   "cer": {
+    "est": 0.016573192796517217,
+    "lo": 0.008847374951242664,
+    "hi": 0.02982737149607491
+   },
+   "wer_pooled": 0.03853383458646616,
+   "sec_per_min": 25.932499999999997,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.03363914373088685,
+     "cer": 0.007759958613554061,
+     "words": 327,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 28.22,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Camila. Gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días. Soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien. ¿Cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de una región a otra. Interesante. ¿Y qué herramientas usas en tu día a día? Trabajo sobre todo con Python y SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto. Esa combinación no sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro. Automatice el reporte de evoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el corro temprano y los errores bajaron bastante. Quedó el resultado. Esta empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio. Puedo leer documentación sin problema y mantener una reunión. Pero todavía me cuesta improvisar una presentación compleja. Está bien. Tenemos un curso interno para eso. Hablemos ahora del Económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales. De acuerdo con lo que he investigado para este tipo de puesto. Entiendo. Y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto. ¿Tienes alguna pregunta para nosotros? Sí. Me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son 7 personas y se presenta cada mes con el apoyo del jefe de Aria. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta. Muchas gracias a ustedes. Fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": "analista de inteligencia comercial",
+      "tecnologias": [
+       "Python",
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.038314176245210725,
+     "cer": 0.012109623964308477,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 25.59,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Diego. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. Y en cuanto al económico, ¿qué pretensión salarial tienes? Busco $2,500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido. Ahora, cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo siete años y medio de experiencia en desarrollo del software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de paus en línea. ¿Cuál fue tu último puesto allí? Fui desarrollador backing senior. Me encargaba de diseñar servicios para procesar paus y de revisar el código de los compañeros más nuevos. ¿Con qué tecnología trabajabas? Programaba con Django y todo lo empaquetábamos con Docker. La infraestructura estaba en AWS y para el control de versiones usábamos y todos los días. ¿Sono muy completo? ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces hicimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa, nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado. He dado presentaciones técnicas a clientes de otros países y no he tenido problemas. Muy bien Diego, gracias por venir. Nos comunicaremos pronto. Gracias a ustedes, quedo atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": "desarrollador backing senior",
+      "tecnologias": [
+       "Django",
+       "Docker",
+       "AWS"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.024691358024691357,
+     "cer": 0.00998003992015968,
+     "words": 243,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 27.15,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola, Lucía. Bienvenida. Cuéntame primero qué tecnología manejas para ubicarme. Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso Git para el control de versiones y Figma cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora Frontend en una agencia de publicidad. Construía páginas para campañas de marcas, de ropa y bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien, un detalle importante. ¿Algunos documentos que usamos están en inglés? ¿Qué nivel tienes? Mi inglés es básico, puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez. Gracias por la honestidad. Pasemos al económico. ¿Qué pretensión salaria tienes? Pienso que 4.200 soles sería adecuado para mi experiencia. ¿Y desde cuando podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontend",
+      "tecnologias": [
+       "Git",
+       "React",
+       "TypeScript",
+       "Figma"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.060085836909871244,
+     "cer": 0.03644314868804665,
+     "words": 233,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 22.77,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días, Marco. Gracias por venir para empezar. ¿En qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas que construimos las rutas por donde llegan los datos de millones de llamadas. Suena un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el procesamiento masivo uso Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las descubrimos en ese pueblo. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo 2 años en empresa actual y antes pasé por un banco y una empresa logística de logística. ¿Qué problema técnico recuerdas como sorgullo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es de 11.300 soles al mes. ¿Cuándo podrías empezar? Debo entregar mi cargo con calma, así que estaría disponible dentro de un mes. Perfecto. Gracias, Marco. Te escribiríamos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.9166666666666666
+  },
+  {
+   "task": "interviews",
+   "group": "real",
+   "level": "L0",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.055705589645399414,
+    "lo": 0.04074640389625099,
+    "hi": 0.064298932944836
+   },
+   "cer": {
+    "est": 0.02319864696141816,
+    "lo": 0.014931337531868493,
+    "hi": 0.03320577069942973
+   },
+   "wer_pooled": 0.05639097744360902,
+   "sec_per_min": 30.6075,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.0,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.06422018348623854,
+     "cer": 0.02379720641489912,
+     "words": 327,
+     "campos_ok": 4,
+     "campos_n": 6,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 26.98,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "no_encontrado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Camila, gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días, soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien, ¿cuál fue tu último opuesto? Mi último opuesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de Interesante, ¿y qué herramientas usas en tu día a día? Trabajo sobre todo con paíton y secueles para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto, esa combinación no sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro, automatice el reporte de evoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el correo temprano y los errores bajaron bastante. Quedó el resultado, esa empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio, puedo leer documentación sin problema y mantener una reunión. Pero todavía me cuesta improvisar una presentación compleja. Está bien, tenemos un curso interno para eso. Hablemos ahora del económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales, de acuerdo con lo que he investigado para ese tipo de puesto. Entiendo, y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto, ¿tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son 7 personas y se presenta cada mes con el apoyo del jefe de Aria. Gracias por tu tiempo Camila, te escribiremos esa semana con una respuesta. Muchas gracias a ustedes, fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": null,
+      "tecnologias": [
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.06130268199233716,
+     "cer": 0.019120458891013385,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 25.44,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes Diego, empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes, puedo incorporarme inmediato, termine mi contrato anterior hace unas semanas y estoy libre. Excelente, y en cuanto al económico, ¿qué pretensión salarial tienes? Busco 2 mil 500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido, ahora cuéntame de tu trayectoria, ¿cuánta experiencia tienes? Tengo siete años y medio de experiencia en desarrollo de software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de paus en línea. ¿Cuál fue tu último puesto allí? Fui desarrollador backing senior, me encargaba de diseñar servicios para procesar paus y de revisar el código de los compañeros más nuevos. ¿Con qué tecnología trabajas? Programada con D-Lango y todo lo para que estábamos con Docker. La infraestructura estaba en AWS y para el control de versiones usábamos y todos los días. ¿Sono muy completo? ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces hicimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa, nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado, he dado presentaciones técnicas a clientes de otros países y no he tenido problemas. Muy bien Diego, gracias por venir, nos comunicaremos pronto. Gracias a ustedes, quedo atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": "desarrollador backing senior",
+      "tecnologias": [
+       "Docker",
+       "AWS"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.03292181069958848,
+     "cer": 0.011976047904191617,
+     "words": 243,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 34.72,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola Lucía, bienvenida. Cuéntame primero qué tecnología manejas para ubicarme. Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso AYIT para el control de versiones y FIGMAP cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora Frontend en una agencia de publicidad. Construía páginas para campañas de marcas, de ropa y bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante. ¿Algunos documentos que usamos están en inglés? ¿Qué nivel tienes? Mi inglés es básico, puedo leer mensajes de error y documentación sencilla, pero todavía no converso con fluidez. Gracias por la honestidad. Pasemos al Económico. ¿Qué pretensión salaria tienes? Pienso que 4.200 soles sería adecuado para mi experiencia. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontend",
+      "tecnologias": [
+       "React",
+       "TypeScript"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.06437768240343347,
+     "cer": 0.037900874635568516,
+     "words": 233,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 35.29,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Marco. Gracias por venir para empezar. ¿En qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas que construimos las rutas por donde llegan los datos de millones de llamadas. Suena un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el procesamiento masivo uso Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las definimos en ese pueblo. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo 2 años en empresa actual y antes pasé por un banco y una empresa logística de logística. ¿Qué problema técnico recuerdas como sorgullo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es 11.300 soles al mismo. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma así que estaría disponible dentro de un mes. Perfecto. Gracias Marco. Te escribiríamos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.7916666666666666
+  },
+  {
+   "task": "calls",
+   "group": "real",
+   "level": "L0",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.1543390502200571,
+    "lo": 0.09516214779372674,
+    "hi": 0.21351595264638745
+   },
+   "cer": {
+    "est": 0.05903776227703769,
+    "lo": 0.03662927332616927,
+    "hi": 0.08349805734380761
+   },
+   "wer_pooled": 0.15604681404421328,
+   "sec_per_min": 42.085,
+   "vram_peak_mb": 0,
+   "fields": {
+    "items": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.75,
+     "mae": null
+    },
+    "promocion": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "direccion_entrega": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "metodo_pago": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    },
+    "total_dicho": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "V01",
+     "wer": 0.25120772946859904,
+     "cer": 0.09279279279279279,
+     "words": 207,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 45.86,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Voy a ir al sabor norteño. Buenas noches. ¿En qué puedo ayudarle? Buenas noches. ¿Quisiera hacer un pedido para Delivery? Claro que sí. Dígame qué es el ordenar. Quiero dos poillos al abrazo enteros, una porción de papa frita familiar y una chicha morada jarra. Perfecto. Lo noto. ¿Algumas? Ah, espera. Mejor no quiero la chicha. Cambiale por dos gasezas de litro. Sin problema. Quito la chicha y agrego dos gasezas de litro. ¿Algumas? No. Con eso está bien. ¿Tiene alguna promoción? Sí. Por hacer su primera compra tiene 10 soles de descuento. Qué bien. Lo aprovecho. Muy bien. ¿Cuál es la dirección de entrega? La dirección es girar los pinos frente al parque Kennedy. Ha notado. ¿Cómo va a acabar? Voy a apagar en efectivo. ¿Tendrán sencillo pero un billete grande? Sí. Llevaremos sencillo. Le hago el resumen final. Dos pollas al abrazo, tamaño entero a 45 soles cada uno. Una porción de papa frita, tamaño familiar a 18 soles. Y dos gasezas, tamaño litro a 18 soles cada uno. Con el documento de 10, con el descuento de 10 soles. El total apagar es de 120 soles. Está bien. Gracias. El pedido llegará en unos 40 minutos. Gracias, pollo. Por favor. Mar al sabor norteño. Gracias a usted. Buenas noches. Por favor.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 2,
+        "precio_unitario": 45.0,
+        "evidencia": "2 pollas al abrazo tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 1,
+        "precio_unitario": 18.0,
+        "evidencia": "una porcion de papa frita tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "litro",
+        "cantidad": 2,
+        "precio_unitario": 18.0,
+        "evidencia": "2 gasezas tamano litro a 18 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 10.0
+      },
+      "direccion_entrega": "girar los pinos frente al parque Kennedy",
+      "metodo_pago": "efectivo",
+      "total_dicho": 120.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 144.0,
+      "descuento": 10.0,
+      "esperado": 134.0,
+      "total_dicho": 120.0,
+      "diferencia": -14.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.076,
+        "18.0": 0.157
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "asr"
+    },
+    {
+     "id": "V02",
+     "wer": 0.09090909090909091,
+     "cer": 0.029386343993085567,
+     "words": 209,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 40.76,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Podería el sober norteño, buenas tardes. ¿En qué le puedo ayudar? Hola, buenas tardes. Quiero pedir para llevar a mi casa. Con gusto. ¿Qué le anotas? Dos pollos a la brasa, medio, dos porciones de papa fritas personales y una chicha morada jarra. Muy bien. ¿Algo más? En realidad somos tres en casa. Mejor que son tres pollos medios. Perfecto. Entonces, son tres pollos medios, dos papas personales y una chicha jarra. Hoy tenemos una promoción de 10% de descuento en pedidos con tarjeta. ¿Para con tarjeta? Sí, para dar con tarjeta. Así aprovecho el descuento. Excelente. ¿Cuál es la dirección de entrega? La dirección es Avenida del Arco número 342, Departamento 601, Miraflores. Repito para confirmar. Avenida del Arco 342, Departamento 601. ¿Es correcto? Sí, así es. El timbre no funciona, así que por favor llame por teléfono al llegar. Claro. Le hago el resumen final. Tres pollos a la brasa, tamaño medio a 25 soles cada uno. Dos porciones de papa fritas, tamaño personal a 10 soles cada una. Y una chicha morada, tamaño jarra a 15 soles. Con el 10% de descuento, el total a pagar es 105 soles. Gracias. ¿Cuánto demora? Aproximadamente 45 minutos. Gracias por llamar al sabor norteño. Gracias, hasta luego.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 3,
+        "precio_unitario": 25.0,
+        "evidencia": "3 pollos a la brasa tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papa fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "jarra",
+        "cantidad": 1,
+        "precio_unitario": 15.0,
+        "evidencia": "una chicha morada tamano jarra a 15 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "porcentaje",
+       "valor": 10.0
+      },
+      "direccion_entrega": "Avenida del Arco número 342, Departamento 601, Miraflores",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 105.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 110.0,
+      "descuento": 11.0,
+      "esperado": 99.0,
+      "total_dicho": 105.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "3.0": 0.558
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V03",
+     "wer": 0.17582417582417584,
+     "cer": 0.058358061325420374,
+     "words": 182,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 42.55,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Buenas noches, voy a irles a ver Norteño, qué deseo ordenar. Buenas noches, quiero un voy a la braza entero y dos porciones de papas fritas familiares. Muy bien, desea de vidas? Sí, dos vacuosas personales. Ha notado, algo más? Pensando a lo mejor que sean cuatro vacuosas personales, porque vienen mis primos. Sin problema, entonces son un pollo entero, dos papas familiares y cuatro vacuosas personales. Sin paga con yape, tiene cinco soles de descuento. Perfecto, para y con yape entonces. ¿Cuál es la dirección de entrega? La dirección es calle los alíos al costado de la farmacia. ¿Aluna referencia adicional? Es una casa de color verde y con un portón negro. Gracias, le hago el resumen final. Un pollo a la braza tamaño entero a 45 soles, dos porciones de papas fritas, tamaño familiar a 18 soles cada una. El cuatro vacuosas tamaño personal a 4 soles cada una. Con el descuento de 5 soles, el total a pagar es de 82 soles. ¿Está bien? ¿Me enviarán al comprobante por un mensaje? Sí, se le enviaremos al número que usó para llamar. Gracias por tu presencia. Gracias, buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 1,
+        "precio_unitario": 45.0,
+        "evidencia": "un pollo a la braza tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 2,
+        "precio_unitario": 18.0,
+        "evidencia": "2 porciones de papas fritas tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "personal",
+        "cantidad": 4,
+        "precio_unitario": 4.0,
+        "evidencia": "4 vacuosas tamano personal a 4 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 5.0
+      },
+      "direccion_entrega": "calle los alíos al costado de la farmacia",
+      "metodo_pago": "yape",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 97.0,
+      "descuento": 5.0,
+      "esperado": 92.0,
+      "total_dicho": 82.0,
+      "diferencia": -10.0,
+      "causa": "asr",
+      "reparacion": {
+       "campo": "total_dicho",
+       "dicho": 82.0,
+       "probable": 92.0
+      },
+      "regla": "D1"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V04",
+     "wer": 0.09941520467836257,
+     "cer": 0.055613850996852045,
+     "words": 171,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 39.17,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "no_encontrado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "El sobrador Teño, buenas tardes, ¿cómo le puedo ayudar? Buenas tardes, quisiera pedir dos medios pollo para una reunión pequeña. Claro, ¿qué acompañamiento desea? Dos porciones de papas fritas personales y dos vasos de chicha morada. Perfecto, ¿desea agregar algo más? No, eso sería todo. ¿Hay alguna promoción hoy? Lo siento, hoy no tenemos promociones vigentes. Está bien, no hay problema. ¿Cuál es la dirección de entrega? La dirección es pasaje a las flores Manzana 8 Lote 15 en la Organización Santa Rosa. Repito, pasaje a las flores Manzana 8 Lote 15, ¿correcto? Correcto, ¿paré con tarjeta de crédito cuando llegue el repartidor? Muy bien, llevaremos el POS, le hago el resumen final. Dos pollas a la braza, tamaño medio, a 25 soles cada uno. Dos porciones de papas fritas, tamaño personal, a 10 soles cada una. Y dos chichas moradas, tamaño vaso a 6 soles cada una. El total a pagar es de 82 soles. Perfecto, gracias. La entrega demora de 50 minutos. ¿Qué? La entrega demora cerca de 50 minutos, gracias por llamar. Gracias a usted, buenas tardes.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 pollas a la braza tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "vaso",
+        "cantidad": 2,
+        "precio_unitario": 6.0,
+        "evidencia": "2 chichas moradas tamano vaso a 6 soles"
+       }
+      ],
+      "promocion": null,
+      "direccion_entrega": "pasaje a las flores Manzana 8 Lote 15 en la Organización Santa Rosa",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "ok",
+      "subtotal": 82.0,
+      "descuento": 0.0,
+      "esperado": 82.0,
+      "total_dicho": 82.0,
+      "diferencia": 0.0,
+      "causa": null,
+      "reparacion": null
+     },
+     "trampa_total": false,
+     "flagged": false
+    }
+   ],
+   "field_acc_mean": 0.95,
+   "validation": {
+    "trampas": 3,
+    "atrapadas": 3,
+    "perdidas": 0,
+    "falsas_alarmas": 0,
+    "limpias": 1,
+    "diagnosticos": 3,
+    "diagnostico_correcto": 1
+   }
+  },
+  {
+   "task": "interviews",
+   "group": "real",
+   "level": "L1",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.05103804570507052,
+    "lo": 0.04337324926261503,
+    "hi": 0.05785857212972402
+   },
+   "cer": {
+    "est": 0.02049482085433535,
+    "lo": 0.01707764504326724,
+    "hi": 0.024515473426325193
+   },
+   "wer_pooled": 0.05169172932330827,
+   "sec_per_min": 24.44,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.25,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.25,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.0581039755351682,
+     "cer": 0.021210553543714435,
+     "words": 327,
+     "campos_ok": 4,
+     "campos_n": 6,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 24.19,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "no_encontrado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Camila, gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días, soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien, ¿cuál fue tu último opuesto? Mi último opuesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de ¿interesante y qué herramientas usas en tu día a día? Trabajo sobre todo con PAITO ni SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto, esa combinación no sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro, automatice el reporte de evoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el correo temprano y los errores bajaron bastante. Quedó el resultado. Esta empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio, puedo leer documentación sin problema y mantener una reunión. Pero todavía me cuesta improvisar una presentación compleja. Está bien, tenemos un curso interno para eso. Hablemos ahora del económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales. De acuerdo con lo que he investigado para ese tipo de puesto. Entiendo. Y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto, ¿tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son 7 personas y se presenta cada mes con el apoyo del jefe de Aria. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta. Muchas gracias a ustedes, fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": null,
+      "tecnologias": [
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.04980842911877394,
+     "cer": 0.015933715742511154,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 22.88,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Diego. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. Y en cuanto al económico, ¿qué pretensión salarial tienes? Busco 2.500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo 7 años y medio de experiencia en desarrollo software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de PAOS en línea. ¿Cuál fue tu último puesto allí? Fui desarrollador backing senior. Me encargaba de diseñar servicios para procesar PAOS y de revisar el código de los compañeros más nuevos. ¿Con qué tecnología trabajas? Programaba con Django y todo lo empaquetábamos con Docker. La infraestructura estaba en AWS y para el control de versiones usábamos it todos los días. ¿Sono muy completo? ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aparentemos a repartir mejor la carga entre los servidores. Desde entonces pusimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa, nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado, he dado presentaciones técnicas a clientes de otros países y no he tenido problemas. Muy bien Diego, gracias por venir, nos comunicaremos pronto. Gracias a ustedes, quedo atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": "desarrollador backing senior",
+      "tecnologias": [
+       "Django",
+       "Docker",
+       "AWS"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.05761316872427984,
+     "cer": 0.02661343978709248,
+     "words": 243,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 24.87,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola Lucía, bienvenida. Cuéntame primero qué tecnología manejas para ubicarme. Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso Git para el control de versiones y Thinkmap cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estudié diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora Frontend en una agencia de publicidad. Construía páginas para campañas de marcas, de ropa y bebidas. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante. ¿Algunos documentos que usamos están en inglés? ¿Qué nivel tienes? Mi inglés es básico. Cual es el mensaje de error y documentos en sencilla, pero todavía no converso con publicidad. Gracias por la honestidad. Pasemos al económico. ¿Qué pretensión salaria tienes? Pienso que 4.200 soles sería adecuado para mi experiencia. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontend",
+      "tecnologias": [
+       "Git",
+       "React",
+       "TypeScript"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.03862660944206009,
+     "cer": 0.018221574344023325,
+     "words": 233,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 25.82,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de 8 personas y construimos las rotas por donde llegan los datos de millones de llamadas. Suena un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el procesamiento masivo uso Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las escribimos en SQL. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo 2 años en la empresa actual y antes pasé por un banco y una empresa de logística. ¿Qué problema técnico recuerdas como sorbollo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Particí por reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es de 11.300 soles al mes. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma así que estaría disponible dentro de un mes. Perfecto. Gracias Marco. Te escribiremos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "SQL",
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.8333333333333334
+  },
+  {
+   "task": "calls",
+   "group": "real",
+   "level": "L1",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.1650918684671545,
+    "lo": 0.10818713450292397,
+    "hi": 0.22199660243138503
+   },
+   "cer": {
+    "est": 0.06542406341554387,
+    "lo": 0.0472157334516885,
+    "hi": 0.08140321330232309
+   },
+   "wer_pooled": 0.16514954486345904,
+   "sec_per_min": 24.9325,
+   "vram_peak_mb": 0,
+   "fields": {
+    "items": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.75,
+     "mae": null
+    },
+    "promocion": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "direccion_entrega": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "metodo_pago": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    },
+    "total_dicho": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "V01",
+     "wer": 0.20772946859903382,
+     "cer": 0.07477477477477477,
+     "words": 207,
+     "campos_ok": 3,
+     "campos_n": 5,
+     "campos_ok_verificados": 3,
+     "sec_per_min": 27.51,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "no_encontrado"
+     },
+     "transcript": "Voy a ir a el sabor norteño. Buenas noches. ¿En qué puedo ayudarle? Buenas noches. ¿Quisiera hacer un pedido para delivery? Claro que sí. Dígame qué es el ordenar. Quiero dos pollo alabras enteros, una porción de popa fritas familiar y una chicha morada jarra. Perfecto. Lo noto. ¿Algumas? Ah, espera. Mejor no quiero la chicha. Cámela por dos gasezas de litro. Sin problema. Quito la chicha y agrego dos gasezas de litro. ¿Algumas? No. Con eso está bien. ¿Tiene alguna promoción? Sí. Por ser su primera compra tiene 10 soles de descuento. Qué bien. La prueba he hecho. Muy bien. ¿Cuál es la dirección de entrega? La dirección es girar los pinos frente al parque Kennedy. Ha notado. ¿Cómo va a pagar? Voy a pagar en efectivo. ¿Tendrán sencillo pero un billete grande? Sí. Llevaremos sencillo. Le hago el resumen final. Dos pollas al abrazo, tamaño entero a 45 soles cada uno. Una porción de popas fritas, tamaño familiar a 18 soles. Y dos gasezas, tamaño litro a 25 soles cada uno. Con el descuento de 10 soles, el que te va a pagar es de 120 soles. Está bien. Gracias. El pedido llegará en unos 40 minutos. Gracias, polla. Por favor. Mar al sabor norteño. Gracias a usted. Buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 2,
+        "precio_unitario": 45.0,
+        "evidencia": "2 pollas al abrazo tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 1,
+        "precio_unitario": 18.0,
+        "evidencia": "una porcion de popas fritas tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "litro",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 gasezas tamano litro a 25 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 10.0
+      },
+      "direccion_entrega": "girar los pinos frente al parque Kennedy",
+      "metodo_pago": "efectivo",
+      "total_dicho": null
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "no_evaluable",
+      "causa": null
+     },
+     "trampa_total": true,
+     "flagged": false
+    },
+    {
+     "id": "V02",
+     "wer": 0.10526315789473684,
+     "cer": 0.03802938634399308,
+     "words": 209,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 25.43,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "¿Podería de Sober Norteño? Buenas tardes. ¿En qué le puedo ayudar? Hola, buenas tardes. Quiero pedir para ayudar a mi casa. Con gusto. ¿Qué le anoto? Dos pollos a la grasa medio, 2% de papa fritas personales y una chicha morada jarra. Muy bien. ¿Algo más? En realidad somos tres en casa. Mejor que son tres pollos medios. Perfecto. Entonces, son tres pollos medios, dos papas personales y una chicha jarra. Hoy tenemos una promoción de 10% de descuento en pedidos con tarjeta. ¿Para con tarjeta? Sí, para tarjeta. Así aprovecho el descuento. Excelente. ¿Cuál es la dirección de entrega? La dirección es Avenida Larco número 342, departamento 601, Miraflores. Repito para confirmar. Avenida Larco 342, departamento 601. ¿Es correcto? Sí, así es. El timbre no funciona, así que por favor llame por teléfono al llegar. Claro, le hago el resumen final. Tres pollos a la grasa a tamaño medio, a 25 soles cada uno, dos porciones de papa fritas, tamaño personal, a 10 soles cada una, y una chicha morada, tamaño jarra a 15 soles. Con el 10% de descuento, el total apagó es 105 soles. Gracias. ¿Cuánto demora? Aproximadamente 45 minutos. Gracias por llamar al sabor norteño. Gracias, hasta luego.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 3,
+        "precio_unitario": 25.0,
+        "evidencia": "3 pollos a la grasa a tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papa fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "jarra",
+        "cantidad": 1,
+        "precio_unitario": 15.0,
+        "evidencia": "una chicha morada tamano jarra a 15 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "porcentaje",
+       "valor": 10.0
+      },
+      "direccion_entrega": "Avenida Larco número 342, departamento 601, Miraflores",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 105.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 110.0,
+      "descuento": 11.0,
+      "esperado": 99.0,
+      "total_dicho": 105.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.565,
+        "3.0": 0.553
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V03",
+     "wer": 0.23626373626373626,
+     "cer": 0.08803165182987141,
+     "words": 182,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 24.34,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Buenas noches, voy a ir al saber norteño. ¿Qué desea ordenar? Buenas noches, quiero un buen alabraza entero y dos porciones de papas fritas familiares. Muy bien, desea de vidas? Sí, dos vacíos las personales. ¿Ha notado algo más? Pensando a lo mejor que sean cuatro vacíos las personales porque vienen mis primos. Sin problema, entonces son un pollo entero, dos papas familiares y cuatro vacíos las personales. Silvada con yapé tiene cinco soles de descuento. Perfecto, pare con yapé entonces. ¿Cuál es la dirección de entrega? La dirección es que hay en los olivos al cruzado de la farmacia. ¿Alguna referencia adicional? Es una casa de color verde y con un portón negro. Gracias, le hago el ración al final. Un pollo alabraza tamaño entero a 45 soles, dos porciones de papas fritas, tamaño familiar a 18 soles cada una. El cuatro vacíos a tamaño personal a 4 soles cada una. Con el descuento de 5 soles el total a pagar es de 82 soles. ¿Está bien? ¿Me enviaron el comprobante por mensaje? Sí, se le enviaremos al número que usó para llamar. Gracias por tu presencia. Buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 1,
+        "precio_unitario": 45.0,
+        "evidencia": "un pollo alabraza tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 2,
+        "precio_unitario": 18.0,
+        "evidencia": "2 porciones de papas fritas tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "personal",
+        "cantidad": 4,
+        "precio_unitario": 4.0,
+        "evidencia": "4 vacios a tamano personal a 4 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 5.0
+      },
+      "direccion_entrega": "que hay en los olivos al cruzado de la farmacia",
+      "metodo_pago": "yape",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 97.0,
+      "descuento": 5.0,
+      "esperado": 92.0,
+      "total_dicho": 82.0,
+      "diferencia": -10.0,
+      "causa": "asr",
+      "reparacion": {
+       "campo": "total_dicho",
+       "dicho": 82.0,
+       "probable": 92.0
+      },
+      "regla": "D1"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V04",
+     "wer": 0.1111111111111111,
+     "cer": 0.060860440713536204,
+     "words": 171,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 3,
+     "sec_per_min": 22.45,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "no_encontrado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "El sobrador Teño, buenas tardes, ¿cómo le puedo ayudar? Buenas tardes, quisiera pedir dos medios pollo para una reunión pequeña Claro, ¿qué acompañamientos desea? Dos porciones de papas fritas personales y dos vasos de chicha morada Perfecto, ¿deseo agregar algo más? No, eso sería todo. ¿Hay alguna promoción hoy? Lo siento, hoy no tengo nuevas promociones vigentes Está bien, no hay problema ¿Cuál es la dirección de entrega? La dirección es pasajes las flores Manzana 8, Lote 15 en la Organización Santa Rosa Repito, pasajes las flores Manzana 8, Lote 15, ¿correcto? Correcto, paré con tarjeta de crédito cuando llegue el repartidor Muy bien, llevaremos el TOS, le hago el resumen final Dos pollos a la braza, tamaño medio, a 25 soles cada uno Dos porciones de papas fritas, tamaño personal, a 10 soles cada una Y dos chichas moradas, tamaño vaso, a 6 soles cada una El total a pagar es de 82 soles Perfecto, gracias La entrega demora de 50 minutos ¿Qué? La entrega demora cerca de 50 minutos, gracias por llamar Gracias a usted, buenas tardes",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 pollos a la braza tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "vaso",
+        "cantidad": 2,
+        "precio_unitario": 6.0,
+        "evidencia": "2 chichas moradas tamano vaso a 6 soles"
+       }
+      ],
+      "promocion": null,
+      "direccion_entrega": "pasajes las flores Manzana 8, Lote 15 en la Organización Santa Rosa Repito, pasajes las flores Manzana 8, Lote 15, ¿correcto",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "ok",
+      "subtotal": 82.0,
+      "descuento": 0.0,
+      "esperado": 82.0,
+      "total_dicho": 82.0,
+      "diferencia": 0.0,
+      "causa": null,
+      "reparacion": null
+     },
+     "trampa_total": false,
+     "flagged": false
+    }
+   ],
+   "field_acc_mean": 0.8,
+   "validation": {
+    "trampas": 3,
+    "atrapadas": 2,
+    "perdidas": 1,
+    "falsas_alarmas": 0,
+    "limpias": 1,
+    "diagnosticos": 2,
+    "diagnostico_correcto": 0
+   }
+  },
+  {
+   "task": "interviews",
+   "group": "real",
+   "level": "L2",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.0671658848181945,
+    "lo": 0.054729515975956974,
+    "hi": 0.08226905065985526
+   },
+   "cer": {
+    "est": 0.025221227533403216,
+    "lo": 0.017916156837220896,
+    "hi": 0.03252629822958553
+   },
+   "wer_pooled": 0.06578947368421052,
+   "sec_per_min": 26.1475,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.25,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.25,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.75,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.05198776758409786,
+     "cer": 0.018623900672529746,
+     "words": 327,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 22.45,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Camila, gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días, soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien, ¿cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo, armado a tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de Interesante y ¿qué herramientas usas en tu día a día? Trabajo sobre todo con Python y SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto, esa combinación no sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro, automatice el reporte de evoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el correo temprano y los errores bajaron bastante. Quedó el resultado, esa empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio, puedo leer documentación sin problema y mantener una reunión, pero todavía me cuesta improvisar una presentación compleja. Está bien, tenemos un curso interno para eso. Hablemos ahora del económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales, de acuerdo con lo que he investigado para este tipo de puesto. Entiendo, y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto, ¿tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son siete personas y se presenta cada mes con el apoyo del jefe de Aria. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta. Muchas gracias a ustedes, fue un gusto conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": "analista de inteligencia comercial",
+      "tecnologias": [
+       "Python",
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E02",
+     "wer": 0.05747126436781609,
+     "cer": 0.017208413001912046,
+     "words": 261,
+     "campos_ok": 4,
+     "campos_n": 6,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 32.53,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "no_encontrado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Diego. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. Y en cuanto al económico, ¿qué pretensión salarial tienes? Busco $2,500 dólares al mes, ya que es un puesto con bastante responsabilidad. Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo 7 años y medio de experiencia en desarrollo software, casi todo en el lado del servidor. Empecé en una consultora pequeña y luego pasé a una empresa de PAOS en línea. ¿Cuál fue tu último puesto allí? Puy desarrollador backing senior. Me encargaba de diseñar servicios para procesar PAOS y de revisar el código de los compañeros más nuevos. ¿Con qué tecnología trabajas? Programaba con Django y todo lo empaquetábamos con Docker. La infraestructura estaba en AWS y para el control de versiones usábamos kit todos los días. ¿Sono muy completo? ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez tuvimos una caída por exceso de usuarios y aprendimos a repartir mejor la carga entre los servidores. Desde entonces fuimos pruebas de carga antes de cada campaña. Eso es justo lo que necesitamos aquí. Una última cosa, nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado, he dado presentaciones técnicas a clientes de otros países y no he tenido problema. Muy bien Diego, gracias por venir, nos comunicaremos pronto. Gracias a usted, quedo atento.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": null,
+      "tecnologias": [
+       "Django",
+       "Docker",
+       "AWS"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E03",
+     "wer": 0.09053497942386832,
+     "cer": 0.028609447771124417,
+     "words": 243,
+     "campos_ok": 4,
+     "campos_n": 6,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 23.57,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "no_encontrado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola Lucía, bienvenida. Cuéntame primero qué tecnología manejas para ubicarme. Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso Git para el control de versiones y Pigmap cuando tengo que revisar diseños con el equipo. ¿Cómo llegaste a programar interfaces? Estuve en diseño gráfico y descubrí que me gustaba más implementar los diseños que dibujarlos. Hice un curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora Frontez en una agencia de publicidad. Construía páginas para campañas de marcas, de ropa y bebidas. ¿Cuánto tiempo llevas en esto? Yo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento como experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no programan, pero estoy practicando con presentaciones cortas. Muy bien. Un detalle importante. Algunos documentos que usamos están en inglés. ¿Qué nivel tiene? Mi inglés es básico. Cual es la mensaje de error y documentación sencilla, pero todavía no conozco con tu vídeo. Gracias por la honestidad. Pasemos al Económico. ¿Qué pretensión salaría el tiene? Pienso que 4.200 soles sería adecuado para mi experiencia. Ha notado. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias a ustedes.",
+     "record": {
+      "anios_experiencia": null,
+      "ultimo_puesto": "desarrolladora frontez",
+      "tecnologias": [
+       "Git",
+       "React",
+       "TypeScript"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": null
+    },
+    {
+     "id": "E04",
+     "wer": 0.06866952789699571,
+     "cer": 0.03644314868804665,
+     "words": 233,
+     "campos_ok": 4,
+     "campos_n": 6,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 26.04,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicaciones. Mi equipo es de ocho personas y construimos las rutas por donde llegan los datos de millones de llamadas. Suena un trabajo con mucho volumen. ¿Qué herramientas usas para esa? Para el procesamiento masivo uses Spark y los servicios corren sobre Kubernetes. Todo está en AWS y las consultas de análisis las escribimos en ese cuello. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo 2 años en empresa actual y antes pasé por un banco y una empresa logística. ¿Qué problema técnico recuerdas como furbo yo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Divimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y de Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Participo en reuniones semanales con proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es de 11.300 soles al mes. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma, así que estaría disponible dentro de un día. Perfecto. Gracias, Marco. Te escribiríamos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-10-27",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": null
+    }
+   ],
+   "field_acc_mean": 0.75
+  },
+  {
+   "task": "calls",
+   "group": "real",
+   "level": "L2",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.18824434528095857,
+    "lo": 0.1358320042530569,
+    "hi": 0.24065668630886022
+   },
+   "cer": {
+    "est": 0.08033809224717918,
+    "lo": 0.05046989596717867,
+    "hi": 0.10837894557726667
+   },
+   "wer_pooled": 0.18855656697009102,
+   "sec_per_min": 25.2375,
+   "vram_peak_mb": 0,
+   "fields": {
+    "items": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "promocion": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "direccion_entrega": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.75,
+     "mae": null
+    },
+    "metodo_pago": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    },
+    "total_dicho": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "V01",
+     "wer": 0.2560386473429952,
+     "cer": 0.12072072072072072,
+     "words": 207,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 28.13,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Voy a ir al sabor norteño. Buenas noches. ¿En qué puedo ayudarle? Buenas noches. Quisiera hacer un pedido para delivery. Claro que sí. Dígame qué es el ordenarlo. Quiero dos pollo celebrados enteros, 1% de popa frita familiar y una chicha morada jarra. Perfecto. Lo noto. ¿Algo más? Ah, espera. Mejor no quiero la chicha. Cambiale por dos gasezas de litro. Sin problema. Quito la chicha y agrego dos gasezas de litro. ¿Algo más? No. Con eso está bien. ¿Tiene alguna promoción? Sí. Poner su primera compra tiene 10 soles de descuento. Qué bien. La aprovecho. Muy bien. ¿Cuál es la dirección de entrega? La dirección es girar los pinos frente al parque Kennedy. Ha notado. ¿Cómo va a pagar? Voy a pagar en efectivo. ¿Tendrán sencillo pero un billete grande? Sí. Llevaremos sencillo. Le hago el resumen final. Dos pollo celebrados de tamaño entero a 45 soles cada uno. 1% de popa frita de tamaño familiar a 18 soles. Y dos gasezas de tamaño litro a 15 soles cada uno. Con el documento de billetes, con el descuento de billetes, el total a pagar es de 120 soles. Está bien graso. El billete llegará en unos 40 minutos. Gracias, pollo. Por favor. Mar al sabor norteño. Gracias a usted. Buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 2,
+        "precio_unitario": 45.0,
+        "evidencia": "2 pollo celebrados de tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 1,
+        "precio_unitario": 18.0,
+        "evidencia": "1 porciento de popa frita de tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "litro",
+        "cantidad": 2,
+        "precio_unitario": 15.0,
+        "evidencia": "2 gasezas de tamano litro a 15 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 10.0
+      },
+      "direccion_entrega": "girar los pinos frente al parque Kennedy",
+      "metodo_pago": "efectivo",
+      "total_dicho": 120.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 138.0,
+      "descuento": 10.0,
+      "esperado": 128.0,
+      "total_dicho": 120.0,
+      "diferencia": -8.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.026,
+        "1.0": 0.4,
+        "15.0": 0.064
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "asr"
+    },
+    {
+     "id": "V02",
+     "wer": 0.11961722488038277,
+     "cer": 0.036300777873811585,
+     "words": 209,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 24.09,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "¿Podería de sobor norteño o en las tardes? ¿En qué le puedo ayudar? Hola, buenas tardes. Quiero pedir para llevar a mi casa. ¿Con gusto? ¿Quién le anotó? Dos pollas a la brasa, medio, dos porciones de pupas fritas personales y una chicha morada jarra. Muy bien. ¿Algo más? En realidad somos tres en casa. Mejor que son tres pollos medios. Perfecto. Entonces son tres pollos medios, dos papas personales y una chicha jarra. Hoy tenemos una promoción de 10% de descuento en pedidos con tarjeta. ¿Ahora con tarjeta? Sí, para dar con tarjeta. Así aprovecho el descuento. Excelente. ¿Cuál es la dirección de entrega? La dirección es Avenida del Arco número 342 departamentos 601 Miraflores. Repito para confirmar. Avenida del Arco 342 departamentos 601. ¿Es correcto? Sí, así es. El timbre no funciona, así que por favor llame por teléfono al llegar. Claro, le hago el resumen final. Tres pollos a la brasa, tamaño medio, a 25 soles cada uno. Dos porciones de papas fritas, tamaño personal, a 10 soles cada una. Y una chicha morada, tamaño jarra a 15 soles. Con el 10% de descuento, el total a pagar es 105 soles. Gracias. ¿Cuánto demora? Aproximadamente 45 minutos. Gracias por llamar al sabor norteño. Gracias, hasta luego.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 3,
+        "precio_unitario": 25.0,
+        "evidencia": "3 pollos a la brasa tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "jarra",
+        "cantidad": 1,
+        "precio_unitario": 15.0,
+        "evidencia": "una chicha morada tamano jarra a 15 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "porcentaje",
+       "valor": 10.0
+      },
+      "direccion_entrega": "Avenida del Arco número 342 departamentos 601 Miraflores",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 105.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 110.0,
+      "descuento": 11.0,
+      "esperado": 99.0,
+      "total_dicho": 105.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "3.0": 0.546
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V03",
+     "wer": 0.22527472527472528,
+     "cer": 0.09297725024727992,
+     "words": 182,
+     "campos_ok": 3,
+     "campos_n": 5,
+     "campos_ok_verificados": 3,
+     "sec_per_min": 23.93,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Buenas noches, voy a ir y al saber norteño. ¿Qué desea ordenar? Buenas noches, quiero un buen alabraza entero y dos porciones de papas fritas familiares. Muy bien, desea de vida. Sí, dos baciasas personales. Ha notado. ¿Algo más? Pensando a lo mejor que sean cuatro baciasas personales porque vienen mis primos. Sin problema, entonces son un pollo entero, dos papas familiares y cuatro baciasas personales. Sin paga con yape, tiene cinco soles de descuento. Perfecto, paga con yape. ¿Cuál es la dirección de entrega? La dirección es que ayer lo salió al costado de la farmacia. ¿Alguna referencia adicional? Es una casa de color verde y con un portón negro. Gracias, un lado al resumen final. Un pollo al abrazo tamaño entero a 45 soles, dos porciones de papas fritas, tamaño familiar a 18 soles cada una. Y cuatro baciasas de tamaño personal a 4 soles cada una. Con el descuento de 5 soles, el total a pagar es de 82 soles. ¿Está bien? ¿Me enviarán el comprobante por mensaje? Sí, se le enviaremos el número que está para llamar. Gracias por tu presentación. Gracias, buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 1,
+        "precio_unitario": 45.0,
+        "evidencia": "un pollo al abrazo tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 2,
+        "precio_unitario": 18.0,
+        "evidencia": "2 porciones de papas fritas tamano familiar a 18 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 5.0
+      },
+      "direccion_entrega": "que ayer lo salió al costado de la farmacia",
+      "metodo_pago": "yape",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 81.0,
+      "descuento": 5.0,
+      "esperado": 76.0,
+      "total_dicho": 82.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.347
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "asr"
+    },
+    {
+     "id": "V04",
+     "wer": 0.15204678362573099,
+     "cer": 0.07135362014690451,
+     "words": 171,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 24.8,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "no_encontrado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "El soberdo orteño, buenas tardes, ¿cómo le puedo ayudar? Buenas tardes, quisiera pedir dos medios pollo para una reunión pequeña. Claro, ¿qué acompañamiento se desea? Dos porciones de papas fritas personales y dos vasos de chicha morada. Perfecto, ¿deseo agregar alguna? No, eso sería todo. ¿Hay alguna promoción hoy? Lo siento, hoy no tenemos promociones vigentes. Está bien, no hay problema. ¿Cuál es la dirección de entrega? La dirección es pasaje a las flores Manzana 8, Lote 15, en la Organización Santa Rosa. Repito, pasaje a las flores Manzana 8, Lote 15, ¿correcto? Correcto, paré con tránsito de crédito cuando llegue el repartidor. Muy bien, llevaremos el POS, le hago el resumen final. Dos pollas salabrafa, tamaño medio, a 25 soles cada uno, dos porciones de papas fritas, tamaño personal, a 10 soles cada una, y dos chichas moradas, tamaño vaco, a 6 soles cada una. El total a pavar es de 82 soles. Perfecto, gracias. La entrega demora de 50 minutos. La entrega demora de cerca de 50 minutos, gracias por llamar. Gracias a usted, buenas tardes.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 pollas salabrafa tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "vaso",
+        "cantidad": 2,
+        "precio_unitario": 6.0,
+        "evidencia": "2 chichas moradas tamano vaco a 6 soles"
+       }
+      ],
+      "promocion": null,
+      "direccion_entrega": "pasaje a las flores Manzana 8, Lote 15, en la Organización Santa Rosa",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 82.0
+     },
+     "snr_measured": null,
+     "validacion": {
+      "estado": "ok",
+      "subtotal": 82.0,
+      "descuento": 0.0,
+      "esperado": 82.0,
+      "total_dicho": 82.0,
+      "diferencia": 0.0,
+      "causa": null,
+      "reparacion": null
+     },
+     "trampa_total": false,
+     "flagged": false
+    }
+   ],
+   "field_acc_mean": 0.85,
+   "validation": {
+    "trampas": 3,
+    "atrapadas": 3,
+    "perdidas": 0,
+    "falsas_alarmas": 0,
+    "limpias": 1,
+    "diagnosticos": 3,
+    "diagnostico_correcto": 2
+   }
+  },
+  {
+   "task": "interviews",
+   "group": "real",
+   "level": "L3",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.12477644699909163,
+    "lo": 0.10225617198881759,
+    "hi": 0.14789330615018687
+   },
+   "cer": {
+    "est": 0.05539514147224773,
+    "lo": 0.0471794548874165,
+    "hi": 0.06460366439133394
+   },
+   "wer_pooled": 0.12406015037593984,
+   "sec_per_min": 25.3725,
+   "vram_peak_mb": 0,
+   "fields": {
+    "anios_experiencia": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    },
+    "ultimo_puesto": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "tecnologias": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "pretension_salarial": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.75,
+     "mae": 0.0
+    },
+    "disponibilidad": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "nivel_ingles": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 1.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "E01",
+     "wer": 0.11009174311926606,
+     "cer": 0.04552509053285049,
+     "words": 327,
+     "campos_ok": 6,
+     "campos_n": 6,
+     "campos_ok_verificados": 6,
+     "sec_per_min": 24.22,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Camila, gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días, soy analista de datos y me gusta compartir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien, ¿cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia de revisada porque cambiaban las ventas de una ¿Qué herramientas usas en tu día a día? Trabajo sobre todo con Python y SQL para limpiar y consultar los datos. Para los hableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto, esa combinación no sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro, automatice el reporte de evoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el correo temprano y los errores bajaron bastante. Quedó el resultado, esa empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio, por leer documentación sin problema y mantener una reunión. Pero todavía me cuesta improvisar una presentación compleja. Está bien, tenemos un curso interno para esto. Hablemos para el Económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales, de acuerdo con lo que he investigado para este tipo de puesto. Entiendo, y para incorporarte, ¿cuándo es el que es ponerlo? Tengo que cumplir con el preaviso en mi trabajo actual, así que podré empezar en dos semanas. Perfecto, ¿tienes alguna pregunta para nosotros? Sí, me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son 7 personas y se presenta cada mes con el apoyo del jefe de Aria. Gracias por tu tiempo, Camila. Escribiremos esa semana con una respuesta. Muchas gracias a ustedes por mucho conversar.",
+     "record": {
+      "anios_experiencia": 4.0,
+      "ultimo_puesto": "analista de inteligencia comercial",
+      "tecnologias": [
+       "Python",
+       "SQL",
+       "Power BI",
+       "Airflow"
+      ],
+      "pretension_salarial": {
+       "monto": 6500.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-09",
+      "nivel_ingles": "intermedio"
+     },
+     "snr_measured": 10.0
+    },
+    {
+     "id": "E02",
+     "wer": 0.13409961685823754,
+     "cer": 0.05736137667304015,
+     "words": 261,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 28.74,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "no_encontrado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenas tardes, Hugo. Empecemos por lo práctico porque sé que tienes otra entrevista hoy. ¿Y cuándo podrías incorporarte si todo sale bien? Buenas tardes. Puedo incorporarme inmediato. Terminé mi contrato anterior hace unas semanas y estoy libre. Excelente. ¿Y en cuanto al económico, qué pretensión salarial tienes? Busco 2.500 dólares al mill, ya que es un puesto con bastante apasosabilidad. Entendido. Ahora cuéntame de tu trayectoria. ¿Cuánta experiencia tienes? Tengo 7 años y medio de experiencia en desarrollo software, casi todo en el lado del desarrollador. Empecé en una consultora pequeña y luego pasé a una empresa de paus en línea. ¿Cuál fue tu último puesto allí? Puy desarrollador back in the senior, me encargaba de diseñar servicios para procesar paus y de revisar el código de los compañeros más nuevos. ¿Con qué tecnología trabajas? Programada con Django y todo lo empaquetábamos con Docker. Y la infraestructura estaba en AWS y para el control de versiones usábamos Git todos los días. Suena muy completo. ¿Qué fue lo más difícil de ese trabajo? Mantener el sistema estable en días de mucha demanda. Una vez estuvimos en una caída por el episodio usuario, se poníamos a repartir mejor la carga entre los territorios. Desde entonces tuvimos pruebas de carga antes de cada campaña. Esto es justo lo que necesitamos aquí. Una última cosa. Nuestros clientes están en varios países. ¿Cómo está tu inglés? Tengo un inglés avanzado. He dado presentaciones técnicas acurrientes de otros países y no he tenido problema. Muy bien, Diego. Gracias por venir. Nos comunicaremos pronto. Gracias a usted. Quédate bien.",
+     "record": {
+      "anios_experiencia": 7.5,
+      "ultimo_puesto": null,
+      "tecnologias": [
+       "Django",
+       "Docker",
+       "AWS",
+       "Git"
+      ],
+      "pretension_salarial": {
+       "monto": 2500.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-10-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": 10.0
+    },
+    {
+     "id": "E03",
+     "wer": 0.16049382716049382,
+     "cer": 0.06986027944111776,
+     "words": 243,
+     "campos_ok": 5,
+     "campos_n": 6,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 27.18,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Hola Lucía, bienvenida. Cuéntame primero qué tecnología manejas para ubicarme. Hola, gracias. Trabajo principalmente con React y TypeScript para las interfaces. Uso a Git para el control de versiones y PigMap cuando tengo que improvisar diseños familiarísticos. ¿Cómo llegaste a programar interfaces? Estuve en el diseño gráfico y exploré que me gustaba más implementar los diseños que dibujarles y su curso intensivo de programación y de ahí empecé a buscar trabajo. ¿Y de ese trabajo? ¿Cuál fue tu último puesto? Mi último puesto fue desarrolladora frontejo en una agencia de publicidad. Construía páginas para campañas de marcas, de ropa y bebías. ¿Cuánto tiempo llevas en esto? Llevo dos años trabajando como desarrolladora. Antes de eso hice un año en prácticas, pero ese tiempo no lo cuento con experiencia formal. Entiendo. ¿Y qué te cuesta más hoy? Me cuesta explicar decisiones técnicas ante personas que no te daman, pero estoy practicando con presentaciones portas. Muy bien, un detalle importante. ¿Algunos documentos que usamos están en inglés? ¿Qué nivel tiene? Mi inglés es básico. ¿Cuál es la organización de error y documentación? Si ya, pero todavía no cumple su confluidez. Gracias por la honestidad. Pasemos al Económico. ¿Qué pretensión salaria tiene? Pienso que 4.200 soles sería de cabo para mi experiencia. Anotado. ¿Y desde cuándo podrías empezar? Quiero cumplir un mes de aviso con la agencia, así que podría empezar a partir del 15 de noviembre. Perfecto, Lucía. Gracias por tu tiempo. Te contactaremos pronto. Gracias.",
+     "record": {
+      "anios_experiencia": 2.0,
+      "ultimo_puesto": "desarrolladora frontejo",
+      "tecnologias": [
+       "Git",
+       "React",
+       "TypeScript"
+      ],
+      "pretension_salarial": {
+       "monto": 4200.0,
+       "moneda": "PEN"
+      },
+      "disponibilidad": "2026-11-15",
+      "nivel_ingles": "basico"
+     },
+     "snr_measured": 10.0
+    },
+    {
+     "id": "E04",
+     "wer": 0.0944206008583691,
+     "cer": 0.048833819241982504,
+     "words": 233,
+     "campos_ok": 4,
+     "campos_n": 6,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 21.35,
+     "error": null,
+     "estados": {
+      "anios_experiencia": "verificado",
+      "ultimo_puesto": "verificado",
+      "tecnologias": "verificado",
+      "pretension_salarial": "verificado",
+      "disponibilidad": "verificado",
+      "nivel_ingles": "verificado"
+     },
+     "transcript": "Buenos días Marco. Gracias por venir. Para empezar, ¿en qué trabajas actualmente? Buenos días. Actualmente me desempeño como ingeniero de datos en una empresa de telecomunicación. Mi equipo es de ocho personas y construimos las rotas por donde llegan los datos de millones de llamadas. Suena un trabajo con mucho volumen. ¿Qué herramientas usas para eso? Para el precisamiento masivo uso Spark y los rujos corren sobre Kubernetes. Todo está en AWS y las respuestas de análisis las escribimos en su cuello. ¿Cuántos años de experiencia tienes en total? Tengo 10 años de experiencia en total. Llevo a dos años en empresa actual y antes pasé por un banco y una empresa de logisticidad. ¿Qué problema técnico recuerdas como sorbollo? Migramos un proceso que tardaba toda la noche para que terminara en menos de una hora. Dividimos los datos en partes más pequeñas y dejamos de recalcular lo que no había cambiado. Excelente. La empresa tiene socios en Estados Unidos y Europa. ¿Cómo manejas el inglés? Mi inglés es avanzado. Participo en reuniones humanales y proveedores y escribo la documentación en inglés. Muy bien. Hablemos del tema económico. ¿Cuál es tu pretensión salarial? Mi pretensión es 11.300 dólares al mes. ¿Y cuándo podrías empezar? Debo entregar mi cargo con calma, así que estaría disponible dentro de un mes. Perfecto. Gracias, Márcel. Os escribiremos pronto. Gracias a ustedes. Hasta luego.",
+     "record": {
+      "anios_experiencia": 10.0,
+      "ultimo_puesto": "ingeniero de datos",
+      "tecnologias": [
+       "Kubernetes",
+       "AWS",
+       "Spark"
+      ],
+      "pretension_salarial": {
+       "monto": 11300.0,
+       "moneda": "USD"
+      },
+      "disponibilidad": "2026-11-26",
+      "nivel_ingles": "avanzado"
+     },
+     "snr_measured": 10.0
+    }
+   ],
+   "field_acc_mean": 0.8333333333333334
+  },
+  {
+   "task": "calls",
+   "group": "real",
+   "level": "L3",
+   "run": "small__cpu__int8__none",
+   "extractor": "rules",
+   "model": "small",
+   "device": "cpu",
+   "compute_type": "int8_float32",
+   "glossary_mode": "none",
+   "n_clips": 4,
+   "wer": {
+    "est": 0.2451591124360003,
+    "lo": 0.189792663476874,
+    "hi": 0.30052556139512665
+   },
+   "cer": {
+    "est": 0.10704964221965688,
+    "lo": 0.08345796062291576,
+    "hi": 0.130641323816398
+   },
+   "wer_pooled": 0.24577373211963588,
+   "sec_per_min": 26.7975,
+   "vram_peak_mb": 0,
+   "fields": {
+    "items": {
+     "n": 4,
+     "acc": 0.5,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 0.5,
+     "mae": null
+    },
+    "promocion": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "direccion_entrega": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null
+    },
+    "metodo_pago": {
+     "n": 4,
+     "acc": 0.75,
+     "cobertura_verificada": 0.75,
+     "acc_entre_verificados": 1.0,
+     "mae": null,
+     "macro_f1": 0.6666666666666666
+    },
+    "total_dicho": {
+     "n": 4,
+     "acc": 1.0,
+     "cobertura_verificada": 1.0,
+     "acc_entre_verificados": 1.0,
+     "mae": 0.0
+    }
+   },
+   "per_clip": [
+    {
+     "id": "V01",
+     "wer": 0.30434782608695654,
+     "cer": 0.12972972972972974,
+     "words": 207,
+     "campos_ok": 4,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 33.03,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Voy a ir a el sabor norteño. Buenas noches. ¿En qué puedo ayudarme? Buenas noches. ¿Quisiera hacer un pedido para delirias? Claro que sí. Enlígame que deseo arrenar. Quiero dos pollos al abrazo entero, una por fin de poco al frito familiar y una chicha morada jarra. Perfecto. No, no, no. ¿Algún más? Ah, espera. Mejor no quiero el la chicha. Cambia el el pordó gasez de litro. Simple o no. Quito la chicha y agrego dos gasez de litro. ¿Algo más? No. ¿Con esto está bien? ¿Tiene alguna promoción? Sí. Por ver su primera compra tiene 10 soles de descuento. Qué bien. Lo aprovecho. Muy bien. ¿Puscares la dirección de entrega? La dirección es Giron Los Pinos frente al parque Quénel. Ha notado. ¿Cómo va a pagar? Voy a pagar en efectivo. ¿Tendrán sencillo pero un billete grande? Sí. Llevaremos sencillo. Le hago el resumen final. Dos pollas al ambazo, tamaño entero a 45 soles cada uno. Una porción de pocas fritas, tamaño familiar a 18 soles. Y dos gasezas, tamaño litro, a 25 soles cada uno. Con el documento de Dios, con el descuento de 10 soles, el total a pagar es de 120 soles. ¿Qué está bien? Gracias. El periodo llegará en unos 40 minutos. Gracias, polla. Por favor. Mar al sabor norteño. Gracias a usted. Buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 1,
+        "precio_unitario": 18.0,
+        "evidencia": "una porcion de pocas fritas tamano familiar a 18 soles"
+       },
+       {
+        "producto": "gaseosa",
+        "tamano": "litro",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 gasezas tamano litro a 25 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 10.0
+      },
+      "direccion_entrega": "Giron Los Pinos frente al parque Quénel",
+      "metodo_pago": "efectivo",
+      "total_dicho": 120.0
+     },
+     "snr_measured": 10.0,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 68.0,
+      "descuento": 10.0,
+      "esperado": 58.0,
+      "total_dicho": 120.0,
+      "diferencia": 62.0,
+      "causa": "asr",
+      "reparacion": {
+       "campo": "precio_unitario[0]",
+       "dicho": 18.0,
+       "probable": 80.0
+      },
+      "regla": "D1"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "asr"
+    },
+    {
+     "id": "V02",
+     "wer": 0.18660287081339713,
+     "cer": 0.0682800345721694,
+     "words": 209,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 5,
+     "sec_per_min": 25.54,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Poyería de Sober Norteño, buenas tardes. ¿En qué le puedo ayudar? Hola, buenas tardes. Quiero pedir para ayudar a mi caso. Un gusto. ¿Qué le anotó? Dos Poyerías de Alheras, amigos. Dos porciones de pupas fritas personales y una chicha murada tardas. Muy bien. ¿Algo más? En realidad somos tres en casa. Mejor que son tres pollos medios. Perfecto. Entonces, son tres pollos medios, dos papas personales y una chicha jarra. Hoy tenemos una promoción de 10% de descuento en pedidos con tarjeta. ¿Agará con tarjeta? Sí, paré con tarjeta, así aprovecho el descuento. Excelente. ¿Cuál es la dirección de entrega? La dirección es Avenida del Arco número 342, Departamento 601, Mira Flores. Repito para confirmar, Avenida del Arco 342, Departamento 601. ¿Es correcto? Sí, así es. Etímaras no funcionan. Antiqui, por favor, llámame por teléfono al llegar. Claro. Le hago el resumen final. Tres pollos al abrazo a tamaño medio, a 25 soles cada uno. Dos porciones de papas fritas, tamaño personal, a 10 soles cada una. Y una chicha murada, tamaño jarra a 15 soles. Con el 10% de descuento, el total a pagar es 105 soles. Gracias. ¿Cuánto demora? Aproximadamente 45 minutos. Gracias por llamar al señor Norte. Gracias, hasta luego.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 3,
+        "precio_unitario": 25.0,
+        "evidencia": "3 pollos al abrazo a tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de papas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "jarra",
+        "cantidad": 1,
+        "precio_unitario": 15.0,
+        "evidencia": "una chicha murada tamano jarra a 15 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "porcentaje",
+       "valor": 10.0
+      },
+      "direccion_entrega": "Avenida del Arco número 342, Departamento 601, Mira Flores",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 105.0
+     },
+     "snr_measured": 10.0,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 110.0,
+      "descuento": 11.0,
+      "esperado": 99.0,
+      "total_dicho": 105.0,
+      "diferencia": 6.0,
+      "causa": "hablante",
+      "reparacion": null,
+      "regla": "D3"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "hablante"
+    },
+    {
+     "id": "V03",
+     "wer": 0.2967032967032967,
+     "cer": 0.13155291790306628,
+     "words": 182,
+     "campos_ok": 2,
+     "campos_n": 5,
+     "campos_ok_verificados": 2,
+     "sec_per_min": 24.89,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "verificado",
+      "direccion_entrega": "no_encontrado",
+      "metodo_pago": "no_encontrado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "Buenas noches, voy a ir el sabor norteño. ¿Qué deseo ordenar? Buenas noches, quiero un voy a la grasa entero y dos porciones de papas fritas familiares. Muy bien, desea de vida? Sí, dos baciosas personales. Entado. ¿Algún más? Pensé en lo mejor que sean cuatro baciosas personales porque vienen en un truño. Sin problema, entonces son un pollo entero, dos papas familiares y cuatro baciosas personales. Sin nada, con ya pre tiene cinco soles de descuento. Perfecto, para y con ya pre. ¿Cuál es la dirección de entrada? La dirección de calle de los aliados al cruzado de las farmacas. ¿Alguna referencia adicional? Es una grasa de color verde y con un portón negro. Gracias, y le doy la razón en final. Un pollo al abrazo de tamaño entero a 45 soles, dos porciones de papas fritas, tamaño familiar a 18 soles cada una, y cuatro baciosas de tamaño personal a 4 soles cada una. Con el descuento de 5 soles, el total a pagar es de 82 soles. ¿Está bien? ¿Lo enviaremos con probando por mi casa? Sí, se lo enviaremos al número que usó para llamar. Gracias por tu contrino. Gracias, buenas noches.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "entero",
+        "cantidad": 1,
+        "precio_unitario": 45.0,
+        "evidencia": "un pollo al abrazo de tamano entero a 45 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "familiar",
+        "cantidad": 2,
+        "precio_unitario": 18.0,
+        "evidencia": "2 porciones de papas fritas tamano familiar a 18 soles"
+       }
+      ],
+      "promocion": {
+       "tipo": "monto",
+       "valor": 5.0
+      },
+      "direccion_entrega": null,
+      "metodo_pago": null,
+      "total_dicho": 82.0
+     },
+     "snr_measured": 10.0,
+     "validacion": {
+      "estado": "desajuste",
+      "subtotal": 81.0,
+      "descuento": 5.0,
+      "esperado": 76.0,
+      "total_dicho": 82.0,
+      "diferencia": 6.0,
+      "causa": "asr",
+      "reparacion": {
+       "numeros_dudosos": {
+        "2.0": 0.354,
+        "5.0": 0.585
+       }
+      },
+      "regla": "D2"
+     },
+     "trampa_total": true,
+     "flagged": true,
+     "causa_real": "asr"
+    },
+    {
+     "id": "V04",
+     "wer": 0.19298245614035087,
+     "cer": 0.09863588667366212,
+     "words": 171,
+     "campos_ok": 5,
+     "campos_n": 5,
+     "campos_ok_verificados": 4,
+     "sec_per_min": 23.73,
+     "error": null,
+     "estados": {
+      "items": "verificado",
+      "promocion": "no_encontrado",
+      "direccion_entrega": "verificado",
+      "metodo_pago": "verificado",
+      "total_dicho": "verificado"
+     },
+     "transcript": "El favor norteño. Buenas tardes. ¿Cómo me lo puedo ayudar? Buenas tardes. Quisiera pedir dos medios pollo para una reunión pequeña. Claro. ¿Este acompañamiento desea? Dos porciones de copas fritas personales y dos vasos de chicha morada. Perfecto. ¿Deseo agregar alguna? No. Eso sería todo. ¿Hay alguna promoción hoy? Lo siento. Hoy no tengo ninguna promoción exigente. Está bien. No hay problema. ¿Cuál es la dirección de entrega? La dirección es pasaje a las flores, manzana 8, lote 15 en la organización Santa Rosa. Repita. Pasaje a las flores, manzana 8, lote 15. ¿Correcto? Correcto. ¿Pare con tránsito de crédito cuando llegue el reporteo? Muy bien. Llevaremos el TWS. Le hago el resumen final. Dos pollo a la braza, tamaño medio, a 25 soles cada uno. Dos porciones de copas fritas, tamaño personal, a 10 soles cada una. Y dos chichas moradas, tamaño vaso, a 6 soles cada uno. El total a pagar es de 82 soles. Perfecto. Gracias. La entrega demora de 50 minutos. La entrega demora cerca de 50 minutos. Gracias por llamarte. Gracias a usted. Buenas tardes.",
+     "record": {
+      "items": [
+       {
+        "producto": "pollo a la brasa",
+        "tamano": "medio",
+        "cantidad": 2,
+        "precio_unitario": 25.0,
+        "evidencia": "2 pollo a la braza tamano medio a 25 soles"
+       },
+       {
+        "producto": "porcion de papas fritas",
+        "tamano": "personal",
+        "cantidad": 2,
+        "precio_unitario": 10.0,
+        "evidencia": "2 porciones de copas fritas tamano personal a 10 soles"
+       },
+       {
+        "producto": "chicha morada",
+        "tamano": "vaso",
+        "cantidad": 2,
+        "precio_unitario": 6.0,
+        "evidencia": "2 chichas moradas tamano vaso a 6 soles"
+       }
+      ],
+      "promocion": null,
+      "direccion_entrega": "pasaje a las flores, manzana 8, lote 15 en la organización Santa Rosa",
+      "metodo_pago": "tarjeta",
+      "total_dicho": 82.0
+     },
+     "snr_measured": 10.0,
+     "validacion": {
+      "estado": "ok",
+      "subtotal": 82.0,
+      "descuento": 0.0,
+      "esperado": 82.0,
+      "total_dicho": 82.0,
+      "diferencia": 0.0,
+      "causa": null,
+      "reparacion": null
+     },
+     "trampa_total": false,
+     "flagged": false
+    }
+   ],
+   "field_acc_mean": 0.8,
+   "validation": {
+    "trampas": 3,
+    "atrapadas": 3,
+    "perdidas": 0,
+    "falsas_alarmas": 0,
+    "limpias": 1,
+    "diagnosticos": 3,
+    "diagnostico_correcto": 3
+   }
+  },
+  {
+   "task": "interviews",
    "group": "synthetic/default",
    "level": "L0",
    "run": "small__cpu__int8__hotwords",
@@ -439,6 +3444,19 @@
  "efecto_glosario": [
   {
    "task": "interviews",
+   "group": "real",
+   "level": "L0",
+   "model": "small",
+   "modo": "hotwords",
+   "dif_wer_sin_menos_con": {
+    "est": 0.01652296091773437,
+    "lo": 0.006261149084229676,
+    "hi": 0.026784772751239062
+   },
+   "n": 4
+  },
+  {
+   "task": "interviews",
    "group": "synthetic/default",
    "level": "L0",
    "model": "small",
@@ -451,7 +3469,169 @@
    "n": 4
   }
  ],
- "wer_vs_registro": [],
+ "wer_vs_registro": [
+  {
+   "task": "interviews",
+   "level": "L0",
+   "run": "medium__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "E01",
+    "wer": 0.01529051987767584,
+    "campos": "6/6"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "E03",
+    "wer": 0.0205761316872428,
+    "campos": "5/6"
+   }
+  },
+  {
+   "task": "calls",
+   "level": "L0",
+   "run": "medium__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "V04",
+    "wer": 0.0935672514619883,
+    "campos": "5/5"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "V02",
+    "wer": 0.06220095693779904,
+    "campos": "4/5"
+   }
+  },
+  {
+   "task": "interviews",
+   "level": "L0",
+   "run": "small__cpu__int8__hotwords",
+   "wer_alto_registro_perfecto": {
+    "id": "E01",
+    "wer": 0.03363914373088685,
+    "campos": "6/6"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "E02",
+    "wer": 0.038314176245210725,
+    "campos": "5/6"
+   }
+  },
+  {
+   "task": "interviews",
+   "level": "L0",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": null,
+   "wer_bajo_registro_roto": {
+    "id": "E03",
+    "wer": 0.03292181069958848,
+    "campos": "5/6"
+   }
+  },
+  {
+   "task": "calls",
+   "level": "L0",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "V03",
+    "wer": 0.17582417582417584,
+    "campos": "5/5"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "V01",
+    "wer": 0.25120772946859904,
+    "campos": "4/5"
+   }
+  },
+  {
+   "task": "interviews",
+   "level": "L1",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "E04",
+    "wer": 0.03862660944206009,
+    "campos": "6/6"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "E02",
+    "wer": 0.04980842911877394,
+    "campos": "5/6"
+   }
+  },
+  {
+   "task": "calls",
+   "level": "L1",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "V02",
+    "wer": 0.10526315789473684,
+    "campos": "5/5"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "V04",
+    "wer": 0.1111111111111111,
+    "campos": "4/5"
+   }
+  },
+  {
+   "task": "interviews",
+   "level": "L2",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "E01",
+    "wer": 0.05198776758409786,
+    "campos": "6/6"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "E02",
+    "wer": 0.05747126436781609,
+    "campos": "4/6"
+   }
+  },
+  {
+   "task": "calls",
+   "level": "L2",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "V04",
+    "wer": 0.15204678362573099,
+    "campos": "5/5"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "V03",
+    "wer": 0.22527472527472528,
+    "campos": "3/5"
+   }
+  },
+  {
+   "task": "interviews",
+   "level": "L3",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "E01",
+    "wer": 0.11009174311926606,
+    "campos": "6/6"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "E04",
+    "wer": 0.0944206008583691,
+    "campos": "4/6"
+   }
+  },
+  {
+   "task": "calls",
+   "level": "L3",
+   "run": "small__cpu__int8__none",
+   "wer_alto_registro_perfecto": {
+    "id": "V04",
+    "wer": 0.19298245614035087,
+    "campos": "5/5"
+   },
+   "wer_bajo_registro_roto": {
+    "id": "V03",
+    "wer": 0.2967032967032967,
+    "campos": "2/5"
+   }
+  }
+ ],
  "distribucion_verdad_terreno": {
   "interviews.anios_experiencia": {
    "min": 2,

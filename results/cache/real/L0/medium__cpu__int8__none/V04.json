@@ -1,0 +1,1084 @@
+{
+ "transcript": "El sabor norteño, buenas tardes, ¿cómo le puedo ayudar? Buenas tardes, quisiera pedir dos medios pollo para una reunión pequeña. Claro, ¿qué acompañamientos desea? Dos porciones de papas fristas personales y dos vasos de chicha morada. Perfecto, ¿desea agregar algo más? No, eso sería todo. ¿Hay alguna promoción hoy? Lo siento, hoy no tenemos promociones vigentes. Está bien, no hay problema. ¿Cuál es la dirección de entrega? La dirección es pasaje de las flores, manzana 8, lote 15, en la urbanización Santa Rosa. Repito, pasaje de las flores, manzana 8, lote 15, ¿correcto? Correcto, pagaré con tarjeta de crédito cuando llegue el reporteor. Muy bien, llevaremos el POS. Le hago el resumen final. Dos pollo salabrasa, tamaño medio, a 25 soles cada uno. Dos porciones de papas fritas, tamaño personal, a 10 soles cada una. Y dos chichas moradas, tamaño vaso, a 6 soles cada una. El total a pagar es de 82 soles. Perfecto, gracias. La entrega demora de 50 minutos. ¿Qué? La entrega demora cerca de 50 minutos. Gracias por llamar. Gracias a usted, buenas tardes.",
+ "words": [
+  {
+   "w": "El",
+   "p": 0.316,
+   "start": 0.94,
+   "end": 1.5
+  },
+  {
+   "w": "sabor",
+   "p": 0.86,
+   "start": 1.5,
+   "end": 1.74
+  },
+  {
+   "w": "norteño,",
+   "p": 0.989,
+   "start": 1.74,
+   "end": 2.24
+  },
+  {
+   "w": "buenas",
+   "p": 0.966,
+   "start": 2.38,
+   "end": 2.58
+  },
+  {
+   "w": "tardes,",
+   "p": 0.996,
+   "start": 2.58,
+   "end": 2.96
+  },
+  {
+   "w": "¿cómo",
+   "p": 0.814,
+   "start": 3.0,
+   "end": 3.16
+  },
+  {
+   "w": "le",
+   "p": 0.671,
+   "start": 3.16,
+   "end": 3.36
+  },
+  {
+   "w": "puedo",
+   "p": 0.988,
+   "start": 3.36,
+   "end": 3.48
+  },
+  {
+   "w": "ayudar?",
+   "p": 0.995,
+   "start": 3.48,
+   "end": 3.8
+  },
+  {
+   "w": "Buenas",
+   "p": 0.941,
+   "start": 4.24,
+   "end": 4.64
+  },
+  {
+   "w": "tardes,",
+   "p": 0.998,
+   "start": 4.64,
+   "end": 4.9
+  },
+  {
+   "w": "quisiera",
+   "p": 0.974,
+   "start": 4.98,
+   "end": 5.3
+  },
+  {
+   "w": "pedir",
+   "p": 0.993,
+   "start": 5.3,
+   "end": 5.66
+  },
+  {
+   "w": "dos",
+   "p": 0.97,
+   "start": 5.66,
+   "end": 6.32
+  },
+  {
+   "w": "medios",
+   "p": 0.914,
+   "start": 6.32,
+   "end": 6.72
+  },
+  {
+   "w": "pollo",
+   "p": 0.904,
+   "start": 6.72,
+   "end": 7.16
+  },
+  {
+   "w": "para",
+   "p": 0.888,
+   "start": 7.16,
+   "end": 7.42
+  },
+  {
+   "w": "una",
+   "p": 0.995,
+   "start": 7.42,
+   "end": 7.64
+  },
+  {
+   "w": "reunión",
+   "p": 0.996,
+   "start": 7.64,
+   "end": 7.96
+  },
+  {
+   "w": "pequeña.",
+   "p": 0.989,
+   "start": 7.96,
+   "end": 8.6
+  },
+  {
+   "w": "Claro,",
+   "p": 0.896,
+   "start": 9.3,
+   "end": 9.52
+  },
+  {
+   "w": "¿qué",
+   "p": 0.943,
+   "start": 9.64,
+   "end": 9.82
+  },
+  {
+   "w": "acompañamientos",
+   "p": 0.856,
+   "start": 9.82,
+   "end": 10.42
+  },
+  {
+   "w": "desea?",
+   "p": 0.987,
+   "start": 10.42,
+   "end": 11.04
+  },
+  {
+   "w": "Dos",
+   "p": 0.846,
+   "start": 11.34,
+   "end": 11.62
+  },
+  {
+   "w": "porciones",
+   "p": 0.996,
+   "start": 11.62,
+   "end": 11.98
+  },
+  {
+   "w": "de",
+   "p": 0.997,
+   "start": 11.98,
+   "end": 12.2
+  },
+  {
+   "w": "papas",
+   "p": 0.953,
+   "start": 12.2,
+   "end": 12.5
+  },
+  {
+   "w": "fristas",
+   "p": 0.792,
+   "start": 12.5,
+   "end": 12.8
+  },
+  {
+   "w": "personales",
+   "p": 0.99,
+   "start": 12.8,
+   "end": 13.44
+  },
+  {
+   "w": "y",
+   "p": 0.951,
+   "start": 13.44,
+   "end": 13.56
+  },
+  {
+   "w": "dos",
+   "p": 0.985,
+   "start": 13.56,
+   "end": 13.7
+  },
+  {
+   "w": "vasos",
+   "p": 0.965,
+   "start": 13.7,
+   "end": 14.0
+  },
+  {
+   "w": "de",
+   "p": 0.991,
+   "start": 14.0,
+   "end": 14.12
+  },
+  {
+   "w": "chicha",
+   "p": 0.74,
+   "start": 14.12,
+   "end": 14.34
+  },
+  {
+   "w": "morada.",
+   "p": 0.912,
+   "start": 14.34,
+   "end": 15.22
+  },
+  {
+   "w": "Perfecto,",
+   "p": 0.99,
+   "start": 15.56,
+   "end": 16.02
+  },
+  {
+   "w": "¿desea",
+   "p": 0.947,
+   "start": 16.24,
+   "end": 16.46
+  },
+  {
+   "w": "agregar",
+   "p": 0.998,
+   "start": 16.46,
+   "end": 16.8
+  },
+  {
+   "w": "algo",
+   "p": 0.709,
+   "start": 16.8,
+   "end": 17.04
+  },
+  {
+   "w": "más?",
+   "p": 0.985,
+   "start": 17.04,
+   "end": 17.26
+  },
+  {
+   "w": "No,",
+   "p": 0.889,
+   "start": 17.84,
+   "end": 18.34
+  },
+  {
+   "w": "eso",
+   "p": 0.972,
+   "start": 18.58,
+   "end": 18.76
+  },
+  {
+   "w": "sería",
+   "p": 0.949,
+   "start": 18.76,
+   "end": 19.04
+  },
+  {
+   "w": "todo.",
+   "p": 0.999,
+   "start": 19.04,
+   "end": 19.38
+  },
+  {
+   "w": "¿Hay",
+   "p": 0.926,
+   "start": 19.58,
+   "end": 19.78
+  },
+  {
+   "w": "alguna",
+   "p": 0.992,
+   "start": 19.78,
+   "end": 19.96
+  },
+  {
+   "w": "promoción",
+   "p": 0.972,
+   "start": 19.96,
+   "end": 20.34
+  },
+  {
+   "w": "hoy?",
+   "p": 0.977,
+   "start": 20.34,
+   "end": 20.58
+  },
+  {
+   "w": "Lo",
+   "p": 0.997,
+   "start": 22.61,
+   "end": 22.91
+  },
+  {
+   "w": "siento,",
+   "p": 0.999,
+   "start": 22.91,
+   "end": 23.17
+  },
+  {
+   "w": "hoy",
+   "p": 0.991,
+   "start": 23.27,
+   "end": 23.45
+  },
+  {
+   "w": "no",
+   "p": 0.988,
+   "start": 23.45,
+   "end": 23.59
+  },
+  {
+   "w": "tenemos",
+   "p": 0.992,
+   "start": 23.59,
+   "end": 23.81
+  },
+  {
+   "w": "promociones",
+   "p": 0.942,
+   "start": 23.81,
+   "end": 24.31
+  },
+  {
+   "w": "vigentes.",
+   "p": 0.985,
+   "start": 24.31,
+   "end": 24.91
+  },
+  {
+   "w": "Está",
+   "p": 0.969,
+   "start": 25.45,
+   "end": 25.63
+  },
+  {
+   "w": "bien,",
+   "p": 0.999,
+   "start": 25.63,
+   "end": 25.77
+  },
+  {
+   "w": "no",
+   "p": 0.996,
+   "start": 25.87,
+   "end": 25.93
+  },
+  {
+   "w": "hay",
+   "p": 0.999,
+   "start": 25.93,
+   "end": 26.01
+  },
+  {
+   "w": "problema.",
+   "p": 0.994,
+   "start": 26.01,
+   "end": 26.55
+  },
+  {
+   "w": "¿Cuál",
+   "p": 0.986,
+   "start": 27.93,
+   "end": 28.05
+  },
+  {
+   "w": "es",
+   "p": 0.992,
+   "start": 28.05,
+   "end": 28.19
+  },
+  {
+   "w": "la",
+   "p": 0.992,
+   "start": 28.19,
+   "end": 28.29
+  },
+  {
+   "w": "dirección",
+   "p": 0.994,
+   "start": 28.29,
+   "end": 28.57
+  },
+  {
+   "w": "de",
+   "p": 0.998,
+   "start": 28.57,
+   "end": 28.71
+  },
+  {
+   "w": "entrega?",
+   "p": 0.998,
+   "start": 28.71,
+   "end": 29.07
+  },
+  {
+   "w": "La",
+   "p": 0.277,
+   "start": 29.07,
+   "end": 30.01
+  },
+  {
+   "w": "dirección",
+   "p": 0.986,
+   "start": 30.01,
+   "end": 30.49
+  },
+  {
+   "w": "es",
+   "p": 0.988,
+   "start": 30.49,
+   "end": 30.69
+  },
+  {
+   "w": "pasaje",
+   "p": 0.554,
+   "start": 30.69,
+   "end": 31.05
+  },
+  {
+   "w": "de",
+   "p": 0.51,
+   "start": 31.05,
+   "end": 31.13
+  },
+  {
+   "w": "las",
+   "p": 0.957,
+   "start": 31.13,
+   "end": 31.31
+  },
+  {
+   "w": "flores,",
+   "p": 0.954,
+   "start": 31.31,
+   "end": 31.57
+  },
+  {
+   "w": "manzana",
+   "p": 0.945,
+   "start": 31.65,
+   "end": 32.05
+  },
+  {
+   "w": "8,",
+   "p": 0.917,
+   "start": 32.05,
+   "end": 32.35
+  },
+  {
+   "w": "lote",
+   "p": 0.971,
+   "start": 32.51,
+   "end": 32.83
+  },
+  {
+   "w": "15,",
+   "p": 0.996,
+   "start": 32.83,
+   "end": 33.25
+  },
+  {
+   "w": "en",
+   "p": 0.97,
+   "start": 33.53,
+   "end": 33.59
+  },
+  {
+   "w": "la",
+   "p": 0.953,
+   "start": 33.59,
+   "end": 33.75
+  },
+  {
+   "w": "urbanización",
+   "p": 0.928,
+   "start": 33.75,
+   "end": 34.31
+  },
+  {
+   "w": "Santa",
+   "p": 0.87,
+   "start": 34.31,
+   "end": 34.67
+  },
+  {
+   "w": "Rosa.",
+   "p": 0.986,
+   "start": 34.67,
+   "end": 35.07
+  },
+  {
+   "w": "Repito,",
+   "p": 0.652,
+   "start": 36.51,
+   "end": 36.89
+  },
+  {
+   "w": "pasaje",
+   "p": 0.943,
+   "start": 37.07,
+   "end": 37.37
+  },
+  {
+   "w": "de",
+   "p": 0.929,
+   "start": 37.37,
+   "end": 37.47
+  },
+  {
+   "w": "las",
+   "p": 0.986,
+   "start": 37.47,
+   "end": 37.69
+  },
+  {
+   "w": "flores,",
+   "p": 0.995,
+   "start": 37.69,
+   "end": 38.05
+  },
+  {
+   "w": "manzana",
+   "p": 0.998,
+   "start": 38.19,
+   "end": 38.63
+  },
+  {
+   "w": "8,",
+   "p": 0.991,
+   "start": 38.63,
+   "end": 38.97
+  },
+  {
+   "w": "lote",
+   "p": 0.998,
+   "start": 39.03,
+   "end": 39.37
+  },
+  {
+   "w": "15,",
+   "p": 0.998,
+   "start": 39.37,
+   "end": 39.69
+  },
+  {
+   "w": "¿correcto?",
+   "p": 0.824,
+   "start": 39.79,
+   "end": 40.07
+  },
+  {
+   "w": "Correcto,",
+   "p": 0.871,
+   "start": 40.89,
+   "end": 41.45
+  },
+  {
+   "w": "pagaré",
+   "p": 0.607,
+   "start": 41.63,
+   "end": 41.83
+  },
+  {
+   "w": "con",
+   "p": 0.999,
+   "start": 41.83,
+   "end": 41.97
+  },
+  {
+   "w": "tarjeta",
+   "p": 0.992,
+   "start": 41.97,
+   "end": 42.31
+  },
+  {
+   "w": "de",
+   "p": 0.998,
+   "start": 42.31,
+   "end": 42.45
+  },
+  {
+   "w": "crédito",
+   "p": 0.995,
+   "start": 42.45,
+   "end": 42.79
+  },
+  {
+   "w": "cuando",
+   "p": 0.957,
+   "start": 42.79,
+   "end": 43.01
+  },
+  {
+   "w": "llegue",
+   "p": 0.973,
+   "start": 43.01,
+   "end": 43.17
+  },
+  {
+   "w": "el",
+   "p": 0.99,
+   "start": 43.17,
+   "end": 43.31
+  },
+  {
+   "w": "reporteor.",
+   "p": 0.597,
+   "start": 43.31,
+   "end": 43.93
+  },
+  {
+   "w": "Muy",
+   "p": 0.98,
+   "start": 44.33,
+   "end": 44.63
+  },
+  {
+   "w": "bien,",
+   "p": 0.997,
+   "start": 44.63,
+   "end": 44.89
+  },
+  {
+   "w": "llevaremos",
+   "p": 0.986,
+   "start": 45.17,
+   "end": 45.67
+  },
+  {
+   "w": "el",
+   "p": 0.942,
+   "start": 45.67,
+   "end": 46.17
+  },
+  {
+   "w": "POS.",
+   "p": 0.881,
+   "start": 46.17,
+   "end": 46.63
+  },
+  {
+   "w": "Le",
+   "p": 0.953,
+   "start": 47.07,
+   "end": 47.15
+  },
+  {
+   "w": "hago",
+   "p": 0.993,
+   "start": 47.15,
+   "end": 47.25
+  },
+  {
+   "w": "el",
+   "p": 0.997,
+   "start": 47.25,
+   "end": 47.41
+  },
+  {
+   "w": "resumen",
+   "p": 0.998,
+   "start": 47.41,
+   "end": 47.65
+  },
+  {
+   "w": "final.",
+   "p": 0.992,
+   "start": 47.65,
+   "end": 48.07
+  },
+  {
+   "w": "Dos",
+   "p": 0.65,
+   "start": 48.71,
+   "end": 48.91
+  },
+  {
+   "w": "pollo",
+   "p": 0.637,
+   "start": 48.91,
+   "end": 49.15
+  },
+  {
+   "w": "salabrasa,",
+   "p": 0.709,
+   "start": 49.15,
+   "end": 49.83
+  },
+  {
+   "w": "tamaño",
+   "p": 0.984,
+   "start": 50.01,
+   "end": 50.29
+  },
+  {
+   "w": "medio,",
+   "p": 0.984,
+   "start": 50.29,
+   "end": 50.63
+  },
+  {
+   "w": "a",
+   "p": 0.963,
+   "start": 50.77,
+   "end": 50.87
+  },
+  {
+   "w": "25",
+   "p": 0.778,
+   "start": 50.87,
+   "end": 51.37
+  },
+  {
+   "w": "soles",
+   "p": 0.997,
+   "start": 51.37,
+   "end": 51.67
+  },
+  {
+   "w": "cada",
+   "p": 0.995,
+   "start": 51.67,
+   "end": 51.99
+  },
+  {
+   "w": "uno.",
+   "p": 0.992,
+   "start": 51.99,
+   "end": 52.27
+  },
+  {
+   "w": "Dos",
+   "p": 0.941,
+   "start": 52.45,
+   "end": 52.65
+  },
+  {
+   "w": "porciones",
+   "p": 0.995,
+   "start": 52.65,
+   "end": 52.95
+  },
+  {
+   "w": "de",
+   "p": 0.998,
+   "start": 52.95,
+   "end": 53.17
+  },
+  {
+   "w": "papas",
+   "p": 0.974,
+   "start": 53.17,
+   "end": 53.43
+  },
+  {
+   "w": "fritas,",
+   "p": 0.994,
+   "start": 53.43,
+   "end": 53.73
+  },
+  {
+   "w": "tamaño",
+   "p": 0.998,
+   "start": 53.91,
+   "end": 54.15
+  },
+  {
+   "w": "personal,",
+   "p": 0.995,
+   "start": 54.15,
+   "end": 54.55
+  },
+  {
+   "w": "a",
+   "p": 0.991,
+   "start": 54.73,
+   "end": 54.83
+  },
+  {
+   "w": "10",
+   "p": 0.976,
+   "start": 54.83,
+   "end": 54.95
+  },
+  {
+   "w": "soles",
+   "p": 0.999,
+   "start": 54.95,
+   "end": 55.23
+  },
+  {
+   "w": "cada",
+   "p": 0.997,
+   "start": 55.23,
+   "end": 55.51
+  },
+  {
+   "w": "una.",
+   "p": 0.954,
+   "start": 55.51,
+   "end": 55.75
+  },
+  {
+   "w": "Y",
+   "p": 0.228,
+   "start": 55.75,
+   "end": 56.41
+  },
+  {
+   "w": "dos",
+   "p": 0.811,
+   "start": 56.41,
+   "end": 56.57
+  },
+  {
+   "w": "chichas",
+   "p": 0.927,
+   "start": 56.57,
+   "end": 56.91
+  },
+  {
+   "w": "moradas,",
+   "p": 0.972,
+   "start": 56.91,
+   "end": 57.37
+  },
+  {
+   "w": "tamaño",
+   "p": 0.984,
+   "start": 57.55,
+   "end": 57.87
+  },
+  {
+   "w": "vaso,",
+   "p": 0.987,
+   "start": 57.87,
+   "end": 58.33
+  },
+  {
+   "w": "a",
+   "p": 0.969,
+   "start": 58.41,
+   "end": 58.51
+  },
+  {
+   "w": "6",
+   "p": 0.284,
+   "start": 58.51,
+   "end": 58.67
+  },
+  {
+   "w": "soles",
+   "p": 0.99,
+   "start": 58.67,
+   "end": 58.91
+  },
+  {
+   "w": "cada",
+   "p": 0.997,
+   "start": 58.91,
+   "end": 59.13
+  },
+  {
+   "w": "una.",
+   "p": 0.895,
+   "start": 59.13,
+   "end": 59.61
+  },
+  {
+   "w": "El",
+   "p": 0.968,
+   "start": 59.91,
+   "end": 60.01
+  },
+  {
+   "w": "total",
+   "p": 0.999,
+   "start": 60.01,
+   "end": 60.21
+  },
+  {
+   "w": "a",
+   "p": 0.94,
+   "start": 60.21,
+   "end": 60.41
+  },
+  {
+   "w": "pagar",
+   "p": 0.996,
+   "start": 60.41,
+   "end": 60.59
+  },
+  {
+   "w": "es",
+   "p": 0.99,
+   "start": 60.59,
+   "end": 60.87
+  },
+  {
+   "w": "de",
+   "p": 0.98,
+   "start": 60.87,
+   "end": 61.43
+  },
+  {
+   "w": "82",
+   "p": 0.827,
+   "start": 61.43,
+   "end": 61.89
+  },
+  {
+   "w": "soles.",
+   "p": 0.998,
+   "start": 61.89,
+   "end": 62.67
+  },
+  {
+   "w": "Perfecto,",
+   "p": 0.925,
+   "start": 63.13,
+   "end": 63.57
+  },
+  {
+   "w": "gracias.",
+   "p": 0.993,
+   "start": 63.73,
+   "end": 64.19
+  },
+  {
+   "w": "La",
+   "p": 0.786,
+   "start": 64.67,
+   "end": 64.87
+  },
+  {
+   "w": "entrega",
+   "p": 0.999,
+   "start": 64.87,
+   "end": 65.21
+  },
+  {
+   "w": "demora",
+   "p": 0.946,
+   "start": 65.21,
+   "end": 65.77
+  },
+  {
+   "w": "de",
+   "p": 0.81,
+   "start": 65.77,
+   "end": 66.03
+  },
+  {
+   "w": "50",
+   "p": 0.878,
+   "start": 66.03,
+   "end": 66.41
+  },
+  {
+   "w": "minutos.",
+   "p": 0.973,
+   "start": 66.41,
+   "end": 67.19
+  },
+  {
+   "w": "¿Qué?",
+   "p": 0.725,
+   "start": 67.39,
+   "end": 67.65
+  },
+  {
+   "w": "La",
+   "p": 0.936,
+   "start": 67.75,
+   "end": 67.95
+  },
+  {
+   "w": "entrega",
+   "p": 0.999,
+   "start": 67.95,
+   "end": 68.17
+  },
+  {
+   "w": "demora",
+   "p": 0.999,
+   "start": 68.17,
+   "end": 68.45
+  },
+  {
+   "w": "cerca",
+   "p": 0.921,
+   "start": 68.45,
+   "end": 68.69
+  },
+  {
+   "w": "de",
+   "p": 0.997,
+   "start": 68.69,
+   "end": 68.83
+  },
+  {
+   "w": "50",
+   "p": 0.982,
+   "start": 68.83,
+   "end": 69.17
+  },
+  {
+   "w": "minutos.",
+   "p": 0.995,
+   "start": 69.17,
+   "end": 69.63
+  },
+  {
+   "w": "Gracias",
+   "p": 0.97,
+   "start": 70.03,
+   "end": 70.03
+  },
+  {
+   "w": "por",
+   "p": 0.996,
+   "start": 70.03,
+   "end": 70.23
+  },
+  {
+   "w": "llamar.",
+   "p": 0.962,
+   "start": 70.23,
+   "end": 70.85
+  },
+  {
+   "w": "Gracias",
+   "p": 0.976,
+   "start": 71.33,
+   "end": 71.61
+  },
+  {
+   "w": "a",
+   "p": 0.989,
+   "start": 71.61,
+   "end": 71.81
+  },
+  {
+   "w": "usted,",
+   "p": 0.933,
+   "start": 71.81,
+   "end": 71.97
+  },
+  {
+   "w": "buenas",
+   "p": 0.974,
+   "start": 72.25,
+   "end": 72.45
+  },
+  {
+   "w": "tardes.",
+   "p": 0.997,
+   "start": 72.45,
+   "end": 72.91
+  }
+ ],
+ "model": "medium",
+ "device_requested": "cpu",
+ "device": "cpu",
+ "compute_type": "int8_float32",
+ "glossary_mode": "none",
+ "elapsed_s": 80.739,
+ "load_s": 6.348,
+ "audio_s": 75.03,
+ "sec_per_min": 64.57,
+ "vram_peak_mb": null,
+ "cuda_device_count": 0
+}

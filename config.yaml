@@ -115,6 +115,7 @@ schemas:
       porcion de papas fritas: {sizes: [personal, familiar]}
       chicha morada: {sizes: [vaso, jarra]}
       gaseosa: {sizes: [personal, litro]}
+    fuzzy_match_threshold: 0.5          # parecido minimo (difflib) para reconocer un producto/tamano mal oido por el ASR
     payment_keywords:
       efectivo: [efectivo, cash, billete]
       tarjeta: [tarjeta, visa, mastercard, debito, credito]

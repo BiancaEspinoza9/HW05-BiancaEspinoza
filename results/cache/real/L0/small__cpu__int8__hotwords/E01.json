@@ -1,0 +1,1984 @@
+{
+ "transcript": "Buenos días, Camila. Gracias por venir. Antes de empezar, cuéntame brevemente quién eres. Buenos días. Soy analista de datos y me gusta convertir números en decisiones. Tengo cuatro años de experiencia trabajando con información de ventas y de logística. Muy bien. ¿Cuál fue tu último puesto? Mi último puesto fue analista de inteligencia comercial en una empresa de consumo masivo. Armaba tableros semanales para la gerencia y revisaba por qué cambiaban las ventas de una región a otra. Interesante. ¿Y qué herramientas usas en tu día a día? Trabajo sobre todo con Python y SQL para limpiar y consultar los datos. Para los tableros uso Power BI y también he usado Airflow para programar los procesos que se repiten cada noche. Perfecto. Esa combinación no sirve mucho. Cuéntame de un proyecto del que estés orgullosa. Claro. Automatice el reporte de evoluciones de tienda. Antes lo armaba una persona a mano durante casi todo un día, ahora se genera solo. Llega el corro temprano y los errores bajaron bastante. Quedó el resultado. Esta empresa trabaja con proveedores de varios países. ¿Cómo está tu inglés? Mi nivel de inglés es intermedio. Puedo leer documentación sin problema y mantener una reunión. Pero todavía me cuesta improvisar una presentación compleja. Está bien. Tenemos un curso interno para eso. Hablemos ahora del Económico. ¿Cuál es tu pretensión salarial? Estoy buscando 6.500 soles mensuales. De acuerdo con lo que he investigado para este tipo de puesto. Entiendo. Y para incorporarte, ¿cuándo estarías disponible? Tengo que cumplir con el preaviso en mi trabajo actual, así que podría empezar en dos semanas. Perfecto. ¿Tienes alguna pregunta para nosotros? Sí. Me gustaría saber cómo es el equipo con el que trabajaría y qué tan seguido se presentan resultados a la gerencia. Son 7 personas y se presenta cada mes con el apoyo del jefe de Aria. Gracias por tu tiempo, Camila. Te escribiremos esta semana con una respuesta. Muchas gracias a ustedes. Fue un gusto conversar.",
+ "words": [
+  {
+   "w": "Buenos",
+   "p": 0.557,
+   "start": 0.24,
+   "end": 0.82
+  },
+  {
+   "w": "días,",
+   "p": 0.943,
+   "start": 0.82,
+   "end": 1.1
+  },
+  {
+   "w": "Camila.",
+   "p": 0.948,
+   "start": 1.18,
+   "end": 1.54
+  },
+  {
+   "w": "Gracias",
+   "p": 0.969,
+   "start": 1.66,
+   "end": 1.82
+  },
+  {
+   "w": "por",
+   "p": 0.99,
+   "start": 1.82,
+   "end": 2.06
+  },
+  {
+   "w": "venir.",
+   "p": 0.999,
+   "start": 2.06,
+   "end": 2.3
+  },
+  {
+   "w": "Antes",
+   "p": 0.978,
+   "start": 2.48,
+   "end": 2.66
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 2.66,
+   "end": 2.8
+  },
+  {
+   "w": "empezar,",
+   "p": 0.996,
+   "start": 2.8,
+   "end": 3.06
+  },
+  {
+   "w": "cuéntame",
+   "p": 0.977,
+   "start": 3.38,
+   "end": 3.62
+  },
+  {
+   "w": "brevemente",
+   "p": 0.998,
+   "start": 3.62,
+   "end": 4.16
+  },
+  {
+   "w": "quién",
+   "p": 0.977,
+   "start": 4.16,
+   "end": 4.36
+  },
+  {
+   "w": "eres.",
+   "p": 0.998,
+   "start": 4.36,
+   "end": 4.66
+  },
+  {
+   "w": "Buenos",
+   "p": 0.506,
+   "start": 5.24,
+   "end": 5.42
+  },
+  {
+   "w": "días.",
+   "p": 0.983,
+   "start": 5.42,
+   "end": 5.76
+  },
+  {
+   "w": "Soy",
+   "p": 0.972,
+   "start": 6.08,
+   "end": 6.18
+  },
+  {
+   "w": "analista",
+   "p": 0.977,
+   "start": 6.18,
+   "end": 6.7
+  },
+  {
+   "w": "de",
+   "p": 0.997,
+   "start": 6.7,
+   "end": 6.88
+  },
+  {
+   "w": "datos",
+   "p": 0.983,
+   "start": 6.88,
+   "end": 7.18
+  },
+  {
+   "w": "y",
+   "p": 0.918,
+   "start": 7.18,
+   "end": 7.42
+  },
+  {
+   "w": "me",
+   "p": 0.998,
+   "start": 7.42,
+   "end": 7.54
+  },
+  {
+   "w": "gusta",
+   "p": 0.977,
+   "start": 7.54,
+   "end": 7.76
+  },
+  {
+   "w": "convertir",
+   "p": 0.982,
+   "start": 7.76,
+   "end": 8.3
+  },
+  {
+   "w": "números",
+   "p": 0.964,
+   "start": 8.3,
+   "end": 8.6
+  },
+  {
+   "w": "en",
+   "p": 0.999,
+   "start": 8.6,
+   "end": 8.92
+  },
+  {
+   "w": "decisiones.",
+   "p": 0.994,
+   "start": 8.92,
+   "end": 9.54
+  },
+  {
+   "w": "Tengo",
+   "p": 0.988,
+   "start": 9.74,
+   "end": 9.78
+  },
+  {
+   "w": "cuatro",
+   "p": 0.773,
+   "start": 9.78,
+   "end": 10.08
+  },
+  {
+   "w": "años",
+   "p": 0.999,
+   "start": 10.08,
+   "end": 10.36
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 10.36,
+   "end": 10.52
+  },
+  {
+   "w": "experiencia",
+   "p": 0.996,
+   "start": 10.52,
+   "end": 10.98
+  },
+  {
+   "w": "trabajando",
+   "p": 0.993,
+   "start": 10.98,
+   "end": 11.46
+  },
+  {
+   "w": "con",
+   "p": 0.989,
+   "start": 11.46,
+   "end": 11.74
+  },
+  {
+   "w": "información",
+   "p": 0.995,
+   "start": 11.74,
+   "end": 12.12
+  },
+  {
+   "w": "de",
+   "p": 0.998,
+   "start": 12.12,
+   "end": 12.46
+  },
+  {
+   "w": "ventas",
+   "p": 0.988,
+   "start": 12.46,
+   "end": 12.82
+  },
+  {
+   "w": "y",
+   "p": 0.993,
+   "start": 12.82,
+   "end": 13.0
+  },
+  {
+   "w": "de",
+   "p": 0.933,
+   "start": 13.0,
+   "end": 13.1
+  },
+  {
+   "w": "logística.",
+   "p": 0.997,
+   "start": 13.1,
+   "end": 13.72
+  },
+  {
+   "w": "Muy",
+   "p": 0.952,
+   "start": 14.62,
+   "end": 14.82
+  },
+  {
+   "w": "bien.",
+   "p": 0.997,
+   "start": 14.82,
+   "end": 15.04
+  },
+  {
+   "w": "¿Cuál",
+   "p": 0.933,
+   "start": 15.36,
+   "end": 15.54
+  },
+  {
+   "w": "fue",
+   "p": 0.988,
+   "start": 15.54,
+   "end": 15.64
+  },
+  {
+   "w": "tu",
+   "p": 0.997,
+   "start": 15.64,
+   "end": 15.76
+  },
+  {
+   "w": "último",
+   "p": 0.972,
+   "start": 15.76,
+   "end": 16.02
+  },
+  {
+   "w": "puesto?",
+   "p": 0.583,
+   "start": 16.02,
+   "end": 16.3
+  },
+  {
+   "w": "Mi",
+   "p": 0.952,
+   "start": 16.98,
+   "end": 17.08
+  },
+  {
+   "w": "último",
+   "p": 0.999,
+   "start": 17.08,
+   "end": 17.26
+  },
+  {
+   "w": "puesto",
+   "p": 0.996,
+   "start": 17.26,
+   "end": 17.7
+  },
+  {
+   "w": "fue",
+   "p": 0.99,
+   "start": 17.7,
+   "end": 17.96
+  },
+  {
+   "w": "analista",
+   "p": 0.972,
+   "start": 17.96,
+   "end": 18.58
+  },
+  {
+   "w": "de",
+   "p": 0.762,
+   "start": 18.58,
+   "end": 18.66
+  },
+  {
+   "w": "inteligencia",
+   "p": 0.968,
+   "start": 18.66,
+   "end": 19.12
+  },
+  {
+   "w": "comercial",
+   "p": 0.999,
+   "start": 19.12,
+   "end": 19.54
+  },
+  {
+   "w": "en",
+   "p": 0.911,
+   "start": 19.54,
+   "end": 19.94
+  },
+  {
+   "w": "una",
+   "p": 0.983,
+   "start": 19.94,
+   "end": 20.08
+  },
+  {
+   "w": "empresa",
+   "p": 0.999,
+   "start": 20.08,
+   "end": 20.32
+  },
+  {
+   "w": "de",
+   "p": 0.994,
+   "start": 20.32,
+   "end": 20.52
+  },
+  {
+   "w": "consumo",
+   "p": 0.995,
+   "start": 20.52,
+   "end": 20.8
+  },
+  {
+   "w": "masivo.",
+   "p": 0.969,
+   "start": 20.8,
+   "end": 21.34
+  },
+  {
+   "w": "Armaba",
+   "p": 0.97,
+   "start": 21.6,
+   "end": 21.94
+  },
+  {
+   "w": "tableros",
+   "p": 0.973,
+   "start": 21.94,
+   "end": 22.52
+  },
+  {
+   "w": "semanales",
+   "p": 0.852,
+   "start": 22.52,
+   "end": 23.1
+  },
+  {
+   "w": "para",
+   "p": 0.989,
+   "start": 23.1,
+   "end": 23.34
+  },
+  {
+   "w": "la",
+   "p": 0.988,
+   "start": 23.34,
+   "end": 23.5
+  },
+  {
+   "w": "gerencia",
+   "p": 0.693,
+   "start": 23.5,
+   "end": 23.88
+  },
+  {
+   "w": "y",
+   "p": 0.747,
+   "start": 23.88,
+   "end": 24.1
+  },
+  {
+   "w": "revisaba",
+   "p": 0.757,
+   "start": 24.1,
+   "end": 24.52
+  },
+  {
+   "w": "por",
+   "p": 0.636,
+   "start": 24.52,
+   "end": 24.78
+  },
+  {
+   "w": "qué",
+   "p": 0.965,
+   "start": 24.78,
+   "end": 24.92
+  },
+  {
+   "w": "cambiaban",
+   "p": 0.985,
+   "start": 24.92,
+   "end": 25.42
+  },
+  {
+   "w": "las",
+   "p": 0.975,
+   "start": 25.42,
+   "end": 25.64
+  },
+  {
+   "w": "ventas",
+   "p": 0.997,
+   "start": 25.64,
+   "end": 26.0
+  },
+  {
+   "w": "de",
+   "p": 0.986,
+   "start": 26.0,
+   "end": 26.22
+  },
+  {
+   "w": "una",
+   "p": 0.995,
+   "start": 26.22,
+   "end": 26.36
+  },
+  {
+   "w": "región",
+   "p": 0.975,
+   "start": 26.36,
+   "end": 26.66
+  },
+  {
+   "w": "a",
+   "p": 0.996,
+   "start": 26.66,
+   "end": 26.82
+  },
+  {
+   "w": "otra.",
+   "p": 0.99,
+   "start": 26.82,
+   "end": 27.04
+  },
+  {
+   "w": "Interesante.",
+   "p": 0.687,
+   "start": 27.9,
+   "end": 28.42
+  },
+  {
+   "w": "¿Y",
+   "p": 0.784,
+   "start": 28.64,
+   "end": 28.7
+  },
+  {
+   "w": "qué",
+   "p": 0.916,
+   "start": 28.7,
+   "end": 28.82
+  },
+  {
+   "w": "herramientas",
+   "p": 0.986,
+   "start": 28.82,
+   "end": 29.36
+  },
+  {
+   "w": "usas",
+   "p": 0.955,
+   "start": 29.36,
+   "end": 29.72
+  },
+  {
+   "w": "en",
+   "p": 0.96,
+   "start": 29.72,
+   "end": 29.88
+  },
+  {
+   "w": "tu",
+   "p": 0.993,
+   "start": 29.88,
+   "end": 30.02
+  },
+  {
+   "w": "día",
+   "p": 0.993,
+   "start": 30.02,
+   "end": 30.18
+  },
+  {
+   "w": "a",
+   "p": 0.973,
+   "start": 30.18,
+   "end": 30.34
+  },
+  {
+   "w": "día?",
+   "p": 0.998,
+   "start": 30.34,
+   "end": 30.44
+  },
+  {
+   "w": "Trabajo",
+   "p": 0.882,
+   "start": 31.0,
+   "end": 31.46
+  },
+  {
+   "w": "sobre",
+   "p": 0.635,
+   "start": 31.46,
+   "end": 31.72
+  },
+  {
+   "w": "todo",
+   "p": 0.999,
+   "start": 31.72,
+   "end": 31.94
+  },
+  {
+   "w": "con",
+   "p": 0.898,
+   "start": 31.94,
+   "end": 32.18
+  },
+  {
+   "w": "Python",
+   "p": 0.763,
+   "start": 32.18,
+   "end": 32.44
+  },
+  {
+   "w": "y",
+   "p": 0.956,
+   "start": 32.44,
+   "end": 32.7
+  },
+  {
+   "w": "SQL",
+   "p": 0.963,
+   "start": 32.7,
+   "end": 32.94
+  },
+  {
+   "w": "para",
+   "p": 0.963,
+   "start": 32.94,
+   "end": 33.38
+  },
+  {
+   "w": "limpiar",
+   "p": 0.934,
+   "start": 33.38,
+   "end": 33.8
+  },
+  {
+   "w": "y",
+   "p": 0.988,
+   "start": 33.8,
+   "end": 34.08
+  },
+  {
+   "w": "consultar",
+   "p": 0.991,
+   "start": 34.08,
+   "end": 34.52
+  },
+  {
+   "w": "los",
+   "p": 0.992,
+   "start": 34.52,
+   "end": 34.66
+  },
+  {
+   "w": "datos.",
+   "p": 0.999,
+   "start": 34.66,
+   "end": 34.9
+  },
+  {
+   "w": "Para",
+   "p": 0.99,
+   "start": 35.18,
+   "end": 35.36
+  },
+  {
+   "w": "los",
+   "p": 0.992,
+   "start": 35.36,
+   "end": 35.52
+  },
+  {
+   "w": "tableros",
+   "p": 0.818,
+   "start": 35.52,
+   "end": 35.94
+  },
+  {
+   "w": "uso",
+   "p": 0.851,
+   "start": 35.94,
+   "end": 36.1
+  },
+  {
+   "w": "Power",
+   "p": 0.985,
+   "start": 36.1,
+   "end": 36.38
+  },
+  {
+   "w": "BI",
+   "p": 0.983,
+   "start": 36.38,
+   "end": 36.72
+  },
+  {
+   "w": "y",
+   "p": 0.756,
+   "start": 36.72,
+   "end": 37.28
+  },
+  {
+   "w": "también",
+   "p": 0.967,
+   "start": 37.28,
+   "end": 37.74
+  },
+  {
+   "w": "he",
+   "p": 0.98,
+   "start": 37.74,
+   "end": 38.2
+  },
+  {
+   "w": "usado",
+   "p": 0.994,
+   "start": 38.2,
+   "end": 38.58
+  },
+  {
+   "w": "Airflow",
+   "p": 0.889,
+   "start": 38.58,
+   "end": 39.22
+  },
+  {
+   "w": "para",
+   "p": 0.966,
+   "start": 39.22,
+   "end": 39.66
+  },
+  {
+   "w": "programar",
+   "p": 0.989,
+   "start": 39.66,
+   "end": 40.18
+  },
+  {
+   "w": "los",
+   "p": 0.981,
+   "start": 40.18,
+   "end": 40.28
+  },
+  {
+   "w": "procesos",
+   "p": 0.997,
+   "start": 40.28,
+   "end": 40.66
+  },
+  {
+   "w": "que",
+   "p": 0.986,
+   "start": 40.66,
+   "end": 40.82
+  },
+  {
+   "w": "se",
+   "p": 0.999,
+   "start": 40.82,
+   "end": 40.94
+  },
+  {
+   "w": "repiten",
+   "p": 0.982,
+   "start": 40.94,
+   "end": 41.24
+  },
+  {
+   "w": "cada",
+   "p": 0.996,
+   "start": 41.24,
+   "end": 41.44
+  },
+  {
+   "w": "noche.",
+   "p": 0.998,
+   "start": 41.44,
+   "end": 41.72
+  },
+  {
+   "w": "Perfecto.",
+   "p": 0.935,
+   "start": 42.46,
+   "end": 42.98
+  },
+  {
+   "w": "Esa",
+   "p": 0.936,
+   "start": 43.06,
+   "end": 43.26
+  },
+  {
+   "w": "combinación",
+   "p": 0.997,
+   "start": 43.26,
+   "end": 43.72
+  },
+  {
+   "w": "no",
+   "p": 0.498,
+   "start": 43.72,
+   "end": 43.88
+  },
+  {
+   "w": "sirve",
+   "p": 0.997,
+   "start": 43.88,
+   "end": 44.08
+  },
+  {
+   "w": "mucho.",
+   "p": 0.997,
+   "start": 44.08,
+   "end": 44.38
+  },
+  {
+   "w": "Cuéntame",
+   "p": 0.982,
+   "start": 44.64,
+   "end": 44.94
+  },
+  {
+   "w": "de",
+   "p": 0.838,
+   "start": 44.94,
+   "end": 45.12
+  },
+  {
+   "w": "un",
+   "p": 0.996,
+   "start": 45.12,
+   "end": 45.24
+  },
+  {
+   "w": "proyecto",
+   "p": 0.996,
+   "start": 45.24,
+   "end": 45.52
+  },
+  {
+   "w": "del",
+   "p": 0.846,
+   "start": 45.52,
+   "end": 45.78
+  },
+  {
+   "w": "que",
+   "p": 0.994,
+   "start": 45.78,
+   "end": 45.9
+  },
+  {
+   "w": "estés",
+   "p": 0.82,
+   "start": 45.9,
+   "end": 46.04
+  },
+  {
+   "w": "orgullosa.",
+   "p": 0.993,
+   "start": 46.04,
+   "end": 46.52
+  },
+  {
+   "w": "Claro.",
+   "p": 0.917,
+   "start": 47.1,
+   "end": 47.28
+  },
+  {
+   "w": "Automatice",
+   "p": 0.654,
+   "start": 47.72,
+   "end": 48.24
+  },
+  {
+   "w": "el",
+   "p": 0.983,
+   "start": 48.24,
+   "end": 48.38
+  },
+  {
+   "w": "reporte",
+   "p": 0.969,
+   "start": 48.38,
+   "end": 48.76
+  },
+  {
+   "w": "de",
+   "p": 0.989,
+   "start": 48.76,
+   "end": 48.86
+  },
+  {
+   "w": "evoluciones",
+   "p": 0.644,
+   "start": 48.86,
+   "end": 49.26
+  },
+  {
+   "w": "de",
+   "p": 0.993,
+   "start": 49.26,
+   "end": 49.52
+  },
+  {
+   "w": "tienda.",
+   "p": 0.964,
+   "start": 49.52,
+   "end": 49.88
+  },
+  {
+   "w": "Antes",
+   "p": 0.992,
+   "start": 50.16,
+   "end": 50.34
+  },
+  {
+   "w": "lo",
+   "p": 0.781,
+   "start": 50.34,
+   "end": 50.48
+  },
+  {
+   "w": "armaba",
+   "p": 0.979,
+   "start": 50.48,
+   "end": 50.76
+  },
+  {
+   "w": "una",
+   "p": 0.704,
+   "start": 50.76,
+   "end": 50.96
+  },
+  {
+   "w": "persona",
+   "p": 0.999,
+   "start": 50.96,
+   "end": 51.28
+  },
+  {
+   "w": "a",
+   "p": 0.912,
+   "start": 51.28,
+   "end": 51.52
+  },
+  {
+   "w": "mano",
+   "p": 0.997,
+   "start": 51.52,
+   "end": 51.72
+  },
+  {
+   "w": "durante",
+   "p": 0.97,
+   "start": 51.72,
+   "end": 52.02
+  },
+  {
+   "w": "casi",
+   "p": 0.996,
+   "start": 52.02,
+   "end": 52.36
+  },
+  {
+   "w": "todo",
+   "p": 0.961,
+   "start": 52.36,
+   "end": 52.78
+  },
+  {
+   "w": "un",
+   "p": 0.995,
+   "start": 52.78,
+   "end": 53.04
+  },
+  {
+   "w": "día,",
+   "p": 0.998,
+   "start": 53.04,
+   "end": 53.24
+  },
+  {
+   "w": "ahora",
+   "p": 0.988,
+   "start": 53.52,
+   "end": 53.72
+  },
+  {
+   "w": "se",
+   "p": 0.994,
+   "start": 53.72,
+   "end": 53.88
+  },
+  {
+   "w": "genera",
+   "p": 0.992,
+   "start": 53.88,
+   "end": 54.2
+  },
+  {
+   "w": "solo.",
+   "p": 0.824,
+   "start": 54.2,
+   "end": 54.58
+  },
+  {
+   "w": "Llega",
+   "p": 0.97,
+   "start": 55.04,
+   "end": 55.24
+  },
+  {
+   "w": "el",
+   "p": 0.917,
+   "start": 55.24,
+   "end": 55.38
+  },
+  {
+   "w": "corro",
+   "p": 0.649,
+   "start": 55.38,
+   "end": 55.5
+  },
+  {
+   "w": "temprano",
+   "p": 0.666,
+   "start": 55.5,
+   "end": 56.02
+  },
+  {
+   "w": "y",
+   "p": 0.968,
+   "start": 56.02,
+   "end": 56.14
+  },
+  {
+   "w": "los",
+   "p": 0.99,
+   "start": 56.14,
+   "end": 56.26
+  },
+  {
+   "w": "errores",
+   "p": 0.989,
+   "start": 56.26,
+   "end": 56.58
+  },
+  {
+   "w": "bajaron",
+   "p": 0.469,
+   "start": 56.58,
+   "end": 56.94
+  },
+  {
+   "w": "bastante.",
+   "p": 0.943,
+   "start": 56.94,
+   "end": 57.22
+  },
+  {
+   "w": "Quedó",
+   "p": 0.652,
+   "start": 57.86,
+   "end": 58.16
+  },
+  {
+   "w": "el",
+   "p": 0.615,
+   "start": 58.16,
+   "end": 58.26
+  },
+  {
+   "w": "resultado.",
+   "p": 0.988,
+   "start": 58.26,
+   "end": 58.7
+  },
+  {
+   "w": "Esta",
+   "p": 0.61,
+   "start": 59.12,
+   "end": 59.34
+  },
+  {
+   "w": "empresa",
+   "p": 0.998,
+   "start": 59.34,
+   "end": 59.54
+  },
+  {
+   "w": "trabaja",
+   "p": 0.996,
+   "start": 59.54,
+   "end": 59.98
+  },
+  {
+   "w": "con",
+   "p": 0.942,
+   "start": 59.98,
+   "end": 60.16
+  },
+  {
+   "w": "proveedores",
+   "p": 0.992,
+   "start": 60.16,
+   "end": 60.58
+  },
+  {
+   "w": "de",
+   "p": 0.996,
+   "start": 60.58,
+   "end": 60.74
+  },
+  {
+   "w": "varios",
+   "p": 0.996,
+   "start": 60.74,
+   "end": 60.92
+  },
+  {
+   "w": "países.",
+   "p": 0.994,
+   "start": 60.92,
+   "end": 61.38
+  },
+  {
+   "w": "¿Cómo",
+   "p": 0.891,
+   "start": 62.12,
+   "end": 62.3
+  },
+  {
+   "w": "está",
+   "p": 0.976,
+   "start": 62.3,
+   "end": 62.48
+  },
+  {
+   "w": "tu",
+   "p": 0.989,
+   "start": 62.48,
+   "end": 62.62
+  },
+  {
+   "w": "inglés?",
+   "p": 0.965,
+   "start": 62.62,
+   "end": 62.82
+  },
+  {
+   "w": "Mi",
+   "p": 0.985,
+   "start": 63.34,
+   "end": 63.5
+  },
+  {
+   "w": "nivel",
+   "p": 0.999,
+   "start": 63.5,
+   "end": 63.66
+  },
+  {
+   "w": "de",
+   "p": 0.97,
+   "start": 63.66,
+   "end": 63.82
+  },
+  {
+   "w": "inglés",
+   "p": 0.724,
+   "start": 63.82,
+   "end": 63.98
+  },
+  {
+   "w": "es",
+   "p": 0.991,
+   "start": 63.98,
+   "end": 64.16
+  },
+  {
+   "w": "intermedio.",
+   "p": 0.964,
+   "start": 64.16,
+   "end": 64.82
+  },
+  {
+   "w": "Puedo",
+   "p": 0.841,
+   "start": 65.04,
+   "end": 65.12
+  },
+  {
+   "w": "leer",
+   "p": 0.964,
+   "start": 65.12,
+   "end": 65.32
+  },
+  {
+   "w": "documentación",
+   "p": 0.951,
+   "start": 65.32,
+   "end": 65.92
+  },
+  {
+   "w": "sin",
+   "p": 0.994,
+   "start": 65.92,
+   "end": 66.1
+  },
+  {
+   "w": "problema",
+   "p": 0.948,
+   "start": 66.1,
+   "end": 66.4
+  },
+  {
+   "w": "y",
+   "p": 0.953,
+   "start": 66.4,
+   "end": 66.66
+  },
+  {
+   "w": "mantener",
+   "p": 0.988,
+   "start": 66.66,
+   "end": 66.94
+  },
+  {
+   "w": "una",
+   "p": 0.978,
+   "start": 66.94,
+   "end": 67.16
+  },
+  {
+   "w": "reunión.",
+   "p": 0.998,
+   "start": 67.16,
+   "end": 67.56
+  },
+  {
+   "w": "Pero",
+   "p": 0.949,
+   "start": 67.98,
+   "end": 68.14
+  },
+  {
+   "w": "todavía",
+   "p": 0.976,
+   "start": 68.14,
+   "end": 68.42
+  },
+  {
+   "w": "me",
+   "p": 0.993,
+   "start": 68.42,
+   "end": 68.56
+  },
+  {
+   "w": "cuesta",
+   "p": 0.857,
+   "start": 68.56,
+   "end": 68.76
+  },
+  {
+   "w": "improvisar",
+   "p": 0.993,
+   "start": 68.76,
+   "end": 69.26
+  },
+  {
+   "w": "una",
+   "p": 0.988,
+   "start": 69.26,
+   "end": 69.4
+  },
+  {
+   "w": "presentación",
+   "p": 0.996,
+   "start": 69.4,
+   "end": 69.88
+  },
+  {
+   "w": "compleja.",
+   "p": 0.994,
+   "start": 69.88,
+   "end": 70.38
+  },
+  {
+   "w": "Está",
+   "p": 0.26,
+   "start": 71.04,
+   "end": 71.34
+  },
+  {
+   "w": "bien.",
+   "p": 0.996,
+   "start": 71.34,
+   "end": 71.54
+  },
+  {
+   "w": "Tenemos",
+   "p": 0.978,
+   "start": 71.72,
+   "end": 71.96
+  },
+  {
+   "w": "un",
+   "p": 0.998,
+   "start": 71.96,
+   "end": 72.24
+  },
+  {
+   "w": "curso",
+   "p": 0.997,
+   "start": 72.24,
+   "end": 72.38
+  },
+  {
+   "w": "interno",
+   "p": 0.987,
+   "start": 72.38,
+   "end": 72.8
+  },
+  {
+   "w": "para",
+   "p": 0.995,
+   "start": 72.8,
+   "end": 73.02
+  },
+  {
+   "w": "eso.",
+   "p": 0.958,
+   "start": 73.02,
+   "end": 73.28
+  },
+  {
+   "w": "Hablemos",
+   "p": 0.87,
+   "start": 73.8,
+   "end": 74.16
+  },
+  {
+   "w": "ahora",
+   "p": 0.979,
+   "start": 74.16,
+   "end": 74.36
+  },
+  {
+   "w": "del",
+   "p": 0.931,
+   "start": 74.36,
+   "end": 74.5
+  },
+  {
+   "w": "Económico.",
+   "p": 0.835,
+   "start": 74.5,
+   "end": 75.08
+  },
+  {
+   "w": "¿Cuál",
+   "p": 0.979,
+   "start": 75.42,
+   "end": 75.56
+  },
+  {
+   "w": "es",
+   "p": 0.998,
+   "start": 75.56,
+   "end": 75.74
+  },
+  {
+   "w": "tu",
+   "p": 0.994,
+   "start": 75.74,
+   "end": 75.8
+  },
+  {
+   "w": "pretensión",
+   "p": 0.984,
+   "start": 75.8,
+   "end": 76.36
+  },
+  {
+   "w": "salarial?",
+   "p": 0.988,
+   "start": 76.36,
+   "end": 76.8
+  },
+  {
+   "w": "Estoy",
+   "p": 0.977,
+   "start": 77.3,
+   "end": 77.6
+  },
+  {
+   "w": "buscando",
+   "p": 0.996,
+   "start": 77.6,
+   "end": 77.96
+  },
+  {
+   "w": "6",
+   "p": 0.752,
+   "start": 77.96,
+   "end": 78.36
+  },
+  {
+   "w": ".500",
+   "p": 0.797,
+   "start": 78.36,
+   "end": 78.86
+  },
+  {
+   "w": "soles",
+   "p": 0.882,
+   "start": 78.86,
+   "end": 79.28
+  },
+  {
+   "w": "mensuales.",
+   "p": 0.992,
+   "start": 79.28,
+   "end": 80.24
+  },
+  {
+   "w": "De",
+   "p": 0.796,
+   "start": 80.28,
+   "end": 80.42
+  },
+  {
+   "w": "acuerdo",
+   "p": 0.999,
+   "start": 80.42,
+   "end": 80.6
+  },
+  {
+   "w": "con",
+   "p": 0.996,
+   "start": 80.6,
+   "end": 80.88
+  },
+  {
+   "w": "lo",
+   "p": 0.996,
+   "start": 80.88,
+   "end": 80.98
+  },
+  {
+   "w": "que",
+   "p": 0.993,
+   "start": 80.98,
+   "end": 81.08
+  },
+  {
+   "w": "he",
+   "p": 0.803,
+   "start": 81.08,
+   "end": 81.14
+  },
+  {
+   "w": "investigado",
+   "p": 0.988,
+   "start": 81.14,
+   "end": 81.64
+  },
+  {
+   "w": "para",
+   "p": 0.981,
+   "start": 81.64,
+   "end": 81.82
+  },
+  {
+   "w": "este",
+   "p": 0.667,
+   "start": 81.82,
+   "end": 81.96
+  },
+  {
+   "w": "tipo",
+   "p": 0.999,
+   "start": 81.96,
+   "end": 82.18
+  },
+  {
+   "w": "de",
+   "p": 0.999,
+   "start": 82.18,
+   "end": 82.3
+  },
+  {
+   "w": "puesto.",
+   "p": 0.872,
+   "start": 82.3,
+   "end": 82.52
+  },
+  {
+   "w": "Entiendo.",
+   "p": 0.987,
+   "start": 83.12,
+   "end": 83.62
+  },
+  {
+   "w": "Y",
+   "p": 0.892,
+   "start": 83.96,
+   "end": 84.0
+  },
+  {
+   "w": "para",
+   "p": 0.966,
+   "start": 84.0,
+   "end": 84.16
+  },
+  {
+   "w": "incorporarte,",
+   "p": 0.993,
+   "start": 84.16,
+   "end": 84.84
+  },
+  {
+   "w": "¿cuándo",
+   "p": 0.651,
+   "start": 84.84,
+   "end": 85.32
+  },
+  {
+   "w": "estarías",
+   "p": 0.892,
+   "start": 85.32,
+   "end": 85.68
+  },
+  {
+   "w": "disponible?",
+   "p": 0.989,
+   "start": 85.68,
+   "end": 86.2
+  },
+  {
+   "w": "Tengo",
+   "p": 0.708,
+   "start": 86.66,
+   "end": 86.82
+  },
+  {
+   "w": "que",
+   "p": 0.994,
+   "start": 86.82,
+   "end": 86.96
+  },
+  {
+   "w": "cumplir",
+   "p": 0.998,
+   "start": 86.96,
+   "end": 87.32
+  },
+  {
+   "w": "con",
+   "p": 0.986,
+   "start": 87.32,
+   "end": 87.5
+  },
+  {
+   "w": "el",
+   "p": 0.992,
+   "start": 87.5,
+   "end": 87.74
+  },
+  {
+   "w": "preaviso",
+   "p": 0.821,
+   "start": 87.74,
+   "end": 88.4
+  },
+  {
+   "w": "en",
+   "p": 0.907,
+   "start": 88.4,
+   "end": 88.56
+  },
+  {
+   "w": "mi",
+   "p": 0.997,
+   "start": 88.56,
+   "end": 88.66
+  },
+  {
+   "w": "trabajo",
+   "p": 0.997,
+   "start": 88.66,
+   "end": 88.9
+  },
+  {
+   "w": "actual,",
+   "p": 0.986,
+   "start": 88.9,
+   "end": 89.34
+  },
+  {
+   "w": "así",
+   "p": 0.987,
+   "start": 89.44,
+   "end": 89.64
+  },
+  {
+   "w": "que",
+   "p": 0.995,
+   "start": 89.64,
+   "end": 89.78
+  },
+  {
+   "w": "podría",
+   "p": 0.463,
+   "start": 89.78,
+   "end": 90.0
+  },
+  {
+   "w": "empezar",
+   "p": 0.99,
+   "start": 90.0,
+   "end": 90.34
+  },
+  {
+   "w": "en",
+   "p": 0.993,
+   "start": 90.34,
+   "end": 90.54
+  },
+  {
+   "w": "dos",
+   "p": 0.907,
+   "start": 90.54,
+   "end": 90.68
+  },
+  {
+   "w": "semanas.",
+   "p": 0.999,
+   "start": 90.68,
+   "end": 90.92
+  },
+  {
+   "w": "Perfecto.",
+   "p": 0.935,
+   "start": 91.74,
+   "end": 92.22
+  },
+  {
+   "w": "¿Tienes",
+   "p": 0.966,
+   "start": 92.3,
+   "end": 92.52
+  },
+  {
+   "w": "alguna",
+   "p": 0.997,
+   "start": 92.52,
+   "end": 92.74
+  },
+  {
+   "w": "pregunta",
+   "p": 0.998,
+   "start": 92.74,
+   "end": 93.16
+  },
+  {
+   "w": "para",
+   "p": 0.997,
+   "start": 93.16,
+   "end": 93.42
+  },
+  {
+   "w": "nosotros?",
+   "p": 0.994,
+   "start": 93.42,
+   "end": 93.66
+  },
+  {
+   "w": "Sí.",
+   "p": 0.65,
+   "start": 94.46,
+   "end": 94.64
+  },
+  {
+   "w": "Me",
+   "p": 0.772,
+   "start": 94.94,
+   "end": 94.96
+  },
+  {
+   "w": "gustaría",
+   "p": 1.0,
+   "start": 94.96,
+   "end": 95.22
+  },
+  {
+   "w": "saber",
+   "p": 0.987,
+   "start": 95.22,
+   "end": 95.52
+  },
+  {
+   "w": "cómo",
+   "p": 0.852,
+   "start": 95.52,
+   "end": 95.8
+  },
+  {
+   "w": "es",
+   "p": 0.996,
+   "start": 95.8,
+   "end": 95.92
+  },
+  {
+   "w": "el",
+   "p": 0.998,
+   "start": 95.92,
+   "end": 96.02
+  },
+  {
+   "w": "equipo",
+   "p": 0.999,
+   "start": 96.02,
+   "end": 96.22
+  },
+  {
+   "w": "con",
+   "p": 0.943,
+   "start": 96.22,
+   "end": 96.5
+  },
+  {
+   "w": "el",
+   "p": 0.98,
+   "start": 96.5,
+   "end": 96.62
+  },
+  {
+   "w": "que",
+   "p": 0.998,
+   "start": 96.62,
+   "end": 96.72
+  },
+  {
+   "w": "trabajaría",
+   "p": 0.57,
+   "start": 96.72,
+   "end": 97.24
+  },
+  {
+   "w": "y",
+   "p": 0.947,
+   "start": 97.24,
+   "end": 97.36
+  },
+  {
+   "w": "qué",
+   "p": 0.833,
+   "start": 97.36,
+   "end": 97.46
+  },
+  {
+   "w": "tan",
+   "p": 0.949,
+   "start": 97.46,
+   "end": 97.62
+  },
+  {
+   "w": "seguido",
+   "p": 0.845,
+   "start": 97.62,
+   "end": 97.94
+  },
+  {
+   "w": "se",
+   "p": 0.987,
+   "start": 97.94,
+   "end": 98.06
+  },
+  {
+   "w": "presentan",
+   "p": 0.84,
+   "start": 98.06,
+   "end": 98.46
+  },
+  {
+   "w": "resultados",
+   "p": 0.957,
+   "start": 98.46,
+   "end": 98.8
+  },
+  {
+   "w": "a",
+   "p": 0.954,
+   "start": 98.8,
+   "end": 99.1
+  },
+  {
+   "w": "la",
+   "p": 0.995,
+   "start": 99.1,
+   "end": 99.18
+  },
+  {
+   "w": "gerencia.",
+   "p": 0.766,
+   "start": 99.18,
+   "end": 99.64
+  },
+  {
+   "w": "Son",
+   "p": 0.987,
+   "start": 100.42,
+   "end": 100.76
+  },
+  {
+   "w": "7",
+   "p": 0.215,
+   "start": 100.76,
+   "end": 101.0
+  },
+  {
+   "w": "personas",
+   "p": 0.996,
+   "start": 101.0,
+   "end": 101.7
+  },
+  {
+   "w": "y",
+   "p": 0.924,
+   "start": 101.7,
+   "end": 102.1
+  },
+  {
+   "w": "se",
+   "p": 0.998,
+   "start": 102.1,
+   "end": 102.24
+  },
+  {
+   "w": "presenta",
+   "p": 0.986,
+   "start": 102.24,
+   "end": 102.78
+  },
+  {
+   "w": "cada",
+   "p": 0.914,
+   "start": 102.78,
+   "end": 102.98
+  },
+  {
+   "w": "mes",
+   "p": 0.997,
+   "start": 102.98,
+   "end": 103.34
+  },
+  {
+   "w": "con",
+   "p": 0.996,
+   "start": 103.34,
+   "end": 103.58
+  },
+  {
+   "w": "el",
+   "p": 0.999,
+   "start": 103.58,
+   "end": 103.76
+  },
+  {
+   "w": "apoyo",
+   "p": 0.988,
+   "start": 103.76,
+   "end": 103.96
+  },
+  {
+   "w": "del",
+   "p": 0.988,
+   "start": 103.96,
+   "end": 104.16
+  },
+  {
+   "w": "jefe",
+   "p": 0.897,
+   "start": 104.16,
+   "end": 104.44
+  },
+  {
+   "w": "de",
+   "p": 0.954,
+   "start": 104.44,
+   "end": 104.7
+  },
+  {
+   "w": "Aria.",
+   "p": 0.628,
+   "start": 104.7,
+   "end": 105.16
+  },
+  {
+   "w": "Gracias",
+   "p": 0.894,
+   "start": 105.48,
+   "end": 105.76
+  },
+  {
+   "w": "por",
+   "p": 0.997,
+   "start": 105.76,
+   "end": 106.0
+  },
+  {
+   "w": "tu",
+   "p": 0.994,
+   "start": 106.0,
+   "end": 106.12
+  },
+  {
+   "w": "tiempo,",
+   "p": 0.999,
+   "start": 106.12,
+   "end": 106.4
+  },
+  {
+   "w": "Camila.",
+   "p": 0.928,
+   "start": 106.48,
+   "end": 106.86
+  },
+  {
+   "w": "Te",
+   "p": 0.956,
+   "start": 107.14,
+   "end": 107.22
+  },
+  {
+   "w": "escribiremos",
+   "p": 0.945,
+   "start": 107.22,
+   "end": 107.84
+  },
+  {
+   "w": "esta",
+   "p": 0.594,
+   "start": 107.84,
+   "end": 108.04
+  },
+  {
+   "w": "semana",
+   "p": 0.999,
+   "start": 108.04,
+   "end": 108.42
+  },
+  {
+   "w": "con",
+   "p": 0.986,
+   "start": 108.42,
+   "end": 108.66
+  },
+  {
+   "w": "una",
+   "p": 0.996,
+   "start": 108.66,
+   "end": 108.84
+  },
+  {
+   "w": "respuesta.",
+   "p": 0.997,
+   "start": 108.84,
+   "end": 109.18
+  },
+  {
+   "w": "Muchas",
+   "p": 0.973,
+   "start": 109.82,
+   "end": 110.04
+  },
+  {
+   "w": "gracias",
+   "p": 0.998,
+   "start": 110.04,
+   "end": 110.34
+  },
+  {
+   "w": "a",
+   "p": 0.93,
+   "start": 110.34,
+   "end": 110.54
+  },
+  {
+   "w": "ustedes.",
+   "p": 0.987,
+   "start": 110.54,
+   "end": 110.76
+  },
+  {
+   "w": "Fue",
+   "p": 0.955,
+   "start": 111.0,
+   "end": 111.08
+  },
+  {
+   "w": "un",
+   "p": 0.992,
+   "start": 111.08,
+   "end": 111.18
+  },
+  {
+   "w": "gusto",
+   "p": 0.993,
+   "start": 111.18,
+   "end": 111.34
+  },
+  {
+   "w": "conversar.",
+   "p": 0.976,
+   "start": 111.34,
+   "end": 111.86
+  }
+ ],
+ "model": "small",
+ "device_requested": "cpu",
+ "device": "cpu",
+ "compute_type": "int8_float32",
+ "glossary_mode": "hotwords",
+ "elapsed_s": 56.76,
+ "load_s": 2.844,
+ "audio_s": 120.68,
+ "sec_per_min": 28.22,
+ "vram_peak_mb": null,
+ "cuda_device_count": 0
+}
